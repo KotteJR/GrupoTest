@@ -1,0 +1,53 @@
+"use client";
+import Image from "next/image";
+
+export function Hero() {
+  return (
+    <section className="w-full relative bg-white overflow-hidden text-left text-[#0f4761] font-sans">
+      {/* Background Graphic */}
+      <div className="absolute top-[-25rem] left-1/2 -translate-x-1/2 w-[1200px] h-[1000px] flex items-center justify-center pointer-events-none select-none">
+        <Image
+          src="/heros/Group1.svg"
+          alt=""
+          width={1000}
+          height={400}
+          className="object-contain"
+        />
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 flex flex-col items-center justify-center pt-[12rem] pb-[5rem] gap-6">
+        {/* Top Label */}
+        <div className="flex items-center gap-2 text-sm text-[#0f4761]">
+          <div className="w-1 h-1 bg-[#f0952a] rounded-full" />
+          <span className="leading-snug">
+            Explora nuestro portafolio completo de soluciones
+          </span>
+        </div>
+
+        {/* Main Heading */}
+        <h1 className="text-center text-[2.75rem] leading-[120%] max-w-[650px]">
+          Soluciones tecnológicas <br /> adaptadas a cada necesidad
+        </h1>
+
+        {/* Subtitle */}
+        <p className="text-center text-[1.125rem] text-[#646464] max-w-[720px] leading-snug mt-2">
+          Desde redes de alto rendimiento hasta señalética digital, descubre todo lo
+          que IB360 puede ofrecer para digitalizar tu empresa, hospital u hotel.
+        </p>
+
+        {/* CTA */}
+        <div className="mt-6">
+          <button className="bg-[#f0952a] text-white font-medium py-3 px-6 rounded-full flex items-center gap-2 text-sm">
+            Solicita una demo personalizada
+            <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-white">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+                <path d="M10 7L15 12L10 17" stroke="#f0952a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+  );
+}
