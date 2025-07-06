@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useCallback } from 'react';
 
 export function HeroSection() {
@@ -45,14 +46,14 @@ export function HeroSection() {
             </p>
 
             <div className="flex gap-4">
-              <button className="bg-white text-[#f0952a] font-medium py-3 px-6 rounded-full flex items-center gap-2 text-sm mt-6 mb-6">
+              <Link href="/Contact" className="bg-white text-[#f0952a] font-medium py-3 px-6 rounded-full flex items-center gap-2 text-sm mt-6 mb-6">
                 Solicita información
                 <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#f0952a]">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
                     <path d="M10 7L15 12L10 17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </span>
-              </button>
+              </Link>
             </div>
 
             {/* Stats */}
@@ -105,7 +106,7 @@ export function HeroSection() {
 
           {/* Ficha Técnica - Aligned to bottom of left content */}
           <div className="self-end">
-            <div className="bg-white/10 backdrop-blur-sm border border-[#285472] rounded-xl px-3 pt-3 pb-2">
+            <Link href="/Contact" className="bg-white/10 backdrop-blur-sm border border-[#285472] rounded-xl px-3 pt-3 pb-2 block">
               <div className="flex items-center gap-2 text-white font-medium mb-3 text-sm">
                 Descargar ficha técnica (PDF)
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" className="text-white">
@@ -123,7 +124,7 @@ export function HeroSection() {
                 height={120}
                 className="rounded-lg w-full"
               />
-            </div>
+            </Link>
           </div>
         </div>
       </div>

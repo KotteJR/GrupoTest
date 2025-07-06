@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 export function DemoCTA() {
   return (
@@ -31,14 +32,14 @@ export function DemoCTA() {
             </p>
 
             <div className="flex gap-4 mt-2">
-              <button className="bg-white text-[#f0952a] font-medium py-3 px-6 rounded-full flex items-center gap-2 text-sm">
+              <Link href="/Contact" className="bg-white text-[#f0952a] font-medium py-3 px-6 rounded-full flex items-center gap-2 text-sm">
                 I want a demo of IB360
                 <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#f0952a]">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
                     <path d="M10 7L15 12L10 17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </span>
-              </button>
+              </Link>
             </div>
           </div>
         </div>
