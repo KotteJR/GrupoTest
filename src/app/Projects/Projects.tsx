@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export function ProjectsSection() {
   const CheckIcon = () => (
     <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -95,9 +97,11 @@ export function ProjectsSection() {
             
             {/* Project Image */}
             <div className="w-full h-[300px] bg-[#white] rounded-[15px] mt-6 overflow-hidden">
-              <img 
+              <Image 
                 src={project.image} 
                 alt={project.title}
+                width={400}
+                height={300}
                 className="w-full h-full object-cover"
               />
             </div>
