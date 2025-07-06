@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState, useEffect } from "react";
 
 const navLinks = [
   { name: "Inicio", href: "/" },
@@ -14,12 +15,41 @@ const navLinks = [
 
 export function Header() {
   const pathname = usePathname();
+  const isLandingPage = pathname === "/";
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      
+      setIsScrolled(currentScrollY > 100);
+      
+      // Show/hide header based on scroll direction
+      if (currentScrollY < lastScrollY || currentScrollY < 100) {
+        // Scrolling up or at the top
+        setIsVisible(true);
+      } else if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        // Scrolling down and past 100px
+        setIsVisible(false);
+      }
+      
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [lastScrollY]);
+
+  const shouldBeTransparent = isLandingPage && !isScrolled;
+  
   return (
-    <header className="fixed top-0 z-30 w-full bg-white border-b border-[#e0e0e0]">
+    <header className={`fixed top-0 z-30 w-full transition-all duration-300 ${shouldBeTransparent ? 'bg-transparent' : 'bg-white border-b border-[#e0e0e0]'} ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
       <div className="max-w-[1230px] mx-auto flex items-center justify-between h-20 px-4">
         <Link href="/">
           <Image
-            src="/logo/grupoib360.png"
+            src={shouldBeTransparent ? "/logo/grupoib360white.png" : "/logo/grupoib360.png"}
             alt="IB360 Logo"
             width={80}
             height={40}
@@ -34,7 +64,7 @@ export function Header() {
               className={
                 (pathname === link.href || (link.href === "/" && pathname === "/"))
                   ? "text-[#f0952a]"
-                  : "text-[#646464] hover:text-[#f0952a] transition-colors"
+                  : shouldBeTransparent ? "text-white hover:text-[#f0952a] transition-colors" : "text-[#646464] hover:text-[#f0952a] transition-colors"
               }
             >
               {link.name}
