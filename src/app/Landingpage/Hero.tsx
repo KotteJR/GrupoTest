@@ -74,16 +74,31 @@ export function HeroSection() {
             {/* Logos - In Left Column */}
             <div className="flex flex-col gap-4 mt-8">
               <p className="text-sm text-white/80">CONFÍAN EN NOSOTROS</p>
-              <div className="flex gap-6 items-center">
-                {["image-7@2x.png", "image@2x.png", "image1@2x.png", "image2@2x.png"].map((src, index) => (
-                  <Image
-                    key={index}
-                    src={`/${src}`}
-                    alt={`logo-${index}`}
-                    width={94}
-                    height={30}
-                  />
-                ))}
+              <div className="w-[500px] overflow-hidden relative" style={{maskImage: 'linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)'}}>
+                <div className="flex gap-6 items-center animate-scroll">
+                  {/* First set of logos */}
+                  {[1, 2, 3, 4, 5, 6, 7].map((num) => (
+                    <Image
+                      key={num}
+                      src={`/logo/${num}.png`}
+                      alt={`logo-${num}`}
+                      width={94}
+                      height={30}
+                      className="flex-shrink-0"
+                    />
+                  ))}
+                  {/* Duplicate set for seamless loop */}
+                  {[1, 2, 3, 4, 5, 6, 7].map((num) => (
+                    <Image
+                      key={`duplicate-${num}`}
+                      src={`/logo/${num}.png`}
+                      alt={`logo-${num}`}
+                      width={94}
+                      height={30}
+                      className="flex-shrink-0"
+                    />
+                  ))}
+                </div>
               </div>
             </div>
           </div>

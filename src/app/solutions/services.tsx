@@ -12,9 +12,10 @@ export function Services() {
 
   return (
     <section className="w-full bg-white text-[#0f4761] font-sans">
+      <div className="max-w-[1230px] mx-auto px-4">
 
-      {/* 1. GPON & Fibra Óptica */}
-      <div className="flex flex-row items-center justify-center gap-16 py-20 px-10 max-w-7xl mx-auto">
+        {/* 1. GPON & Fibra Óptica */}
+        <div className="flex flex-row items-center justify-between gap-16 py-20">
         <div className="flex-shrink-0 w-[450px] h-[450px]">
           <Image src="/images/7.png" alt="GPON" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
         </div>
@@ -76,8 +77,8 @@ export function Services() {
         </div>
       </div>
 
-      {/* 2. WiFi Profesional */}
-      <div className="flex flex-row-reverse items-center justify-center gap-16 py-20 px-10 max-w-7xl mx-auto">
+        {/* 2. WiFi Profesional */}
+        <div className="flex flex-row-reverse items-center justify-between gap-16 py-20">
                 <div className="flex-shrink-0 w-[450px] h-[450px]">
           <Image src="/images/6.png" alt="WiFi Profesional" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
         </div>
@@ -139,11 +140,11 @@ export function Services() {
         </div>
       </div>
 
-      {/* 3. Telefonía IP */}
-      <div className="flex flex-row items-center justify-center gap-16 py-20 px-10 max-w-7xl mx-auto">
-                <div className="flex-shrink-0 w-[450px] h-[450px]">
-          <Image src="/images/8.png" alt="Telefonía IP" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
-        </div>
+        {/* 3. Telefonía IP */}
+        <div className="flex flex-row items-center justify-between gap-16 py-20">
+          <div className="flex-shrink-0 w-[450px] h-[450px]">
+            <Image src="/images/8.png" alt="Telefonía IP" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
+          </div>
         <div className="flex flex-col gap-6 h-[550px] justify-center max-w-[32rem]">
           <h2 className="text-[1.5rem] font-medium leading-[120%]">Telefonía IP & Comunicaciones</h2>
           <p className="text-[1.25rem] leading-[130%] text-[#646464]">
@@ -202,11 +203,11 @@ export function Services() {
         </div>
       </div>
 
-      {/* 4. IPTV */}
-      <div className="flex flex-row-reverse items-center justify-center gap-16 py-20 px-10 max-w-7xl mx-auto">
-                <div className="flex-shrink-0 w-[450px] h-[450px]">
-          <Image src="/images/9.png" alt="IPTV" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
-        </div>
+        {/* 4. IPTV */}
+        <div className="flex flex-row-reverse items-center justify-between gap-16 py-20">
+          <div className="flex-shrink-0 w-[450px] h-[450px]">
+            <Image src="/images/9.png" alt="IPTV" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
+          </div>
         <div className="flex flex-col gap-6 h-[550px] justify-center max-w-[32rem]">
           <h2 className="text-[1.5rem] font-medium leading-[120%]">TV Interactiva / IPTV Profesional</h2>
           <p className="text-[1.25rem] leading-[130%] text-[#646464]">
@@ -261,11 +262,11 @@ export function Services() {
         </div>
       </div>
 
-      {/* 5. Control de Accesos */}
-      <div className="flex flex-row items-center justify-center gap-16 py-20 px-10 max-w-7xl mx-auto">
-                <div className="flex-shrink-0 w-[450px] h-[450px]">
-          <Image src="/images/1.png" alt="Control de Accesos" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
-        </div>
+        {/* 5. Control de Accesos */}
+        <div className="flex flex-row items-center justify-between gap-16 py-20">
+          <div className="flex-shrink-0 w-[450px] h-[450px]">
+            <Image src="/images/1.png" alt="Control de Accesos" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
+          </div>
         <div className="flex flex-col gap-6 h-[550px] justify-center max-w-[32rem]">
           <h2 className="text-[1.5rem] font-medium leading-[120%]">Control de Accesos</h2>
           <p className="text-[1.25rem] leading-[130%] text-[#646464]">
@@ -324,11 +325,11 @@ export function Services() {
         </div>
       </div>
 
-      {/* 6. CCTV */}
-      <div className="flex flex-row-reverse items-center justify-center gap-16 py-20 px-10 max-w-7xl mx-auto">
-                <div className="flex-shrink-0 w-[450px] h-[450px]">
-          <Image src="/images/5.png" alt="CCTV" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
-        </div>
+        {/* 6. CCTV */}
+        <div className="flex flex-row-reverse items-center justify-between gap-16 py-20">
+          <div className="flex-shrink-0 w-[450px] h-[450px]">
+            <Image src="/images/5.png" alt="CCTV" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
+          </div>
         <div className="flex flex-col gap-6 h-[550px] justify-center max-w-[32rem]">
           <h2 className="text-[1.5rem] font-medium leading-[120%]">CCTV Profesional & Videovigilancia</h2>
           <p className="text-[1.25rem] leading-[130%] text-[#646464]">
@@ -385,11 +386,11 @@ export function Services() {
 
       
 
-              {/* 7. Señalética Digital */}
-      <div className="flex flex-row items-center justify-center gap-16 py-20 px-10 max-w-7xl mx-auto">
-                <div className="flex-shrink-0 w-[450px] h-[450px]">
-          <Image src="/images/3.png" alt="Señalética Digital" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
-        </div>
+        {/* 7. Señalética Digital */}
+        <div className="flex flex-row items-center justify-between gap-16 py-20">
+          <div className="flex-shrink-0 w-[450px] h-[450px]">
+            <Image src="/images/3.png" alt="Señalética Digital" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
+          </div>
         <div className="flex flex-col gap-6 h-[550px] justify-center max-w-[32rem]">
           <h2 className="text-[1.5rem] font-medium leading-[120%]">Señalética Digital & Cartelería Dinámica</h2>
           <p className="text-[1.25rem] leading-[130%] text-[#646464]">
@@ -448,11 +449,11 @@ export function Services() {
         </div>
       </div>
 
-                 {/* 8. Instalaciones Eléctricas */}
-       <div className="flex flex-row-reverse items-center justify-center gap-16 py-20 px-10 max-w-7xl mx-auto">
-                <div className="flex-shrink-0 w-[450px] h-[450px]">
-          <Image src="/images/2.png" alt="Instalaciones Eléctricas" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
-        </div>
+        {/* 8. Instalaciones Eléctricas */}
+        <div className="flex flex-row-reverse items-center justify-between gap-16 py-20">
+          <div className="flex-shrink-0 w-[450px] h-[450px]">
+            <Image src="/images/2.png" alt="Instalaciones Eléctricas" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
+          </div>
         <div className="flex flex-col gap-6 h-[550px] justify-center max-w-[32rem]">
           <h2 className="text-[1.5rem] font-medium leading-[120%]">Instalaciones Eléctricas & Energía</h2>
           <p className="text-[1.25rem] leading-[130%] text-[#646464]">
@@ -511,11 +512,11 @@ export function Services() {
         </div>
       </div>
 
-              {/* 9. Soporte Técnico 360° */}
-        <div className="flex flex-row items-center justify-center gap-16 py-20 px-10 max-w-7xl mx-auto">
-                <div className="flex-shrink-0 w-[450px] h-[450px]">
-          <Image src="/images/4.png" alt="Soporte Técnico 360°" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
-        </div>
+        {/* 9. Soporte Técnico 360° */}
+        <div className="flex flex-row items-center justify-between gap-16 py-20">
+          <div className="flex-shrink-0 w-[450px] h-[450px]">
+            <Image src="/images/4.png" alt="Soporte Técnico 360°" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
+          </div>
         <div className="flex flex-col gap-6 h-[550px] justify-center max-w-[32rem]">
           <h2 className="text-[1.5rem] font-medium leading-[120%]">Soporte Técnico 360°</h2>
           <p className="text-[1.25rem] leading-[130%] text-[#646464]">
@@ -574,6 +575,7 @@ export function Services() {
         </div>
       </div>
 
+      </div>
     </section>
   );
 }
