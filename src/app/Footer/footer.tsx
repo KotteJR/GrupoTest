@@ -85,7 +85,7 @@ export function Footer() {
 
             {/* Copyright */}
             <p className="text-xs text-white/60 pt-4">
-              GrupoIB360 © 2025 · Diseñado por Studio Sphere
+              GrupoIB360 © 2025 · Diseñado por Respectfully Disruptive
             </p>
           </div>
 
