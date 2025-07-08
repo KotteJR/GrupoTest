@@ -1,7 +1,5 @@
 'use client';
 
-import Image from 'next/image';
-
 export function TeamSection() {
   const team = [
     {
@@ -9,14 +7,12 @@ export function TeamSection() {
       role: 'Directora Comercial',
       email: 'carmen@ib360.tech',
       phone: '+34 636 14 71 07',
-      image: '/images/hospitals.png',
     },
     {
       name: 'Miguel',
       role: 'Especialista en Tecnología y Postventa',
       email: 'miguel@ib360.tech',
       phone: '+34 633 22 54 81',
-      image: '/images/corporate.png',
     },
     {
       name: 'Vladimir',
