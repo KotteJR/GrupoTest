@@ -53,7 +53,7 @@ export function SuccessCases() {
               }`}
               onClick={() => setActiveCase(index)}
             >
-              <h3 className="font-medium">{case_.title}</h3>
+              <h3 className="">{case_.title}</h3>
             <p className="text-lg text-[#646464]">
                 {case_.description}
             </p>

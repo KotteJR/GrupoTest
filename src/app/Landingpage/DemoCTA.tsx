@@ -32,7 +32,7 @@ export function DemoCTA() {
           </p>
 
           <div className="flex gap-4 mt-2">
-              <Link href="/Contact" className="bg-white text-[#f0952a] font-medium py-3 px-6 rounded-full flex items-center gap-2 text-sm">
+              <Link href="/Contact" className="bg-white text-[#f0952a]  py-3 px-6 rounded-full flex items-center gap-2 text-sm">
               Ver innovación
                 <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#f0952a]">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none">

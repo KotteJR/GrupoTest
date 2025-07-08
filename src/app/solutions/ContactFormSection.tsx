@@ -5,7 +5,7 @@ export function ContactFormSection() {
     <section className="w-full py-24 bg-white font-sans">
       <div className="max-w-[1230px] mx-auto px-4">
         <div className="flex flex-col gap-5 mb-16">
-          <h2 className="text-[2.375rem] font-medium leading-[120%] text-[#0f4761] text-center">
+          <h2 className="text-[2.375rem]  leading-[120%] text-[#0f4761] text-center">
             Ponte en contacto con nosotros!
         </h2>
           <p className="text-[#646464] text-[1.125rem] leading-[130%] text-center">
@@ -33,7 +33,7 @@ export function ContactFormSection() {
                 </div>
                 <div>
                   <div className="text-sm text-white/70 mb-1">Email</div>
-                  <div className="text-white font-medium">hello@ib360.tech</div>
+                  <div className="text-white ">hello@ib360.tech</div>
                 </div>
               </div>
 
@@ -46,7 +46,7 @@ export function ContactFormSection() {
                 </div>
                 <div>
                   <div className="text-sm text-white/70 mb-1">Teléfono</div>
-                  <div className="text-white font-medium">+34 971 123 456</div>
+                  <div className="text-white ">+34 971 123 456</div>
                 </div>
               </div>
 
@@ -60,7 +60,7 @@ export function ContactFormSection() {
                 </div>
                 <div>
                   <div className="text-sm text-white/70 mb-1">Dirección</div>
-                  <div className="text-white font-medium">Carrer de la Innovació 12<br />07010 Palma, Illes Balears</div>
+                  <div className="text-white ">Carrer de la Innovació 12<br />07010 Palma, Illes Balears</div>
                 </div>
               </div>
 
@@ -74,7 +74,7 @@ export function ContactFormSection() {
                 </div>
                 <div>
                   <div className="text-sm text-white/70 mb-1">Horario de atención</div>
-                  <div className="text-white font-medium">8:00 – 23:00</div>
+                  <div className="text-white ">8:00 – 23:00</div>
                 </div>
               </div>
             </div>
@@ -85,7 +85,7 @@ export function ContactFormSection() {
             <form className="space-y-4 w-full">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm font-medium text-[#0f4761] mb-1">Tu nombre</label>
+                  <label className="block text-sm  text-[#0f4761] mb-1">Tu nombre</label>
         <input
           type="text"
                     placeholder="Tu nombre"
@@ -93,7 +93,7 @@ export function ContactFormSection() {
         />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-[#0f4761] mb-1">Tu email <span className="text-red-500">*</span></label>
+                  <label className="block text-sm  text-[#0f4761] mb-1">Tu email <span className="text-red-500">*</span></label>
         <input
           type="email"
                     placeholder="Tu email *"
@@ -104,7 +104,7 @@ export function ContactFormSection() {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-[#0f4761] mb-1">Asunto <span className="text-red-500">*</span></label>
+                <label className="block text-sm  text-[#0f4761] mb-1">Asunto <span className="text-red-500">*</span></label>
         <input
           type="text"
                   placeholder="Asunto *"
@@ -114,7 +114,7 @@ export function ContactFormSection() {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-[#0f4761] mb-1">Tu mensaje</label>
+                <label className="block text-sm  text-[#0f4761] mb-1">Tu mensaje</label>
         <textarea
                   rows={2}
                   placeholder="Tu mensaje - Por favor incluye toda la información relevante"
@@ -125,7 +125,7 @@ export function ContactFormSection() {
               <div className="flex justify-end pt-2">
         <button
           type="submit"
-                  className="bg-[#0f4761] text-white rounded-[10px] px-8 py-3 font-medium hover:bg-[#0d3c52] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#0f4761]/30 focus:ring-offset-2"
+                  className="bg-[#0f4761] text-white rounded-[10px] px-8 py-3  hover:bg-[#0d3c52] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#0f4761]/30 focus:ring-offset-2"
         >
                   Enviar mensaje
         </button>

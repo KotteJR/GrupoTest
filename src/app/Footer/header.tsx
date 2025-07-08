@@ -57,7 +57,7 @@ export function Header() {
             priority
           />
         </Link>
-        <nav className="flex gap-6 text-base font-medium items-center">
+        <nav className="flex gap-6 text-base  items-center">
           {navLinks.map((link) => {
             const isContacto = link.name === "Contacto";
             

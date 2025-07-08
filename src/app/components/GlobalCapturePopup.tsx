@@ -117,7 +117,7 @@ export function GlobalCapturePopup({ onClose }: GlobalCapturePopupProps) {
             <div className="space-y-3">
               <button
                 onClick={handlePositiveAction}
-                className="w-full h-12 bg-[#ED962C] text-white rounded-xl font-medium hover:bg-[#d4862a] transition-colors duration-200 flex items-center justify-center gap-2"
+                className="w-full h-12 bg-[#ED962C] text-white rounded-xl  hover:bg-[#d4862a] transition-colors duration-200 flex items-center justify-center gap-2"
               >
                 <span className="text-lg">✅</span>
                 Sí, quiero soluciones 360º
@@ -125,7 +125,7 @@ export function GlobalCapturePopup({ onClose }: GlobalCapturePopupProps) {
               
               <button
                 onClick={handleNegativeAction}
-                className="w-full h-12 bg-transparent text-[#646464] rounded-xl font-medium hover:bg-[#f0f0f0] transition-colors duration-200 flex items-center justify-center gap-2 border border-[#e0e0e0]"
+                className="w-full h-12 bg-transparent text-[#646464] rounded-xl  hover:bg-[#f0f0f0] transition-colors duration-200 flex items-center justify-center gap-2 border border-[#e0e0e0]"
               >
                 <span className="text-lg">❌</span>
                 No, prefiero seguir recibiendo quejas

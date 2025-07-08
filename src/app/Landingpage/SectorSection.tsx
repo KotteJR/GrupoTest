@@ -70,7 +70,7 @@ export function SectorSection() {
                 <div className="flex flex-col gap-5">
                   <div className="flex flex-col gap-4">
                     <Image src={icon} alt={`${title} icon`} width={32} height={32} />
-                    <h3 className="text-xl font-medium text-[#0f4761]">{title}</h3>
+                    <h3 className="text-xl  text-[#0f4761]">{title}</h3>
                   </div>
                   <p className="text-[#646464] text-[1.125rem] leading-[130%]">
                     {description}

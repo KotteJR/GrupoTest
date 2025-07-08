@@ -108,7 +108,7 @@ export function ProjectsSection() {
             
             {/* Fixed height title section */}
             <div className="h-[40px] flex items-start mt-6">
-              <h3 className="text-xl font-medium leading-tight">{project.title}</h3>
+              <h3 className="text-xl  leading-tight">{project.title}</h3>
             </div>
             
             {/* Fixed height description section */}
@@ -118,7 +118,7 @@ export function ProjectsSection() {
             
             {/* KPIs section - now always at same distance from top */}
             <div className="mt-4">
-              <p className="font-medium text-[1.125rem] mb-4">KPIs</p>
+              <p className=" text-[1.125rem] mb-4">KPIs</p>
               <div className="relative flex flex-col gap-3">
                 {/* Connecting line */}
                 <div className="absolute left-[11px] top-3 bottom-3 w-0.5 bg-[#0f4761]/30"></div>

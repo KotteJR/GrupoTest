@@ -20,13 +20,13 @@ export function Services() {
           <Image src="/images/7.png" alt="GPON" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
         </div>
         <div className="flex flex-col gap-6 h-[550px] justify-center max-w-[32rem]">
-          <h2 className="text-[1.5rem] font-medium leading-[120%]">GPON & Fibra Óptica</h2>
+          <h2 className="text-[1.5rem]  leading-[120%]">GPON & Fibra Óptica</h2>
           <p className="text-[1.25rem] leading-[130%] text-[#646464]">
             Infraestructura de fibra óptica multiservicio de alto rendimiento para datos, IPTV, WiFi, telefonía, domótica y servicios futuros.
           </p>
           
           <div className="flex flex-col gap-4">
-            <span className="text-[1.25rem] font-medium leading-[130%]">Beneficios</span>
+            <span className="text-[1.25rem]  leading-[130%]">Beneficios</span>
             <div className="relative flex flex-col gap-5">
               {/* Connecting line */}
               <div className="absolute left-[11px] top-3 bottom-3 w-0.5 bg-[#f0952a]/30"></div>
@@ -83,13 +83,13 @@ export function Services() {
           <Image src="/images/6.png" alt="WiFi Profesional" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
         </div>
         <div className="flex flex-col gap-6 h-[550px] justify-center max-w-[32rem]">
-          <h2 className="text-[1.5rem] font-medium leading-[120%]">WiFi Profesional</h2>
+          <h2 className="text-[1.5rem]  leading-[120%]">WiFi Profesional</h2>
           <p className="text-[1.25rem] leading-[130%] text-[#646464]">
             Redes WiFi 6, WiFi 6E y WiFi 7 diseñadas para máxima capacidad, rendimiento y cobertura.
           </p>
           
           <div className="flex flex-col gap-4">
-            <span className="text-[1.25rem] font-medium leading-[130%]">Beneficios</span>
+            <span className="text-[1.25rem]  leading-[130%]">Beneficios</span>
             <div className="relative flex flex-col gap-5">
               {/* Connecting line */}
               <div className="absolute left-[11px] top-3 bottom-3 w-0.5 bg-[#f0952a]/30"></div>
@@ -146,13 +146,13 @@ export function Services() {
             <Image src="/images/8.png" alt="Telefonía IP" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
           </div>
         <div className="flex flex-col gap-6 h-[550px] justify-center max-w-[32rem]">
-          <h2 className="text-[1.5rem] font-medium leading-[120%]">Telefonía IP & Comunicaciones</h2>
+          <h2 className="text-[1.5rem]  leading-[120%]">Telefonía IP & Comunicaciones</h2>
           <p className="text-[1.25rem] leading-[130%] text-[#646464]">
             Soluciones flexibles de comunicaciones IP para hoteles, hospitales y empresas.
           </p>
           
           <div className="flex flex-col gap-4">
-            <span className="text-[1.25rem] font-medium leading-[130%]">Beneficios</span>
+            <span className="text-[1.25rem]  leading-[130%]">Beneficios</span>
             <div className="relative flex flex-col gap-5">
               {/* Connecting line */}
               <div className="absolute left-[11px] top-3 bottom-3 w-0.5 bg-[#f0952a]/30"></div>
@@ -209,13 +209,13 @@ export function Services() {
             <Image src="/images/9.png" alt="IPTV" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
           </div>
         <div className="flex flex-col gap-6 h-[550px] justify-center max-w-[32rem]">
-          <h2 className="text-[1.5rem] font-medium leading-[120%]">TV Interactiva / IPTV Profesional</h2>
+          <h2 className="text-[1.5rem]  leading-[120%]">TV Interactiva / IPTV Profesional</h2>
           <p className="text-[1.25rem] leading-[130%] text-[#646464]">
             Soluciones de televisión profesional, hospitality TV e IPTV interactivo.
           </p>
           
           <div className="flex flex-col gap-4">
-            <span className="text-[1.25rem] font-medium leading-[130%]">Beneficios</span>
+            <span className="text-[1.25rem]  leading-[130%]">Beneficios</span>
             <div className="relative flex flex-col gap-5">
               {/* Connecting line */}
               <div className="absolute left-[11px] top-3 bottom-3 w-0.5 bg-[#f0952a]/30"></div>
@@ -268,13 +268,13 @@ export function Services() {
             <Image src="/images/1.png" alt="Control de Accesos" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
           </div>
         <div className="flex flex-col gap-6 h-[550px] justify-center max-w-[32rem]">
-          <h2 className="text-[1.5rem] font-medium leading-[120%]">Control de Accesos</h2>
+          <h2 className="text-[1.5rem]  leading-[120%]">Control de Accesos</h2>
           <p className="text-[1.25rem] leading-[130%] text-[#646464]">
             Sistemas físicos y digitales de control de accesos integrados a la operativa del cliente.
           </p>
           
           <div className="flex flex-col gap-4">
-            <span className="text-[1.25rem] font-medium leading-[130%]">Beneficios</span>
+            <span className="text-[1.25rem]  leading-[130%]">Beneficios</span>
             <div className="relative flex flex-col gap-5">
               {/* Connecting line */}
               <div className="absolute left-[11px] top-3 bottom-3 w-0.5 bg-[#f0952a]/30"></div>
@@ -331,13 +331,13 @@ export function Services() {
             <Image src="/images/5.png" alt="CCTV" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
           </div>
         <div className="flex flex-col gap-6 h-[550px] justify-center max-w-[32rem]">
-          <h2 className="text-[1.5rem] font-medium leading-[120%]">CCTV Profesional & Videovigilancia</h2>
+          <h2 className="text-[1.5rem]  leading-[120%]">CCTV Profesional & Videovigilancia</h2>
           <p className="text-[1.25rem] leading-[130%] text-[#646464]">
             Monitoreo de seguridad IP, grabación inteligente y control en tiempo real.
           </p>
           
           <div className="flex flex-col gap-4">
-            <span className="text-[1.25rem] font-medium leading-[130%]">Beneficios</span>
+            <span className="text-[1.25rem]  leading-[130%]">Beneficios</span>
             <div className="relative flex flex-col gap-5">
               {/* Connecting line */}
               <div className="absolute left-[11px] top-3 bottom-3 w-0.5 bg-[#f0952a]/30"></div>
@@ -392,13 +392,13 @@ export function Services() {
             <Image src="/images/3.png" alt="Señalética Digital" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
           </div>
         <div className="flex flex-col gap-6 h-[550px] justify-center max-w-[32rem]">
-          <h2 className="text-[1.5rem] font-medium leading-[120%]">Señalética Digital & Cartelería Dinámica</h2>
+          <h2 className="text-[1.5rem]  leading-[120%]">Señalética Digital & Cartelería Dinámica</h2>
           <p className="text-[1.25rem] leading-[130%] text-[#646464]">
             Comunicación visual profesional para hospitality, healthcare y empresas.
           </p>
           
           <div className="flex flex-col gap-4">
-            <span className="text-[1.25rem] font-medium leading-[130%]">Beneficios</span>
+            <span className="text-[1.25rem]  leading-[130%]">Beneficios</span>
             <div className="relative flex flex-col gap-5">
               {/* Connecting line */}
               <div className="absolute left-[11px] top-3 bottom-3 w-0.5 bg-[#f0952a]/30"></div>
@@ -455,13 +455,13 @@ export function Services() {
             <Image src="/images/2.png" alt="Instalaciones Eléctricas" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
           </div>
         <div className="flex flex-col gap-6 h-[550px] justify-center max-w-[32rem]">
-          <h2 className="text-[1.5rem] font-medium leading-[120%]">Instalaciones Eléctricas & Energía</h2>
+          <h2 className="text-[1.5rem]  leading-[120%]">Instalaciones Eléctricas & Energía</h2>
           <p className="text-[1.25rem] leading-[130%] text-[#646464]">
             Diseño, instalación y mantenimiento de sistemas eléctricos integrados.
           </p>
           
           <div className="flex flex-col gap-4">
-            <span className="text-[1.25rem] font-medium leading-[130%]">Beneficios</span>
+            <span className="text-[1.25rem]  leading-[130%]">Beneficios</span>
             <div className="relative flex flex-col gap-5">
               {/* Connecting line */}
               <div className="absolute left-[11px] top-3 bottom-3 w-0.5 bg-[#f0952a]/30"></div>
@@ -518,13 +518,13 @@ export function Services() {
             <Image src="/images/4.png" alt="Soporte Técnico 360°" width={450} height={450} className="rounded-[15px] object-cover w-full h-full" />
           </div>
         <div className="flex flex-col gap-6 h-[550px] justify-center max-w-[32rem]">
-          <h2 className="text-[1.5rem] font-medium leading-[120%]">Soporte Técnico 360°</h2>
+          <h2 className="text-[1.5rem]  leading-[120%]">Soporte Técnico 360°</h2>
           <p className="text-[1.25rem] leading-[130%] text-[#646464]">
             Cobertura técnica integral durante toda la vida útil del proyecto.
           </p>
           
           <div className="flex flex-col gap-4">
-            <span className="text-[1.25rem] font-medium leading-[130%]">Beneficios</span>
+            <span className="text-[1.25rem]  leading-[130%]">Beneficios</span>
             <div className="relative flex flex-col gap-5">
               {/* Connecting line */}
               <div className="absolute left-[11px] top-3 bottom-3 w-0.5 bg-[#f0952a]/30"></div>

@@ -53,7 +53,7 @@ export function InnovationForm() {
                 className="w-full h-[45px] bg-[#f3f3f3] rounded-[10px] px-4 text-sm text-[#646464] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent"
               />
 
-              <button className="w-full h-[45px] bg-[#0f4761] text-white rounded-[10px] text-sm font-medium hover:bg-[#0d3c52] transition-colors duration-200">
+              <button className="w-full h-[45px] bg-[#0f4761] text-white rounded-[10px] text-sm  hover:bg-[#0d3c52] transition-colors duration-200">
                 Enviar
               </button>
             </div>

@@ -20,7 +20,7 @@ export function Footer() {
       <div className="relative z-10 max-w-[1230px] mx-auto px-4 py-24">
         {/* Top CTA Button */}
         <div className="flex justify-center pb-8">
-          <button className="bg-white text-[#f0952a] font-medium py-3 px-6 rounded-full flex items-center gap-2 text-sm">
+          <button className="bg-white text-[#f0952a]  py-3 px-6 rounded-full flex items-center gap-2 text-sm">
             Descargar ficha técnica (PDF)
             <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#f0952a]">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
@@ -32,7 +32,7 @@ export function Footer() {
 
         {/* Main Content */}
         <div className="text-center mb-16">
-          <h2 className="text-[2rem] font-medium mb-4 leading-tight">
+          <h2 className="text-[2rem]  mb-4 leading-tight">
             Conectividad sin fallos para<br />
             hoteles, hospitales y empresas.
           </h2>
@@ -95,7 +95,7 @@ export function Footer() {
           <div className="space-y-8 ml-auto">
             {/* Links */}
             <div>
-              <h3 className="text-white font-medium mb-3">Links</h3>
+              <h3 className="text-white  mb-3">Links</h3>
               <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/70">
                 <span>Soluciones</span>
                 <span>Sectores</span>
@@ -107,7 +107,7 @@ export function Footer() {
 
             {/* Legal Links */}
             <div>
-              <h3 className="text-white font-medium mb-3">Legal Links</h3>
+              <h3 className="text-white  mb-3">Legal Links</h3>
               <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/70">
                 <span>Aviso Legal</span>
                 <span>Política de privacidad</span>
@@ -117,7 +117,7 @@ export function Footer() {
 
             {/* Socials */}
             <div>
-              <h3 className="text-white font-medium mb-3">Socials</h3>
+              <h3 className="text-white  mb-3">Socials</h3>
               <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/70">
                 <span>LinkedIn</span>
                 <span>Facebook</span>

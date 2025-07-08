@@ -12,7 +12,7 @@ export function ContactSection() {
             <div className="bg-[#e0e6ea] w-[40px] h-[40px] rounded-md flex items-center justify-center mb-4">
               <Mail className="w-5 h-5 text-[#0f4761]" />
             </div>
-            <p className="text-[1.125rem] font-medium mb-2">Vía email</p>
+            <p className="text-[1.125rem]  mb-2">Vía email</p>
             <div className="text-[1.125rem] text-[#0f4761] space-y-1">
               <p>
                 <a href="mailto:averias@grupoib360.com" className="underline">
@@ -32,7 +32,7 @@ export function ContactSection() {
             <div className="bg-[#e0e6ea] w-[40px] h-[40px] rounded-md flex items-center justify-center mb-4">
               <PhoneCall className="w-5 h-5 text-[#0f4761]" />
             </div>
-            <p className="text-[1.125rem] font-medium mb-2">
+            <p className="text-[1.125rem]  mb-2">
               Vía teléfono <br />(horario laboral)
             </p>
             <p className="text-[1.125rem] text-[#0f4761]">971 20 15 20</p>
@@ -43,7 +43,7 @@ export function ContactSection() {
             <div className="bg-[#e0e6ea] w-[40px] h-[40px] rounded-md flex items-center justify-center mb-4">
               <PhoneOff className="w-5 h-5 text-[#0f4761]" />
             </div>
-            <p className="text-[1.125rem] font-medium mb-2">
+            <p className="text-[1.125rem]  mb-2">
               Vía teléfono <br />(fuera de horario laboral)
             </p>
             <p className="text-[1.125rem] text-[#0f4761]">971 20 15 20</p>
@@ -55,7 +55,7 @@ export function ContactSection() {
           {/* 24/7 Availability Card */}
           <div className="border-2 border-[#0f4761]/10 rounded-[20px] p-8 bg-white">
             <div className="mb-6">
-              <div className="bg-[#f0952a] text-white px-4 py-2 rounded-full text-sm font-medium inline-block">
+              <div className="bg-[#f0952a] text-white px-4 py-2 rounded-full text-sm  inline-block">
                 Disponibilidad 24/7
               </div>
             </div>
@@ -85,7 +85,7 @@ export function ContactSection() {
           {/* Critical Response Card */}
           <div className="border-2 border-[#0f4761]/10 rounded-[20px] p-8 bg-white">
             <div className="mb-6">
-              <div className="bg-[#0f4761] text-white px-4 py-2 rounded-full text-sm font-medium inline-block">
+              <div className="bg-[#0f4761] text-white px-4 py-2 rounded-full text-sm  inline-block">
                 Respuesta Crítica
               </div>
             </div>

@@ -31,7 +31,7 @@ export function Hero() {
 
         {/* CTA */}
         <div className="mt-6">
-          <Link href="/Contact" className="bg-[#0F4761] text-white font-medium py-3 px-6 rounded-full flex items-center gap-2 text-sm">
+          <Link href="/Contact" className="bg-[#0F4761] text-white  py-3 px-6 rounded-full flex items-center gap-2 text-sm">
             Solicita una demo personalizada
             <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-white">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none">

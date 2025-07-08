@@ -21,12 +21,12 @@ export function DemoCTA() {
 
         {/* Content */}
         <div className="relative z-10 flex flex-col items-center text-center text-white gap-6">
-          <h2 className="text-[2.25rem] font-medium leading-snug">
+          <h2 className="text-[2.25rem]  leading-snug">
             ¿Deseas más información sobre <br /> nuestros servicios de soporte?
           </h2>
 
           <div className="flex gap-4 mt-2">
-              <Link href="/Contact" className="bg-[#f0952a] text-[#ffffff] font-medium py-3 px-6 rounded-full flex items-center gap-2 text-sm">
+              <Link href="/Contact" className="bg-[#f0952a] text-[#ffffff]  py-3 px-6 rounded-full flex items-center gap-2 text-sm">
               Solicita información personalizada.
                 <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#ffffff]">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none">

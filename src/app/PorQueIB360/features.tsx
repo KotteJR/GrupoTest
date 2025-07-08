@@ -120,7 +120,7 @@ export function FeaturesSection() {
           <div key={idx} className="flex flex-col gap-5 items-start">
               {feature.icon}
             <div className="flex flex-col gap-3">
-              <h3 className="text-[1.25rem] font-medium">{feature.title}</h3>
+              <h3 className="text-[1.25rem] ">{feature.title}</h3>
               <p className="text-[1.125rem] text-[#0f4761]">{feature.description}</p>
             </div>
           </div>

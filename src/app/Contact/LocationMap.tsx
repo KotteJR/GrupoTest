@@ -34,13 +34,13 @@ export function LocationMap() {
           {/* Location Info */}
           <div className="flex flex-col gap-6 max-w-[400px]">
             <div className="bg-[#f7f8f9] rounded-[20px] p-6">
-              <h3 className="text-[#0f4761] text-xl font-medium mb-4">
+              <h3 className="text-[#0f4761] text-xl  mb-4">
                 Información de contacto
               </h3>
               
               <div className="flex flex-col gap-4">
                 <div>
-                  <h4 className="text-[#0f4761] font-medium mb-1">Dirección</h4>
+                  <h4 className="text-[#0f4761]  mb-1">Dirección</h4>
                   <p className="text-[#646464] text-sm">
                     Carrer de la Innovació 12<br />
                     07010 Palma, Illes Balears<br />
@@ -50,7 +50,7 @@ export function LocationMap() {
 
 
                 <div>
-                  <h4 className="text-[#0f4761] font-medium mb-1">Email</h4>
+                  <h4 className="text-[#0f4761]  mb-1">Email</h4>
                   <p className="text-[#646464] text-sm">
                     <a href="mailto:info@ib360.tech" className="hover:text-[#0f4761] transition-colors">
                       info@ib360.tech
@@ -59,7 +59,7 @@ export function LocationMap() {
                 </div>
 
                 <div>
-                  <h4 className="text-[#0f4761] font-medium mb-1">Horario de atención</h4>
+                  <h4 className="text-[#0f4761]  mb-1">Horario de atención</h4>
                   <p className="text-[#646464] text-sm">
                     Lunes a Viernes: 9:00 - 18:00<br />
                     Sábados: 9:00 - 14:00<br />
@@ -71,11 +71,11 @@ export function LocationMap() {
 
             {/* CTA */}
             <div className="bg-[#0f4761] rounded-[20px] p-6 text-white">
-              <h4 className="font-medium mb-2">¿Prefieres visitarnos?</h4>
+              <h4 className=" mb-2">¿Prefieres visitarnos?</h4>
               <p className="text-sm text-white/80 mb-4">
                 Agenda una cita previa para asegurar la disponibilidad de nuestro equipo.
               </p>
-              <button className="w-full bg-white text-[#0f4761] rounded-[10px] py-2 px-4 text-sm font-medium hover:bg-gray-100 transition-colors">
+              <button className="w-full bg-white text-[#0f4761] rounded-[10px] py-2 px-4 text-sm  hover:bg-gray-100 transition-colors">
                 Agendar cita
               </button>
             </div>

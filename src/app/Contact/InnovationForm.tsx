@@ -19,7 +19,7 @@ export function InnovationForm() {
       <div className="max-w-[1230px] mx-auto px-4 flex items-stretch justify-between gap-20 mt-40">
         {/* Left Content - Title and Description */}
         <div className="flex flex-col justify-start max-w-[500px]">
-          <h2 className="text-[2.5rem] text-[#0f4761] font-medium leading-snug max-w-[800px] mb-4">
+          <h2 className="text-[2.5rem] text-[#0f4761]  leading-snug max-w-[800px] mb-4">
             Contacta con IB360
           </h2>
 
@@ -36,7 +36,7 @@ export function InnovationForm() {
           <div className="flex flex-col gap-4">
             <div className="flex gap-2.5">
               <div className="flex-1">
-                <label className="block text-sm font-medium text-[#0f4761] mb-1">
+                <label className="block text-sm  text-[#0f4761] mb-1">
                   Nombre completo *
                 </label>
                 <input 
@@ -47,7 +47,7 @@ export function InnovationForm() {
                 />
               </div>
               <div className="flex-1">
-                <label className="block text-sm font-medium text-[#0f4761] mb-1">
+                <label className="block text-sm  text-[#0f4761] mb-1">
                   Empresa *
                 </label>
                 <input 
@@ -61,7 +61,7 @@ export function InnovationForm() {
             
             <div className="flex gap-2.5">
               <div className="flex-1">
-                <label className="block text-sm font-medium text-[#0f4761] mb-1">
+                <label className="block text-sm  text-[#0f4761] mb-1">
                   Cargo (opcional)
                 </label>
                 <input 
@@ -71,7 +71,7 @@ export function InnovationForm() {
                 />
               </div>
               <div className="flex-1">
-                <label className="block text-sm font-medium text-[#0f4761] mb-1">
+                <label className="block text-sm  text-[#0f4761] mb-1">
                   Email *
                 </label>
                 <input 
@@ -84,7 +84,7 @@ export function InnovationForm() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-[#0f4761] mb-1">
+              <label className="block text-sm  text-[#0f4761] mb-1">
                 Teléfono *
               </label>
               <input 
@@ -97,7 +97,7 @@ export function InnovationForm() {
 
             <div className="flex gap-2.5">
               <div className="relative flex-1">
-                <label className="block text-sm font-medium text-[#0f4761] mb-1">
+                <label className="block text-sm  text-[#0f4761] mb-1">
                   Sector *
                 </label>
                 <select 
@@ -118,7 +118,7 @@ export function InnovationForm() {
               </div>
 
               <div className="relative flex-1">
-                <label className="block text-sm font-medium text-[#0f4761] mb-1">
+                <label className="block text-sm  text-[#0f4761] mb-1">
                   Motivo de contacto *
                 </label>
                 <select 
@@ -139,7 +139,7 @@ export function InnovationForm() {
               </div>
             </div>
 
-            <button className="w-full h-[45px] bg-[#0f4761] text-white rounded-[10px] text-sm font-medium hover:bg-[#0d3c52] transition-colors duration-200 mt-2">
+            <button className="w-full h-[45px] bg-[#0f4761] text-white rounded-[10px] text-sm  hover:bg-[#0d3c52] transition-colors duration-200 mt-2">
               Enviar solicitud
             </button>
           </div>

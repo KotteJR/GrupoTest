@@ -112,7 +112,7 @@ export function TimelineSection() {
       <div className="max-w-[1230px] mx-auto px-4">
         <div className="mb-12">
           <p className="text-[#646464] text-[1.125rem] mb-2">Nuestra Historia</p>
-          <h2 className="text-[2.375rem] font-medium leading-[120%]">
+          <h2 className="text-[2.375rem]  leading-[120%]">
             Nuestra Historia: Más de dos décadas de crecimiento e innovación tecnológica
           </h2>
         </div>
@@ -133,7 +133,7 @@ export function TimelineSection() {
               >
                 <div className="bg-[#f7f8f9] p-6 rounded-[15px]">
                   <p className="text-[#f0952a] font-semibold text-[1.125rem] mb-2">{item.year}</p>
-                  <h3 className="text-[1.25rem] font-medium mb-2">{item.title}</h3>
+                  <h3 className="text-[1.25rem]  mb-2">{item.title}</h3>
                   <p className="text-[1.125rem] text-[#0f4761] leading-[150%]">
                     {item.description}
                   </p>

@@ -42,7 +42,7 @@ export function HeroSection() {
             Soluciones tecnológicas integrales para hoteles, hospitales, residencias asistidas y empresas: redes GPON, WiFi 6/7, sistemas control paciente-enfermera, IA y digitalización completa. Conectividad, inteligencia y control en un solo partner.            </p>
 
             <div className="flex gap-4">
-              <Link href="/Contact" className="bg-white text-[#f0952a] font-medium py-3 px-6 rounded-full flex items-center gap-2 text-sm mt-6 mb-7">
+              <Link href="/Contact" className="bg-white text-[#f0952a]  py-3 px-6 rounded-full flex items-center gap-2 text-sm mt-6 mb-7">
                 Solicita información
                 <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#f0952a]">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
@@ -105,7 +105,7 @@ export function HeroSection() {
           {/* Ficha Técnica - Aligned to bottom of left content */}
           <div className="self-end">
             <Link href="/Contact" className="bg-white/10 backdrop-blur-sm border border-[#285472] rounded-xl px-3 pt-3 pb-2 block">
-              <div className="flex items-center gap-2 text-white font-medium mb-3 text-sm">
+              <div className="flex items-center gap-2 text-white  mb-3 text-sm">
                 Descargar ficha técnica (PDF)
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" className="text-white">
                   <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
