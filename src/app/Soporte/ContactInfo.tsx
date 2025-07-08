@@ -12,7 +12,7 @@ export function ContactSection() {
             <div className="bg-[#e0e6ea] w-[40px] h-[40px] rounded-md flex items-center justify-center mb-4">
               <Mail className="w-5 h-5 text-[#0f4761]" />
             </div>
-            <p className="text-[1.125rem]  mb-2">Vía email</p>
+            <p className="text-[1.125rem] font-medium mb-2">Vía email</p>
             <div className="text-[1.125rem] text-[#0f4761] space-y-1">
               <p>
                 <a href="mailto:averias@grupoib360.com" className="underline">
@@ -32,7 +32,7 @@ export function ContactSection() {
             <div className="bg-[#e0e6ea] w-[40px] h-[40px] rounded-md flex items-center justify-center mb-4">
               <PhoneCall className="w-5 h-5 text-[#0f4761]" />
             </div>
-            <p className="text-[1.125rem]  mb-2">
+            <p className="text-[1.125rem] font-medium mb-2">
               Vía teléfono <br />(horario laboral)
             </p>
             <p className="text-[1.125rem] text-[#0f4761]">971 20 15 20</p>
@@ -43,7 +43,7 @@ export function ContactSection() {
             <div className="bg-[#e0e6ea] w-[40px] h-[40px] rounded-md flex items-center justify-center mb-4">
               <PhoneOff className="w-5 h-5 text-[#0f4761]" />
             </div>
-            <p className="text-[1.125rem]  mb-2">
+            <p className="text-[1.125rem] font-medium mb-2">
               Vía teléfono <br />(fuera de horario laboral)
             </p>
             <p className="text-[1.125rem] text-[#0f4761]">971 20 15 20</p>

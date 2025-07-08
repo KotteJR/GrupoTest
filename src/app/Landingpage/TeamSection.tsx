@@ -40,7 +40,7 @@ export function TeamSection() {
               <div key={name} className="bg-[#f7f8f9] rounded-[20px] p-5 flex flex-col items-start">
 
                 <div className="flex flex-col gap-1 w-full px-2 pb-2">
-                  <div className="text-[#0f4761] text-base text-lg ">{name}</div>
+                  <div className="text-[#0f4761] font-medium text-base text-lg ">{name}</div>
                   <div className="text-[#646464] text-md">{role}</div>
                   <div className="text-[#646464] text-md">{phone}</div>
                   <div className="text-[#646464] text-md">

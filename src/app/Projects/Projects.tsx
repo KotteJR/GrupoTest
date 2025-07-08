@@ -108,7 +108,7 @@ export function ProjectsSection() {
             
             {/* Fixed height title section */}
             <div className="h-[40px] flex items-start mt-6">
-              <h3 className="text-xl  leading-tight">{project.title}</h3>
+              <h3 className="text-xl font-medium leading-tight">{project.title}</h3>
             </div>
             
             {/* Fixed height description section */}

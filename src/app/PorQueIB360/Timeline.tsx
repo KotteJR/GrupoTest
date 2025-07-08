@@ -133,7 +133,7 @@ export function TimelineSection() {
               >
                 <div className="bg-[#f7f8f9] p-6 rounded-[15px]">
                   <p className="text-[#f0952a] font-semibold text-[1.125rem] mb-2">{item.year}</p>
-                  <h3 className="text-[1.25rem]  mb-2">{item.title}</h3>
+                  <h3 className="text-[1.25rem] font-medium mb-2">{item.title}</h3>
                   <p className="text-[1.125rem] text-[#0f4761] leading-[150%]">
                     {item.description}
                   </p>
