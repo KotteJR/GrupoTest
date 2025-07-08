@@ -24,11 +24,11 @@ export function InnovationForm() {
               INNOVACIÓN Y IA
             </div>
 
-            <h2 className="text-[#0f4761] text-[1.75rem] font-semibold leading-snug">
+            <h2 className="text-[#0f4761] text-[2rem] leading-snug">
               En IB360 apostamos por soluciones inteligentes que anticipan, aprenden y evolucionan.
             </h2>
 
-            <p className="text-md text-[#646464] mb-2">
+            <p className="text-lg text-[#646464] mb-2">
               ¿Quieres saber más? Déjanos tus datos y te avisaremos antes del lanzamiento.
             </p>
 
@@ -61,11 +61,8 @@ export function InnovationForm() {
 
           {/* AI Pitch */}
           <div className="mt-6">
-            <p className="text-[#646464] text-md leading-[1.6]">
+            <p className="text-[#646464] text-lg leading-[1.6]">
               La nueva plataforma de IB360 integra inteligencia artificial para optimizar redes, predecir incidencias y mejorar la experiencia de usuario en entornos hoteleros, hospitalarios y corporativos.
-            </p>
-            <p className="text-[#646464] text-md leading-[1.6] mt-3">
-              Sé parte del futuro de la conectividad inteligente.
             </p>
           </div>
         </div>

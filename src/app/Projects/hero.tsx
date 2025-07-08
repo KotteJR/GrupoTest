@@ -17,7 +17,7 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center pt-[12rem] pb-[5rem] gap-6">
+      <div className="relative z-10 flex flex-col items-center justify-center pt-[12rem] pb-[2rem] gap-6">
 
         {/* Main Heading */}
         <h1 className="text-center text-[2.75rem] leading-[120%] max-w-[700px]">
@@ -26,7 +26,7 @@ export function Hero() {
 
         {/* Subtitle */}
         <p className="text-center text-[1.125rem] text-[#646464] max-w-[720px] leading-snug mt-2">
-        Casos reales que demuestran cómo nuestras soluciones transforman hoteles, hospitales y empresas.
+        En IB360 transformamos la tecnología en soluciones concretas para nuestros clientes. Cada instalación es personalizada según las necesidades de cada hotel, hospital o empresa, asegurando resultados eficientes y un soporte técnico continuo.
         </p>
 
         {/* CTA */}
@@ -36,7 +36,7 @@ export function Hero() {
             <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-white">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
                 <path d="M10 7L15 12L10 17" stroke="#0F4761" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
+            </svg>
             </span>
           </Link>
         </div>

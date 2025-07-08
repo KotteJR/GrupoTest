@@ -32,21 +32,17 @@ export function HeroSection() {
         <div className="flex justify-between items-end">
           {/* Left Content */}
           <div className="flex flex-col gap-2 max-w-[1000px]">
-            <div className="flex items-center gap-2 text-sm">
-              <div className="w-[6px] h-[6px] bg-[#f0952a] rounded-full" />
-              Conectividad sin fallos para hoteles, hospitales y empresas.
-            </div>
+            
 
-            <h1 className="text-4xl font-semibold leading-tight">
-              Tecnología que cumple. Equipo que responde.
+            <h1 className="text-[2.75rem] leading-tight mb-1">
+              Tecnología que cumple. <br /> Equipo que responde.
             </h1>
 
             <p className="text-lg text-white/90">
-              Redes GPON, WiFi 6/7, IA y soluciones integrales para digitalizar hoteles, hospitales y empresas.
-            </p>
+            Soluciones tecnológicas integrales para hoteles, hospitales, residencias asistidas y empresas: redes GPON, WiFi 6/7, sistemas control paciente-enfermera, IA y digitalización completa. Conectividad, inteligencia y control en un solo partner.            </p>
 
             <div className="flex gap-4">
-              <Link href="/Contact" className="bg-white text-[#f0952a] font-medium py-3 px-6 rounded-full flex items-center gap-2 text-sm mt-6 mb-6">
+              <Link href="/Contact" className="bg-white text-[#f0952a] font-medium py-3 px-6 rounded-full flex items-center gap-2 text-sm mt-6 mb-7">
                 Solicita información
                 <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#f0952a]">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
@@ -57,7 +53,7 @@ export function HeroSection() {
             </div>
 
             {/* Stats */}
-            <div className="flex flex-col gap-4 text-xl">
+            <div className="flex flex-row gap-8 text-xl">
               <div>
                 <p className="font-semibold">1500+</p>
                 <p className="text-base font-light">Hoteles digitalizados</p>
@@ -75,25 +71,27 @@ export function HeroSection() {
             {/* Logos - In Left Column */}
             <div className="flex flex-col gap-4 mt-8">
               <p className="text-sm text-white/80">CONFÍAN EN NOSOTROS</p>
-              <div className="w-[500px] overflow-hidden relative" style={{maskImage: 'linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)'}}>
+              <div className="w-[400px] overflow-hidden relative" style={{maskImage: 'linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)'}}>
                 <div className="flex gap-6 items-center animate-scroll">
                   {/* First set of logos */}
-                  {[1, 2, 3, 4, 5, 6, 7].map((num) => (
+                  {[1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14].map((num) => (
                     <Image
-                      key={num}
+                      key={`first-${num}`}
                       src={`/logo/${num}.png`}
                       alt={`logo-${num}`}
+                      style={{filter: 'brightness(0) saturate(100%) invert(1)', minWidth: '94px'}}
                       width={94}
                       height={30}
                       className="flex-shrink-0"
                     />
                   ))}
                   {/* Duplicate set for seamless loop */}
-                  {[1, 2, 3, 4, 5, 6, 7].map((num) => (
+                  {[1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14].map((num) => (
                     <Image
                       key={`duplicate-${num}`}
                       src={`/logo/${num}.png`}
                       alt={`logo-${num}`}
+                      style={{filter: 'brightness(0) saturate(100%) invert(1)', minWidth: '94px'}}
                       width={94}
                       height={30}
                       className="flex-shrink-0"

@@ -1,18 +1,14 @@
-import { Hero } from "./hero";
-import { Info } from "./Info";
-import { ContactSection } from "./ContactInfo";
+import { InnovationForm } from "./InnovationForm";
+import { TeamSection } from "../Landingpage/TeamSection";
+import { LocationMap } from "./LocationMap";
 import { Footer } from "../Footer/footer";
-import { SupportProcess } from "./SupportProcess";
-import { SLAMaintenance } from "./SLAMaintenance";
 
 export default function Contact() {
   return (
     <div>
-      <Hero />
-      <Info />
-      <ContactSection />
-      <SupportProcess />
-      <SLAMaintenance />
+      <InnovationForm />
+      <TeamSection />
+      <LocationMap />
       <Footer />
     </div>
   );

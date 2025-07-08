@@ -12,7 +12,7 @@ export function SectorSection() {
         'Redes rápidas y seguras para una experiencia de huésped impecable, desde el check-in hasta el streaming.',
     },
     {
-      title: 'Hospitales',
+      title: 'Hospitales y residencias asistidas',
       icon: '/icons/hospitals.svg',
       image: '/images/hospitals.png',
       description:
@@ -32,6 +32,13 @@ export function SectorSection() {
       description:
         'Soluciones escalables y seguras para oficinas inteligentes, colaboración remota y productividad máxima.',
     },
+    {
+      title: 'Viviendas de alto nivel y propiedades gestionadas',
+      icon: '/icons/vivienda.svg',
+      image: '/images/corporate.png',
+      description:
+        'Soluciones escalables y seguras para oficinas inteligentes, colaboración remota y productividad máxima.',
+    },
   ];
 
   return (
@@ -39,7 +46,7 @@ export function SectorSection() {
       <div className="max-w-[1230px] mx-auto px-4 flex flex-col items-start gap-12">
         <div className="flex flex-col items-start gap-4">
           <p className="text-base text-[#646464]">Sectores que transformamos</p>
-          <h2 className="text-4xl text-[#0f4761] font-medium leading-snug max-w-[650px]">
+          <h2 className="text-[2.5rem] text-[#0f4761] leading-snug max-w-[700px]">
             Soluciones digitales diseñadas para las necesidades de cada industria.
           </h2>
         </div>

@@ -8,7 +8,7 @@ export function InnovationIASection() {
         <div className="rounded-[15px] bg-[#f7f8f9] p-8 flex gap-5 mb-18">
           <div className="w-[3px] h-[25px] bg-[#f0952a] rounded-full flex-shrink-0 mt-1"></div>
           <p className="text-[1.25rem] leading-[150%] text-[#0f4761]">
-            En IB360 entendemos la innovación como el motor de la transformación tecnológica real. Nuestro equipo trabaja en el desarrollo constante de soluciones personalizadas basadas en IA y tecnologías avanzadas, pensadas para anticipar las necesidades operativas de hoteles, hospitales y organizaciones corporativas.
+          En IB360 entendemos la innovación como el motor de la transformación tecnológica real. Nuestro equipo trabaja en el desarrollo constante de soluciones personalizadas basadas en IA y tecnologías avanzadas, pensadas para anticipar las necesidades operativas de hoteles, hospitales y organizaciones corporativas.
           </p>
         </div>
 
@@ -92,7 +92,7 @@ export function InnovationIASection() {
                   text: 'Desarrollo propio de soluciones a medida por sector',
                 },
               ].map((benefit, i) => (
-                <div key={i} className="flex flex-col items-center text-center gap-6">
+                <div key={i} className="flex flex-col items-left text-left gap-6">
                   {benefit.icon}
                   <p className="text-[0.875rem] leading-[140%] text-[#0f4761] max-w-[140px]">
                     {benefit.text}

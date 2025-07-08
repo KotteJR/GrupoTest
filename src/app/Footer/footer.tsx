@@ -53,27 +53,29 @@ export function Footer() {
             </div>
 
             {/* Company Logos */}
-            <div className="space-y-3">
-              <p className="text-white/60 text-xs uppercase tracking-wide">CONFÍAN EN NOSOTROS</p>
-              <div className="w-[450px] overflow-hidden relative" style={{maskImage: 'linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)'}}>
+            <div className="flex flex-col gap-4 mt-8">
+              <p className="text-sm text-white/80">CONFÍAN EN NOSOTROS</p>
+              <div className="w-[400px] overflow-hidden relative" style={{maskImage: 'linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)'}}>
                 <div className="flex gap-6 items-center animate-scroll">
                   {/* First set of logos */}
-                  {[1, 2, 3, 4, 5, 6, 7].map((num) => (
+                  {[1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14].map((num) => (
                     <Image
-                      key={num}
+                      key={`first-${num}`}
                       src={`/logo/${num}.png`}
                       alt={`logo-${num}`}
+                      style={{filter: 'brightness(0) saturate(100%) invert(1)', minWidth: '94px'}}
                       width={94}
                       height={30}
                       className="flex-shrink-0"
                     />
                   ))}
                   {/* Duplicate set for seamless loop */}
-                  {[1, 2, 3, 4, 5, 6, 7].map((num) => (
+                  {[1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14].map((num) => (
                     <Image
                       key={`duplicate-${num}`}
                       src={`/logo/${num}.png`}
                       alt={`logo-${num}`}
+                      style={{filter: 'brightness(0) saturate(100%) invert(1)', minWidth: '94px'}}
                       width={94}
                       height={30}
                       className="flex-shrink-0"

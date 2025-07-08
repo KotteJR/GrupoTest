@@ -116,15 +116,15 @@ export function FeaturesSection() {
     <div className="w-full bg-white text-[#0f4761] font-sans py-20">
       <div className="max-w-[1230px] mx-auto px-4">
         <div className="bg-[#f7f8f9] rounded-[20px] p-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-16">
-          {features.map((feature, idx) => (
-            <div key={idx} className="flex flex-col gap-5 items-start">
+        {features.map((feature, idx) => (
+          <div key={idx} className="flex flex-col gap-5 items-start">
               {feature.icon}
-              <div className="flex flex-col gap-3">
-                <h3 className="text-[1.25rem] font-medium">{feature.title}</h3>
-                <p className="text-[1.125rem] text-[#0f4761]">{feature.description}</p>
-              </div>
+            <div className="flex flex-col gap-3">
+              <h3 className="text-[1.25rem] font-medium">{feature.title}</h3>
+              <p className="text-[1.125rem] text-[#0f4761]">{feature.description}</p>
             </div>
-          ))}
+          </div>
+        ))}
         </div>
       </div>
     </div>

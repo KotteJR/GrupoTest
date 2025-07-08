@@ -7,12 +7,12 @@ export function ContactFormSection() {
         <div className="flex flex-col gap-5 mb-16">
           <h2 className="text-[2.375rem] font-medium leading-[120%] text-[#0f4761] text-center">
             Ponte en contacto con nosotros!
-          </h2>
+        </h2>
           <p className="text-[#646464] text-[1.125rem] leading-[130%] text-center">
-            Cuéntanos sobre tu proyecto y te ayudaremos a encontrar la mejor solución
-          </p>
-        </div>
-        
+          ¿Quieres más información sobre nuestras soluciones?
+        </p>
+      </div>
+
         <div className="flex bg-[#f7f8f9] rounded-[20px] p-12 relative">
 
 
@@ -86,27 +86,27 @@ export function ContactFormSection() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-medium text-[#0f4761] mb-1">Tu nombre</label>
-                  <input
-                    type="text"
+        <input
+          type="text"
                     placeholder="Tu nombre"
                     className="w-full h-[45px] rounded-[10px] bg-white px-4 text-[#646464] placeholder:text-[#9ca3af] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent"
-                  />
+        />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-[#0f4761] mb-1">Tu email <span className="text-red-500">*</span></label>
-                  <input
-                    type="email"
+        <input
+          type="email"
                     placeholder="Tu email *"
                     required
                     className="w-full h-[45px] rounded-[10px] bg-white px-4 text-[#646464] placeholder:text-[#9ca3af] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent"
-                  />
+        />
                 </div>
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-[#0f4761] mb-1">Asunto <span className="text-red-500">*</span></label>
-                <input
-                  type="text"
+        <input
+          type="text"
                   placeholder="Asunto *"
                   required
                   className="w-full h-[45px] rounded-[10px] bg-white px-4 text-[#646464] placeholder:text-[#9ca3af] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent"
@@ -115,22 +115,22 @@ export function ContactFormSection() {
 
               <div>
                 <label className="block text-sm font-medium text-[#0f4761] mb-1">Tu mensaje</label>
-                <textarea
+        <textarea
                   rows={2}
                   placeholder="Tu mensaje - Por favor incluye toda la información relevante"
                   className="w-full rounded-[10px] bg-white p-4 text-[#646464] placeholder:text-[#9ca3af] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent resize-none"
-                />
+        />
               </div>
 
               <div className="flex justify-end pt-2">
-                <button
-                  type="submit"
+        <button
+          type="submit"
                   className="bg-[#0f4761] text-white rounded-[10px] px-8 py-3 font-medium hover:bg-[#0d3c52] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#0f4761]/30 focus:ring-offset-2"
-                >
+        >
                   Enviar mensaje
-                </button>
+        </button>
               </div>
-            </form>
+      </form>
           </div>
         </div>
       </div>

@@ -10,7 +10,8 @@ const navLinks = [
   { name: "Innovación + IA", href: "/Innovation" },
   { name: "Proyectos", href: "/Projects" },
   { name: "Por qué IB360", href: "/PorQueIB360" },
-  { name: "Soporte 24/7", href: "/Contact" },
+  { name: "Soporte 24/7", href: "/Soporte" },
+  { name: "Contacto", href: "/Contact" },
 ];
 
 export function Header() {
@@ -56,20 +57,36 @@ export function Header() {
             priority
           />
         </Link>
-        <nav className="flex gap-6 text-base font-medium">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={
-                (pathname === link.href || (link.href === "/" && pathname === "/"))
-                  ? "text-[#f0952a]"
-                  : shouldBeTransparent ? "text-white hover:text-[#f0952a] transition-colors" : "text-[#646464] hover:text-[#f0952a] transition-colors"
-              }
-            >
-              {link.name}
-            </Link>
-          ))}
+        <nav className="flex gap-6 text-base font-medium items-center">
+          {navLinks.map((link) => {
+            const isContacto = link.name === "Contacto";
+            
+            if (isContacto) {
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="px-4 py-2 border-2 border-[#0f4761] text-white bg-[#0f4761] rounded-lg hover:bg-transparent hover:text-[#0f4761] transition-all duration-200 flex items-center"
+                >
+                  {link.name}
+                </Link>
+              );
+            }
+            
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={
+                  (pathname === link.href || (link.href === "/" && pathname === "/"))
+                    ? "text-[#f0952a] flex items-center"
+                    : shouldBeTransparent ? "text-white hover:text-[#f0952a] transition-colors flex items-center" : "text-[#646464] hover:text-[#f0952a] transition-colors flex items-center"
+                }
+              >
+                {link.name}
+              </Link>
+            );
+          })}
         </nav>
       </div>
     </header>

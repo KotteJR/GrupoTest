@@ -37,5 +37,6 @@ body {
 }
 
 .animate-scroll {
-  animation: scroll 10s linear infinite;
+  animation: scroll 28s linear infinite;
+  width: calc(100px * 28); /* 14 logos * 2 sets */
 }
