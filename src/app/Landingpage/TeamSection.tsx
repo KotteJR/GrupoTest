@@ -15,10 +15,9 @@ export function TeamSection() {
       phone: '+34 633 22 54 81',
     },
     {
-      name: 'Vladimir',
-      role: 'Desarrollo de Negocio & Smart Solutions',
-      email: 'vladimir@ib360.tech',
-      phone: '+34 646 03 88 08',
+      name: 'Oficinas Centrales',
+      email: 'info@grupoib360.com',
+      phone: '+34 971 20 15 20',
     },
   ];
 

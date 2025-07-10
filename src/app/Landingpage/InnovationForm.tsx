@@ -1,7 +1,5 @@
 'use client';
 
-import Image from 'next/image';
-
 export function InnovationForm() {
   return (
     <section className="w-full py-18 mb-6">

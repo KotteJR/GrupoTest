@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist_Mono } from "next/font/google";
+import { Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "./Footer/header";
 import { GlobalCapturePopup } from "./components/GlobalCapturePopup";
@@ -7,6 +7,12 @@ import { GlobalCapturePopup } from "./components/GlobalCapturePopup";
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -21,13 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-          rel="stylesheet"
-        />
-      </head>
-      <body className={`${geistMono.variable} antialiased font-sans bg-white`}>
+      <body className={`${inter.className} ${geistMono.variable} antialiased font-sans bg-white`}>
         <Header />
         {children}
         <GlobalCapturePopup />
