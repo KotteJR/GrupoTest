@@ -27,15 +27,14 @@ export function TeamSection() {
       <div className="max-w-[1230px] mx-auto px-4 flex flex-col gap-12 items-start">
         <div className="flex flex-col gap-4">
           <p className="text-base text-[#646464]">Conoce al equipo</p>
-          <h2 className="text-[2.5rem] text-[#0f4761] leading-snug max-w-[800px]">
-            Personas reales, respuestas rápidas.<br />
-            Estamos aquí para ayudarte.
+          <h2 className="text-[2.5rem] max-md:text-[2.125rem] text-[#0f4761] leading-snug max-w-[800px]">
+            Expertos en conectividad que transforman tu infraestructura digital
           </h2>
         </div>
 
         {/* Cards */}
         <div className="w-full">
-          <div className="grid grid-cols-3 gap-6">
+          <div className="grid grid-cols-3 gap-6 max-[900px]:grid-cols-1">
             {team.map(({ name, role, email, phone }) => (
               <div key={name} className="bg-[#f7f8f9] rounded-[20px] p-5 flex flex-col items-start">
 

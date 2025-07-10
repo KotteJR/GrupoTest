@@ -4,8 +4,8 @@ export function SLAMaintenance() {
   return (
     <div className="w-full bg-white text-[#0f4761] font-sans py-24">
       <div className="max-w-[1230px] mx-auto px-4">
-        <h2 className="text-[2rem]  mb-10">
-          Contratos de Mantenimiento y Acuerdos SLA
+        <h2 className="text-[2rem] max-md:text-[1.75rem] mb-10">
+          SLA y Servicios de Mantenimiento
         </h2>
 
         <div className="rounded-[15px] bg-[#f7f8f9] p-8 flex flex-col gap-6 text-[1.25rem] leading-[150%]">

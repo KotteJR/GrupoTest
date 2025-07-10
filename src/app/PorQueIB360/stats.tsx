@@ -55,7 +55,7 @@ function StatItem({ targetValue, suffix, label }: StatItemProps) {
 
   return (
     <div ref={elementRef} className="flex flex-col items-center">
-      <h3 className="text-[2rem] font-semibold bg-gradient-to-r from-[#0f4761] to-[#f0952a] text-transparent bg-clip-text mb-1">
+      <h3 className="text-[2rem] max-md:text-[1.75rem] font-semibold bg-gradient-to-r from-[#0f4761] to-[#f0952a] text-transparent bg-clip-text mb-1">
         {currentValue.toLocaleString()}{suffix}
       </h3>
       <p className="text-[#646464] text-[1.125rem]">{label}</p>
@@ -67,7 +67,7 @@ export function StatsSection() {
   return (
     <section className="w-full bg-white text-[#0f4761] font-sans py-10">
       <div className="max-w-[1230px] mx-auto px-4 text-center">
-        <h2 className="text-[2rem]  leading-tight">
+        <h2 className="text-[2rem] max-md:text-[1.75rem] leading-tight">
           Números que <br /> Hablan por Sí Solos
         </h2>
         <p className="text-[#646464] text-[1.125rem] mt-2 mb-12">

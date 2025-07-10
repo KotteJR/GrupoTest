@@ -112,18 +112,43 @@ export function TimelineSection() {
       <div className="max-w-[1230px] mx-auto px-4">
         <div className="mb-12">
           <p className="text-[#646464] text-[1.125rem] mb-2">Nuestra Historia</p>
-          <h2 className="text-[2.375rem]  leading-[120%]">
-            Nuestra Historia: Más de dos décadas de crecimiento e innovación tecnológica
+          <h2 className="text-[2.375rem] max-md:text-[2rem] leading-[120%]">
+            Timeline de <br /> Nuestra Historia
           </h2>
         </div>
 
         <div className="relative">
-          {/* Central vertical line */}
-          <div className="absolute top-0 left-1/2 w-[2px]  bg-[#f0952a] h-full -translate-x-1/2 z-0" />
+          {/* Central vertical line - desktop only */}
+          <div className="absolute top-0 left-1/2 w-[2px] bg-[#f0952a] h-full -translate-x-1/2 z-0 max-[768px]:hidden" />
+          
+          {/* Mobile timeline container - left aligned */}
+          <div className="min-[769px]:hidden relative">
+            {/* Left vertical line - mobile only */}
+            <div className="absolute top-0 left-[20px] w-[2px] bg-[#f0952a]/50 h-full z-0" />
+            
+            {/* Mobile timeline entries */}
+            {timelineItems.map((item, idx) => (
+              <div key={idx} className="relative z-10 mb-16 flex items-center gap-6">
+                {/* Icon on the left with line going through it */}
+                <div className="flex-shrink-0 relative z-20">
+                  {item.icon}
+                </div>
+                
+                {/* Content card on the right */}
+                <div className="bg-[#f7f8f9] p-4 rounded-[15px] flex-1">
+                  <p className="text-[#f0952a] font-semibold text-[1rem] mb-2">{item.year}</p>
+                  <h3 className="text-[1.125rem] font-medium mb-2">{item.title}</h3>
+                  <p className="text-[1rem] text-[#0f4761] leading-[150%]">
+                    {item.description}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
 
-          {/* Timeline entries */}
+          {/* Desktop timeline entries */}
           {timelineItems.map((item, idx) => (
-            <div key={idx} className="relative z-10 mb-16">
+            <div key={idx} className="relative z-10 mb-16 max-[768px]:hidden">
               <div
                 className={`${
                   item.side === "left"
@@ -140,7 +165,7 @@ export function TimelineSection() {
                 </div>
               </div>
 
-              {/* Icon on center line */}
+              {/* Desktop icon on center line */}
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
                 {item.icon}
               </div>

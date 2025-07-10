@@ -2,33 +2,44 @@
 
 export function ContactFormSection() {
   return (
-    <section className="w-full py-20 bg-white font-sans mb-4">
+    <section className="w-full py-18 mb-6 bg-white font-sans">
       <div className="max-w-[1230px] mx-auto px-4">
         <div className="flex flex-col gap-5 mb-16">
-          <h2 className="text-[2.375rem]  leading-[120%] text-[#0f4761] text-center">
+          <h2 className="text-[2.375rem] max-md:text-[2rem] leading-[120%] text-[#0f4761] text-center">
             Ponte en contacto con nosotros!
-          </h2>
+        </h2>
           <p className="text-[#646464] text-[1.125rem] leading-[130%] text-center">
-            Cuéntanos sobre tu proyecto y te ayudaremos a encontrar la mejor solución
-          </p>
-        </div>
-        
-        <div className="flex bg-[#f7f8f9] rounded-[20px] p-12 relative">
+          IB360 mantiene un roadmap abierto y en continua evolución en el desarrollo de soluciones avanzadas. <br /> Forme parte del futuro de la digitalización inteligente.
+        </p>
+      </div>
+
+        <div className="flex bg-[#f7f8f9] rounded-[20px] p-12 relative max-[850px]:flex-col max-[850px]:p-6 max-[850px]:gap-6">
 
 
 
           
           {/* Left Side - Contact Information (Overlapping) */}
-          <div className="absolute left-0 top-0 bg-[#0f4761] text-white p-12 w-[45%] rounded-[20px] z-10 h-full flex flex-col justify-center">
-            <h3 className="text-[1.5rem] font-semibold mb-8">Información de contacto</h3>
+          <div className="absolute left-0 top-0 bg-[#0f4761] text-white p-12 w-[45%] rounded-[20px] z-10 h-full flex flex-col justify-center max-[850px]:relative max-[850px]:w-full max-[850px]:p-6 max-[850px]:h-auto">
+            {/* Background curved lines */}
+            <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-20">
+              <svg width="120%" height="100%" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute top-0 right-0">
+                <circle cx="350" cy="50" r="120" fill="none" stroke="white" strokeWidth="2" strokeOpacity="0.15"/>
+                <circle cx="350" cy="50" r="90" fill="none" stroke="white" strokeWidth="1.5" strokeOpacity="0.2"/>
+                <circle cx="350" cy="50" r="60" fill="none" stroke="white" strokeWidth="1" strokeOpacity="0.25"/>
+                <circle cx="50" cy="250" r="80" fill="none" stroke="white" strokeWidth="1.5" strokeOpacity="0.1"/>
+                <circle cx="50" cy="250" r="50" fill="none" stroke="white" strokeWidth="1" strokeOpacity="0.15"/>
+              </svg>
+            </div>
             
-            <div className="space-y-8">
+            <h3 className="text-[1.5rem] font-semibold mb-8 max-[850px]:mb-4 max-[850px]:text-[1.25rem] relative z-10">Información de contacto</h3>
+            
+            <div className="space-y-8 max-[850px]:space-y-4 relative z-10">
               {/* Email */}
               <div className="flex items-start gap-4">
                 <div className="w-8 h-8 flex items-center justify-center mt-1">
-                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <path d="M3.33333 3.33334H16.6667C17.5833 3.33334 18.3333 4.08334 18.3333 5.00001V15C18.3333 15.9167 17.5833 16.6667 16.6667 16.6667H3.33333C2.41667 16.6667 1.66667 15.9167 1.66667 15V5.00001C1.66667 4.08334 2.41667 3.33334 3.33333 3.33334Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M18.3333 5L10 10.8333L1.66667 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="L22 6L12 13L2 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </div>
                 <div>
@@ -40,8 +51,8 @@ export function ContactFormSection() {
               {/* Phone */}
               <div className="flex items-start gap-4">
                 <div className="w-8 h-8 flex items-center justify-center mt-1">
-                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <path d="M18.3083 14.1L15.9083 13.7833C15.525 13.7333 15.1417 13.8417 14.8417 14.075L12.9917 15.4833C10.675 14.2917 8.70833 12.3333 7.51667 10.0083L8.93333 8.15C9.16667 7.85 9.275 7.46667 9.225 7.08333L8.90833 4.70833C8.825 3.94167 8.18333 3.375 7.40833 3.375H5.74167C4.875 3.375 4.15833 4.09167 4.20833 4.95833C4.60833 11.2333 9.76667 16.3833 16.0417 16.7833C16.9083 16.8333 17.625 16.1167 17.625 15.25V13.5833C17.6333 12.8167 17.075 12.1833 18.3083 14.1Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M22 16.92V19.92C22 20.52 21.39 21 20.66 21C9.11 21 0 11.89 0 0.34C0 -0.39 0.48 -1 1.08 -1H4.08C4.68 -1 5.08 -0.39 5.08 0.34C5.08 3.34 5.58 6.24 6.58 8.94C6.78 9.44 6.68 10.04 6.28 10.44L4.84 11.88C6.84 15.88 10.12 19.16 14.12 21.16L15.56 19.72C15.96 19.32 16.56 19.22 17.06 19.42C19.76 20.42 22.66 20.92 25.66 20.92C26.39 20.92 27 21.4 27 22Z" fill="currentColor"/>
                   </svg>
                 </div>
                 <div>
@@ -81,56 +92,57 @@ export function ContactFormSection() {
           </div>
 
           {/* Right Side - Form Content */}
-          <div className="ml-auto w-[55%] pl-8 flex items-center">
-            <form className="space-y-4 w-full">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="ml-auto w-[55%] pl-8 flex items-center max-[850px]:w-full max-[850px]:ml-0 max-[850px]:pl-0 relative">
+            
+            <form className="space-y-4 w-full relative z-10">
+                              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-[850px]:grid-cols-1">
                 <div>
                   <label className="block text-sm  text-[#0f4761] mb-1">Tu nombre</label>
-                  <input
-                    type="text"
+        <input
+          type="text"
                     placeholder="Tu nombre"
                     className="w-full h-[45px] rounded-[10px] bg-white px-4 text-[#646464] placeholder:text-[#9ca3af] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent"
-                  />
+        />
                 </div>
                 <div>
                   <label className="block text-sm  text-[#0f4761] mb-1">Tu email <span className="text-red-500">*</span></label>
-                  <input
-                    type="email"
+        <input
+          type="email"
                     placeholder="Tu email *"
                     required
                     className="w-full h-[45px] rounded-[10px] bg-white px-4 text-[#646464] placeholder:text-[#9ca3af] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent"
-                  />
+        />
                 </div>
               </div>
 
               <div>
                 <label className="block text-sm  text-[#0f4761] mb-1">Asunto <span className="text-red-500">*</span></label>
-                <input
-                  type="text"
+        <input
+          type="text"
                   placeholder="Asunto *"
                   required
                   className="w-full h-[45px] rounded-[10px] bg-white px-4 text-[#646464] placeholder:text-[#9ca3af] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent"
-                />
+        />
               </div>
 
               <div>
                 <label className="block text-sm  text-[#0f4761] mb-1">Tu mensaje</label>
-                <textarea
+        <textarea
                   rows={2}
                   placeholder="Tu mensaje - Por favor incluye toda la información relevante"
                   className="w-full rounded-[10px] bg-white p-4 text-[#646464] placeholder:text-[#9ca3af] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent resize-none"
-                />
+        />
               </div>
 
-              <div className="flex justify-start  pt-2">
-                <button
-                  type="submit"
+              <div className="flex justify-start pt-2">
+        <button
+          type="submit"
                   className="bg-[#0f4761] text-white rounded-[10px] px-8 py-3  hover:bg-[#0d3c52] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#0f4761]/30 focus:ring-offset-2"
-                >
+        >
                   Enviar mensaje
-                </button>
+        </button>
               </div>
-            </form>
+      </form>
           </div>
         </div>
       </div>

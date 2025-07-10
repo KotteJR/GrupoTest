@@ -15,13 +15,13 @@ export function InnovationIASection() {
         {/* Benefits Section */}
         <div className="flex flex-col gap-5">
           <p className="text-[#646464] text-[1.125rem] leading-[130%]">Benefits</p>
-          <h2 className="text-[2.375rem]  leading-[120%] text-[#0f4761] max-w-[650px] mb-10">
-            Lo Que Hacemos Por Tu Negocio con IA
+          <h2 className="text-[2.375rem] max-md:text-[2rem] leading-[120%] text-[#0f4761] max-w-[650px] mb-10">
+            Transformamos la conectividad con inteligencia artificial avanzada.
           </h2>
           
           {/* Benefits Grid */}
           <div className="rounded-[20px] bg-[#f7f8f9] p-8">
-            <div className="grid grid-cols-6 gap-8">
+            <div className="grid grid-cols-6 gap-8 max-[850px]:grid-cols-3 max-[850px]:gap-6">
               {[
                 {
                   icon: (

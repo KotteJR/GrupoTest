@@ -27,7 +27,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className={`${geistMono.variable} antialiased font-sans`}>
+      <body className={`${geistMono.variable} antialiased font-sans bg-white`}>
         <Header />
         {children}
         <GlobalCapturePopup />

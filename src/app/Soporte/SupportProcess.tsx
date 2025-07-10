@@ -27,12 +27,12 @@ export function SupportProcess() {
   return (
     <section className="w-full bg-white text-[#0f4761] font-sans py-4">
       <div className="max-w-[1230px] mx-auto px-4">
-        <h2 className="text-[2rem]  mb-10">Metodología de actuación técnica</h2>
+        <h2 className="text-[2rem] max-md:text-[1.75rem] mb-10">Metodología de actuación técnica</h2>
 
         <div className="bg-[#f7f8f9] p-8 rounded-[20px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">
           {steps.map((step, index) => (
-            <div key={index} className="flex flex-col items-left">
-              <div className="bg-[#dce3e8] text-[#0f4761] rounded-md w-[40px] h-[40px] flex items-center justify-center font-semibold mb-4">
+            <div key={index} className="flex max-[640px]:flex-row max-[640px]:items-center max-[640px]:gap-4 min-[641px]:flex-col min-[641px]:items-left">
+              <div className="bg-[#dce3e8] text-[#0f4761] rounded-md w-[40px] h-[40px] flex items-center justify-center font-semibold max-[640px]:flex-shrink-0 min-[641px]:mb-4">
                 {step.number}
               </div>
               <p className="text-[1rem] text-left">{step.label}</p>

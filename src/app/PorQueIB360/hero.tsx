@@ -16,7 +16,7 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center pt-[12rem] pb-[5rem] gap-6">
+      <div className="relative z-10 flex flex-col items-center justify-center pt-[12rem] pb-[5rem] px-4 gap-6">
 
         {/* Main Heading */}
         <h1 className="text-center text-[2.75rem] leading-[120%] max-w-[700px]">

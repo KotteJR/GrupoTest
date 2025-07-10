@@ -89,7 +89,7 @@ export function ProjectsSection() {
     <div className="w-full bg-white text-[#0f4761] font-sans py-14">
       <div className="max-w-[1230px] mx-auto px-4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12">
         {projects.map((project, idx) => (
-          <div key={idx} className="flex flex-col">
+          <div key={idx} className="flex flex-col max-[768px]:mb-8">
             {/* Number badge */}
             <div className="h-[3.25rem] w-[3.25rem] bg-[#fdf4ea] rounded-[15px] flex items-center justify-center text-[#f0952a] text-sm font-semibold">
               {project.number}

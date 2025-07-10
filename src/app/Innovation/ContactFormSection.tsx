@@ -5,7 +5,7 @@ export function ContactFormSection() {
     <section className="w-full py-18 mb-6 bg-white font-sans">
       <div className="max-w-[1230px] mx-auto px-4">
         <div className="flex flex-col gap-5 mb-16">
-          <h2 className="text-[2.375rem]  leading-[120%] text-[#0f4761] text-center">
+          <h2 className="text-[2.375rem] max-md:text-[2rem] leading-[120%] text-[#0f4761] text-center">
             Ponte en contacto con nosotros!
         </h2>
           <p className="text-[#646464] text-[1.125rem] leading-[130%] text-center">
@@ -13,16 +13,27 @@ export function ContactFormSection() {
         </p>
       </div>
 
-        <div className="flex bg-[#f7f8f9] rounded-[20px] p-12 relative">
+        <div className="flex bg-[#f7f8f9] rounded-[20px] p-12 relative max-[850px]:flex-col max-[850px]:p-6 max-[850px]:gap-6">
 
 
 
           
           {/* Left Side - Contact Information (Overlapping) */}
-          <div className="absolute left-0 top-0 bg-[#0f4761] text-white p-12 w-[45%] rounded-[20px] z-10 h-full flex flex-col justify-center">
-            <h3 className="text-[1.5rem] font-semibold mb-8">Información de contacto</h3>
+          <div className="absolute left-0 top-0 bg-[#0f4761] text-white p-12 w-[45%] rounded-[20px] z-10 h-full flex flex-col justify-center max-[850px]:relative max-[850px]:w-full max-[850px]:p-6 max-[850px]:h-auto">
+            {/* Background curved lines */}
+            <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-20">
+              <svg width="120%" height="100%" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute top-0 right-0">
+                <circle cx="350" cy="50" r="120" fill="none" stroke="white" strokeWidth="2" strokeOpacity="0.15"/>
+                <circle cx="350" cy="50" r="90" fill="none" stroke="white" strokeWidth="1.5" strokeOpacity="0.2"/>
+                <circle cx="350" cy="50" r="60" fill="none" stroke="white" strokeWidth="1" strokeOpacity="0.25"/>
+                <circle cx="50" cy="250" r="80" fill="none" stroke="white" strokeWidth="1.5" strokeOpacity="0.1"/>
+                <circle cx="50" cy="250" r="50" fill="none" stroke="white" strokeWidth="1" strokeOpacity="0.15"/>
+              </svg>
+            </div>
             
-            <div className="space-y-8">
+            <h3 className="text-[1.5rem] font-semibold mb-8 max-[850px]:mb-4 max-[850px]:text-[1.25rem] relative z-10">Información de contacto</h3>
+            
+            <div className="space-y-8 max-[850px]:space-y-4 relative z-10">
               {/* Email */}
               <div className="flex items-start gap-4">
                 <div className="w-8 h-8 flex items-center justify-center mt-1">
@@ -81,9 +92,10 @@ export function ContactFormSection() {
           </div>
 
           {/* Right Side - Form Content */}
-          <div className="ml-auto w-[55%] pl-8 flex items-center">
-            <form className="space-y-4 w-full">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="ml-auto w-[55%] pl-8 flex items-center max-[850px]:w-full max-[850px]:ml-0 max-[850px]:pl-0 relative">
+            
+            <form className="space-y-4 w-full relative z-10">
+                              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-[850px]:grid-cols-1">
                 <div>
                   <label className="block text-sm  text-[#0f4761] mb-1">Tu nombre</label>
         <input

@@ -23,11 +23,11 @@ export function TeamSection() {
   ];
 
   return (
-    <section className="w-full py-24">
+    <section className="w-full mb-12">
       <div className="max-w-[1230px] mx-auto px-4 flex flex-col gap-12 items-start">
         <div className="flex flex-col gap-4">
           <p className="text-base text-[#646464]">Conoce al equipo</p>
-          <h2 className="text-[2.5rem] text-[#0f4761] leading-snug max-w-[800px]">
+          <h2 className="text-[2.5rem] max-md:text-[2.125rem] text-[#0f4761] leading-snug max-w-[800px]">
             Personas reales, respuestas rápidas.<br />
             Estamos aquí para ayudarte.
           </h2>

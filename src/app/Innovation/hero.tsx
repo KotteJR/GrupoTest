@@ -17,7 +17,7 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center pt-[12rem] pb-[5rem] gap-6">
+      <div className="relative z-10 flex flex-col items-center justify-center pt-[12rem] pb-[5rem] px-4 gap-6">
         {/* Top Label */}
         <div className="flex items-center gap-2 text-sm text-[#0f4761]">
           <div className="w-1 h-1 bg-[#f0952a] rounded-full" />

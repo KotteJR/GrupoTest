@@ -13,17 +13,20 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  background: var(--background);
+  background: #ffffff !important;
   color: var(--foreground);
   font-family: var(--font-sf-pro);
+}
+
+/* Force white background for all pages */
+html {
+  background: #ffffff !important;
+}
+
+/* Override any dark mode styles */
+* {
+  color-scheme: light !important;
 }
 
 /* Logo scrolling animation */

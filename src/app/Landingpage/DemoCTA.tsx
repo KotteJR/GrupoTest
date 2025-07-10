@@ -21,7 +21,7 @@ export function DemoCTA() {
 
         {/* Content */}
         <div className="relative z-10 flex flex-col items-center text-center text-white gap-6">
-          <h2 className="text-[2.5rem] leading-snug">
+          <h2 className="text-[2.5rem] max-md:text-[2.125rem] leading-snug">
             El futuro no espera. <br />
             Digitaliza tu experiencia ahora.
           </h2>

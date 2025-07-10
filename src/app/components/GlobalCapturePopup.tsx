@@ -74,7 +74,7 @@ export function GlobalCapturePopup({ onClose }: GlobalCapturePopupProps) {
     <>
       {/* Backdrop */}
       <div 
-        className={`fixed inset-0 bg-black bg-opacity-50 z-[9998] transition-opacity duration-300 ${
+        className={`fixed inset-0 backdrop-blur-lg z-[9998] transition-opacity duration-300 ${
           isVisible ? 'opacity-100' : 'opacity-0'
         }`}
         onClick={handleClose}
@@ -86,7 +86,7 @@ export function GlobalCapturePopup({ onClose }: GlobalCapturePopupProps) {
           isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
         }`}
       >
-        <div className="relative w-full max-w-[400px] bg-transparent rounded-2xl shadow-2xl overflow-hidden">
+        <div className="relative w-full max-w-[400px] bg-white/60 backdrop-blur-lg rounded-2xl shadow-2xl overflow-hidden">
           {/* Close Button */}
           <button
             onClick={handleClose}

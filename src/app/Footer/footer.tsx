@@ -5,14 +5,14 @@ import Image from 'next/image';
 export function Footer() {
   return (
     <footer className="relative w-full bg-[#0f4761] text-white font-sans overflow-hidden">
-      {/* SVG Background */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[90%] h-[70%] flex items-start justify-center">
+      {/* SVG Background - same logic as hero, but upside down and flush with top */}
+      <div className="absolute top-[-25rem] left-1/2 -translate-x-1/2 w-[1200px] h-[1100px] flex items-center justify-center pointer-events-none select-none">
         <Image
           src="/heros/Footer.svg"
           alt=""
-          width={1000}
+          width={1200}
           height={400}
-          className="w-full h-full object-contain opacity-60 rotate-180"
+          className="object-contain opacity-60 rotate-180"
         />
       </div>
 
@@ -41,7 +41,7 @@ export function Footer() {
         {/* Footer Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-8">
           {/* Left Column */}
-          <div className="space-y-6">
+          <div className="space-y-6 flex flex-col items-start order-2 md:order-1">
             {/* Logo and Company Info */}
             <div className="space-y-3">
               <Image src="/logo/grupoib360white.png" alt="IB360 Logo" width={80} height={40} />
@@ -55,10 +55,10 @@ export function Footer() {
             {/* Company Logos */}
             <div className="flex flex-col gap-4 mt-8">
               <p className="text-sm text-white/80">CONFÍAN EN NOSOTROS</p>
-              <div className="w-[400px] overflow-hidden relative" style={{maskImage: 'linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)'}}>
+              <div className="w-[400px] max-sm:w-full overflow-hidden relative" style={{maskImage: 'linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)'}}>
                 <div className="flex gap-6 items-center animate-scroll">
                   {/* First set of logos */}
-                  {[1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14].map((num) => (
+                  {[1, 2, 3, 4, 5, 6, 8, 10, 11, 12, 13, 14].map((num) => (
                     <Image
                       key={`first-${num}`}
                       src={`/logo/${num}.png`}
@@ -70,7 +70,7 @@ export function Footer() {
                     />
                   ))}
                   {/* Duplicate set for seamless loop */}
-                  {[1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14].map((num) => (
+                  {[1, 2, 3, 4, 5, 6, 8, 10, 11, 12, 13, 14].map((num) => (
                     <Image
                       key={`duplicate-${num}`}
                       src={`/logo/${num}.png`}
@@ -92,36 +92,38 @@ export function Footer() {
           </div>
 
           {/* Right Column */}
-          <div className="space-y-8 ml-auto">
-            {/* Links */}
-            <div>
-              <h3 className="text-white  mb-3">Links</h3>
-              <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/70">
-                <span>Soluciones</span>
-                <span>Sectores</span>
-                <span>Proyectos</span>
-                <span>Contacto</span>
-                <span>Descargas</span>
+          <div className="flex flex-col md:items-end order-1 md:order-2">
+            <div className="space-y-8">
+              {/* Links */}
+              <div className="text-left">
+                <h3 className="text-white mb-3">Links</h3>
+                <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/70">
+                  <span>Soluciones</span>
+                  <span>Sectores</span>
+                  <span>Proyectos</span>
+                  <span>Contacto</span>
+                  <span>Descargas</span>
+                </div>
               </div>
-            </div>
 
-            {/* Legal Links */}
-            <div>
-              <h3 className="text-white  mb-3">Legal Links</h3>
-              <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/70">
-                <span>Aviso Legal</span>
-                <span>Política de privacidad</span>
-                <span>Cookies</span>
+              {/* Legal Links */}
+              <div className="text-left">
+                <h3 className="text-white mb-3">Legal Links</h3>
+                <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/70">
+                  <span>Aviso Legal</span>
+                  <span>Política de privacidad</span>
+                  <span>Cookies</span>
+                </div>
               </div>
-            </div>
 
-            {/* Socials */}
-            <div>
-              <h3 className="text-white  mb-3">Socials</h3>
-              <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/70">
-                <span>LinkedIn</span>
-                <span>Facebook</span>
-                <span>X (Formally Twitter)</span>
+              {/* Socials */}
+              <div className="text-left mb-10">
+                <h3 className="text-white mb-3">Socials</h3>
+                <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/70">
+                  <span>LinkedIn</span>
+                  <span>Facebook</span>
+                  <span>X (Formally Twitter)</span>
+                </div>
               </div>
             </div>
           </div>
