@@ -7,7 +7,7 @@ export function InnovationIASection() {
         {/* Intro Paragraph */}
         <div className="rounded-[15px] bg-[#f7f8f9] p-8 flex gap-5 mb-18">
           <div className="w-[3px] h-[25px] bg-[#f0952a] rounded-full flex-shrink-0 mt-1"></div>
-          <p className="text-[1.25rem] leading-[150%] text-[#0f4761]">
+          <p className="text-[1.125rem] leading-[150%] text-[#0f4761]">
           En IB360 entendemos la innovación como el motor de la transformación tecnológica real. Nuestro equipo trabaja en el desarrollo constante de soluciones personalizadas basadas en IA y tecnologías avanzadas, pensadas para anticipar las necesidades operativas de hoteles, hospitales y organizaciones corporativas.
           </p>
         </div>
@@ -15,13 +15,13 @@ export function InnovationIASection() {
         {/* Benefits Section */}
         <div className="flex flex-col gap-5">
           <p className="text-[#646464] text-[1.125rem] leading-[130%]">Benefits</p>
-          <h2 className="text-[2.375rem] max-md:text-[2rem] leading-[120%] text-[#0f4761] max-w-[650px] mb-10">
+          <h2 className="md:text-[2.5rem] text-[2rem] max-md:text-[2.125rem] leading-[120%] text-[#0f4761] max-w-[650px] mb-10">
             Transformamos la conectividad con inteligencia artificial avanzada.
           </h2>
           
           {/* Benefits Grid */}
           <div className="rounded-[20px] bg-[#f7f8f9] p-8">
-            <div className="grid grid-cols-6 gap-8 max-[850px]:grid-cols-3 max-[850px]:gap-6">
+            <div className="grid grid-cols-6 gap-8 max-[850px]:grid-cols-2 max-[850px]:gap-6">
               {[
                 {
                   icon: (

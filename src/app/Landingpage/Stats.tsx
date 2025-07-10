@@ -80,7 +80,7 @@ export function Stats() {
   return (
     <section className="w-full bg-white text-[#0f4761] font-sans py-10">
       <div className="max-w-[1230px] mx-auto px-4 text-center">
-        <h2 className="text-[2rem] max-md:text-[1.75rem] leading-tight">
+        <h2 className="md:text-[2.5rem] text-[2rem] max-md:text-[2.125rem] leading-tight">
           Números que <br /> Hablan por Sí Solos
         </h2>
         <p className="text-[#646464] text-[1.125rem] mt-2 mb-12">

@@ -12,7 +12,7 @@ export function InnovationForm() {
               INNOVACIÓN Y IA
             </div>
           </div>
-          <h2 className="text-[2.375rem] max-md:text-[2rem] leading-[120%] text-[#0f4761] text-center">
+          <h2 className="md:text-[2.5rem] text-[2rem] max-md:text-[2.125rem] leading-[120%] text-[#0f4761] text-center">
           Lo que hoy es innovación, mañana será imprescindible.
           </h2>
         </div>

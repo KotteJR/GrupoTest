@@ -36,7 +36,7 @@ export function SuccessCases() {
     >
       <div className="max-w-[1230px] mx-auto px-4 w-full flex flex-col items-center md:items-center max-md:items-start gap-4 text-center max-md:text-left">
         <p className="text-base text-[#646464]">Casos de Éxito</p>
-        <h2 className="text-[2.5rem] max-md:text-[2.125rem] text-[#0f4761] leading-snug">
+        <h2 className="md:text-[2.5rem] text-[2rem] max-md:text-[2.125rem] text-[#0f4761] leading-snug">
           Empresas líderes que ya <br />
           confiaron en nuestras soluciones.
         </h2>

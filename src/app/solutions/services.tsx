@@ -218,7 +218,7 @@ export function Services() {
                   <div key={i} className="flex flex-col gap-2 text-left">
                     <div className="text-[1.5rem] font-semibold leading-[130%] text-[#f0952a] max-[900px]:text-[1.5rem]">{stat.value}</div>
                     <div className="text-sm leading-[130%] text-[#0f4761] max-[900px]:text-[0.813rem]">{stat.label}</div>
-                  </div>
+              </div>
                 ))}
               </div>
             </div>

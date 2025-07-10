@@ -6,8 +6,8 @@ export function LocationMap() {
       <div className="max-w-[1230px] mx-auto px-4 flex flex-col gap-12">
         {/* Header */}
         <div className="flex flex-col gap-4 text-left">
-          <h2 className="text-[2.5rem] max-md:text-[2.125rem] text-[#0f4761] leading-snug">
-            Ponte en contacto con nosotros
+          <h2 className="md:text-[2.5rem] text-[2rem] max-md:text-[2.125rem] text-[#0f4761] leading-snug">
+          Visíta GrupoIB360
           </h2>
           <p className="text-lg text-[#646464] max-w-[600px]">
             Visítanos en nuestra sede física en Palma, Illes Balears. <br />

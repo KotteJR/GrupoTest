@@ -5,7 +5,7 @@ export function ContactFormSection() {
     <section className="w-full py-18 mb-6 bg-white font-sans">
       <div className="max-w-[1230px] mx-auto px-4">
         <div className="flex flex-col gap-5 mb-16">
-          <h2 className="text-[2.375rem] max-md:text-[2rem] leading-[120%] text-[#0f4761] text-center">
+          <h2 className="md:text-[2.5rem] text-[2rem] max-md:text-[2.125rem] leading-[120%] text-[#0f4761] text-center">
             Ponte en contacto con nosotros!
         </h2>
           <p className="text-[#646464] text-[1.125rem] leading-[130%] text-center">

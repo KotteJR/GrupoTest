@@ -1,4 +1,4 @@
-import { InnovationForm } from "./InnovationForm";
+import { InnovationForm } from "./ContactForm";
 import { TeamSection } from "../Landingpage/TeamSection";
 import { LocationMap } from "./LocationMap";
 import { Footer } from "../Footer/footer";

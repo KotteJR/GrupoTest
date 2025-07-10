@@ -8,7 +8,7 @@ export function SLAMaintenance() {
           SLA y Servicios de Mantenimiento
         </h2>
 
-        <div className="rounded-[15px] bg-[#f7f8f9] p-8 flex flex-col gap-6 text-[1.25rem] leading-[150%]">
+        <div className="rounded-[15px] bg-[#f7f8f9] p-8 flex flex-col gap-6 text-[1.125rem] leading-[150%]">
           {/* Top paragraph with bar */}
           <div className="flex gap-5">
             <div className="w-[3px] h-[25px] bg-[#f0952a] rounded-full flex-shrink-0 mt-1" />

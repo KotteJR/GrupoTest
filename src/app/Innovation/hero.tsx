@@ -27,7 +27,7 @@ export function Hero() {
         </div>
 
         {/* Main Heading */}
-        <h1 className="text-center text-[2.75rem] leading-[120%] max-w-[700px]">
+        <h1 className="text-center md:text-[2.5rem] text-[2rem] max-md:text-[2.125rem] leading-[120%] max-w-[700px]">
         Innovación & IA: <br /> El futuro operativo ya está aquí.
         </h1>
 

@@ -20,7 +20,7 @@ export function Hero() {
       <div className="relative z-10 flex flex-col items-center justify-center pt-[10rem] pb-[2rem] px-4 gap-6">
 
         {/* Main Heading */}
-        <h1 className="text-center text-[2.75rem] leading-[120%] max-w-[700px]">
+        <h1 className="text-center md:text-[2.5rem] text-[2rem] max-md:text-[2.125rem] leading-[120%] max-w-[700px]">
         Proyectos realizados:<br />Soluciones aplicadas en el mundo real.
         </h1>
 

@@ -27,7 +27,7 @@ export function TeamSection() {
       <div className="max-w-[1230px] mx-auto px-4 flex flex-col gap-12 items-start">
         <div className="flex flex-col gap-4">
           <p className="text-base text-[#646464]">Conoce al equipo</p>
-          <h2 className="text-[2.5rem] max-md:text-[2.125rem] text-[#0f4761] leading-snug max-w-[800px]">
+          <h2 className="md:text-[2.5rem] text-[2rem] max-md:text-[2.125rem] text-[#0f4761] leading-snug max-w-[800px]">
             Expertos en conectividad que transforman tu infraestructura digital
           </h2>
         </div>

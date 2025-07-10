@@ -19,10 +19,8 @@ export function InnovationForm() {
       <div className="relative z-10 max-w-[1230px] mx-auto px-4 pt-[14rem] max-[850px]:pt-[9rem] pb-[02rem] flex max-[850px]:flex-col items-stretch justify-between gap-20 max-[850px]:gap-8">
         {/* Left Content - Title and Description */}
         <div className="flex flex-col justify-start max-w-[500px] max-[850px]:max-w-none max-[850px]:items-center max-[850px]:text-center">
-          <h2 className="text-[2.5rem] max-md:text-[2.125rem] text-[#0f4761] leading-snug max-w-[800px] mb-4">
-            Conectamos personas, ideas <br />
-            y tecnología para crear <br />
-            el futuro digital.
+          <h2 className="md:text-[2.5rem] text-[2rem] max-md:text-[2.125rem] text-[#0f4761] leading-snug max-w-[800px] mb-4">
+          Contacta con IB360
           </h2>
 
           <p className="text-lg max-[850px]:text-base text-[#646464] max-[850px]:max-w-[600px] max-[850px]:leading-relaxed">

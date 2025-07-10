@@ -32,10 +32,10 @@ export function HeroSection() {
         <div className="flex justify-between items-end max-md:block">
           {/* Left Content */}
           <div className="flex flex-col gap-2 max-w-[1000px]">
-            <h1 className="text-[2.75rem] leading-tight mb-1">
+            <h1 className="md:text-[2.75rem] text-[2rem] leading-tight mb-1">
               Tecnología que cumple. <br /> Equipo que responde.
             </h1>
-            <p className="text-lg text-white/90">
+            <p className="text-lg text-white/90 md:max-w-[700px]">
             Soluciones tecnológicas integrales para hoteles, hospitales, residencias asistidas y empresas: redes GPON, WiFi 6/7, sistemas control paciente-enfermera, IA y digitalización completa. Conectividad, inteligencia y control en un solo partner.            </p>
             <div className="flex gap-4">
               <Link href="/Contact" className="bg-white text-[#f0952a]  py-3 px-6 rounded-full flex items-center gap-2 text-sm mt-6 mb-2 md:mb-7">

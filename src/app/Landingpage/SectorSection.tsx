@@ -46,7 +46,7 @@ export function SectorSection() {
       <div className="max-w-[1230px] mx-auto px-4 flex flex-col items-start gap-12">
         <div className="flex flex-col items-start gap-4">
           <p className="text-base text-[#646464]">Sectores que transformamos</p>
-          <h2 className="text-[2.5rem] max-md:text-[2.125rem] text-[#0f4761] leading-snug max-w-[700px]">
+          <h2 className="md:text-[2.5rem] text-[2rem] max-md:text-[2.125rem] text-[#0f4761] leading-snug max-w-[700px]">
             Soluciones digitales diseñadas para las necesidades de cada industria.
           </h2>
         </div>
