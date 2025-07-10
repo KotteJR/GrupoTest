@@ -6,6 +6,13 @@
 import fs from 'fs';
 import path from 'path';
 
+// This is the standard way to extend the global object in TypeScript
+// to avoid using `any`. This tells TypeScript about our singleton instance.
+declare global {
+  // eslint-disable-next-line no-var
+  var __knowledgeBaseInstance: KnowledgeBase | undefined;
+}
+
 // --- 1. DEFINE DATA STRUCTURES ---
 interface DocumentChunk {
   id: string;
@@ -25,12 +32,12 @@ class KnowledgeBase {
   private constructor() {}
 
   public static getInstance(): KnowledgeBase {
-    if (!(globalThis as any).__knowledgeBaseInstance) {
-      (globalThis as any).__knowledgeBaseInstance = new KnowledgeBase();
+    if (!globalThis.__knowledgeBaseInstance) {
+      globalThis.__knowledgeBaseInstance = new KnowledgeBase();
     }
-    return (globalThis as any).__knowledgeBaseInstance;
+    return globalThis.__knowledgeBaseInstance;
   }
-  
+
   // --- Main Initialization Logic ---
   public async initialize() {
     if (this.isInitialized) {
@@ -39,7 +46,7 @@ class KnowledgeBase {
     this.isInitialized = true; // Prevent re-initialization
 
     const filePath = path.join(process.cwd(), 'public', 'knowledge-base.json');
-    
+
     try {
       console.log("[KB Loader] Loading pre-built knowledge base...");
       const fileContent = fs.readFileSync(filePath, 'utf-8');
@@ -57,7 +64,7 @@ class KnowledgeBase {
   getStats = () => ({
     totalChunks: this.store.length,
     isInitialized: this.isInitialized,
-    files: [...new Set(this.store.map((doc) => doc.metadata.filename))],
+    files: [...new Set(this.store.map((doc: DocumentChunk) => doc.metadata.filename))],
     sourceFile: 'public/knowledge-base.json'
   });
 }
