@@ -20,14 +20,14 @@ export function LocationMap() {
           {/* Google Maps Embed */}
           <div className="flex-1 bg-[#f3f3f3] border-[6px] border-[#f8f8f8] rounded-[20px] overflow-hidden max-[768px]:aspect-square max-[768px]:h-auto">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.2847935683594!2d2.6503!3d39.5696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297925c4c7b15a7%3A0x0!2ePalma%2C%20Illes%20Balears%2C%20Spain!5e0!3m2!1sen!2ses!4v1629876543210!5m2!1sen!2ses"
+              src="https://maps.google.com/maps?q=Carrer+de+la+Innovació+12,+07010+Palma,+Illes+Balears,+España&t=&z=16&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="IB360 Location - Palma, Illes Balears"
+              title="IB360 Location - Carrer de la Innovació 12, Palma, Illes Balears"
             />
           </div>
 

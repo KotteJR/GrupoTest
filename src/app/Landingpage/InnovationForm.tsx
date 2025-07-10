@@ -103,17 +103,17 @@ export function InnovationForm() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-[850px]:grid-cols-1">
                 <div>
                   <label className="block text-sm text-[#0f4761] mb-1">Nombre</label>
-                  <input
-                    type="text"
-                    placeholder="Nombre"
+                <input 
+                  type="text" 
+                  placeholder="Nombre" 
                     className="w-full h-[45px] rounded-[10px] bg-white px-4 text-[#646464] placeholder:text-[#9ca3af] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent"
-                  />
+                />
                 </div>
                 <div>
                   <label className="block text-sm text-[#0f4761] mb-1">Empresa</label>
-                  <input
-                    type="text"
-                    placeholder="Empresa"
+                <input 
+                  type="text" 
+                  placeholder="Empresa" 
                     className="w-full h-[45px] rounded-[10px] bg-white px-4 text-[#646464] placeholder:text-[#9ca3af] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent"
                   />
                 </div>
@@ -128,15 +128,15 @@ export function InnovationForm() {
                   className="w-full h-[45px] rounded-[10px] bg-white px-4 text-[#646464] placeholder:text-[#9ca3af] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent"
                 />
               </div>
-
+              
               <div className="flex justify-start pt-2">
                 <button
                   type="submit"
                   className="bg-[#0f4761] text-white rounded-[10px] px-8 py-3 hover:bg-[#0d3c52] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#0f4761]/30 focus:ring-offset-2"
                 >
                   Reserva tu demo ahora
-                </button>
-              </div>
+              </button>
+            </div>
             </form>
 
           </div>

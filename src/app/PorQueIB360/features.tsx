@@ -121,7 +121,7 @@ export function FeaturesSection() {
               {feature.icon}
             <div className="flex flex-col gap-3">
               <h3 className="text-[1.25rem] font-medium ">{feature.title}</h3>
-              <p className="text-[1.125rem] text-[#0f4761]">{feature.description}</p>
+              <p className="text-[1.05rem] text-[#0f4761]">{feature.description}</p>
             </div>
           </div>
         ))}

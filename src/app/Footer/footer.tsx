@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 export function Footer() {
   return (
@@ -98,11 +99,11 @@ export function Footer() {
               <div className="text-left">
                 <h3 className="text-white mb-3">Links</h3>
                 <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/70">
-                  <span>Soluciones</span>
-                  <span>Sectores</span>
-                  <span>Proyectos</span>
-                  <span>Contacto</span>
-                  <span>Descargas</span>
+                  <Link href="/solutions" className="hover:text-white transition-colors">Soluciones</Link>
+                  <Link href="/PorQueIB360" className="hover:text-white transition-colors">Sectores</Link>
+                  <Link href="/Projects" className="hover:text-white transition-colors">Proyectos</Link>
+                  <Link href="/Contact" className="hover:text-white transition-colors">Contacto</Link>
+                  <Link href="/Innovation" className="hover:text-white transition-colors">Innovación</Link>
                 </div>
               </div>
 
@@ -110,9 +111,8 @@ export function Footer() {
               <div className="text-left">
                 <h3 className="text-white mb-3">Legal Links</h3>
                 <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/70">
-                  <span>Aviso Legal</span>
-                  <span>Política de privacidad</span>
-                  <span>Cookies</span>
+                  <Link href="/aviso-legal" className="hover:text-white transition-colors">Aviso Legal</Link>
+                  <Link href="/politica-privacidad" className="hover:text-white transition-colors">Política de privacidad</Link>
                 </div>
               </div>
 
@@ -120,9 +120,9 @@ export function Footer() {
               <div className="text-left mb-10">
                 <h3 className="text-white mb-3">Socials</h3>
                 <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/70">
-                  <span>LinkedIn</span>
-                  <span>Facebook</span>
-                  <span>X (Formally Twitter)</span>
+                  <a href="https://linkedin.com/company/ib360" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
+                  <a href="https://facebook.com/ib360tech" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Facebook</a>
+                  <a href="https://twitter.com/ib360tech" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">X (Formally Twitter)</a>
                 </div>
               </div>
             </div>
