@@ -45,7 +45,7 @@ class KnowledgeBase {
       const fileContent = fs.readFileSync(filePath, 'utf-8');
       this.store = JSON.parse(fileContent);
       console.log(`✅ [KB Loader] Successfully loaded ${this.store.length} chunks.`);
-    } catch (error) {
+    } catch {
       console.error("🔴 [KB Loader] Fatal Error: Could not load 'public/knowledge-base.json'.");
       console.error("   Did the build process fail? The chatbot will not have knowledge.");
       // Keep the store empty, the API will handle this gracefully.
@@ -57,7 +57,7 @@ class KnowledgeBase {
   getStats = () => ({
     totalChunks: this.store.length,
     isInitialized: this.isInitialized,
-    files: [...new Set(this.store.map(doc => doc.metadata.filename))],
+    files: [...new Set(this.store.map((doc) => doc.metadata.filename))],
     sourceFile: 'public/knowledge-base.json'
   });
 }

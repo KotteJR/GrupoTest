@@ -44,7 +44,7 @@ export default function AdminPage() {
       <div className="container mx-auto p-4 sm:p-8">
         <header className="mb-8">
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-800">Knowledge Base Admin</h1>
-          <p className="text-gray-500 mt-1">Status of the RAG Assistant's knowledge</p>
+          <p className="text-gray-500 mt-1">Status of the RAG Assistant&apos;s knowledge</p>
         </header>
 
         <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200 mb-8">
@@ -79,7 +79,7 @@ export default function AdminPage() {
             </div>
             
             <div className="mt-8 bg-blue-50 text-blue-800 p-4 rounded-lg border border-blue-200">
-              <h3 className="font-bold">How it Works:</h3>
+              <h3 className="font-bold">How It Works:</h3>
               <p>The system automatically reads all supported files from the `KNOWLEDGE_BASE` folder when the server starts. To add or remove knowledge, simply change the files in that folder and restart the server.</p>
             </div>
           </>

@@ -77,7 +77,7 @@ export default function ChatAssistant({ isOpen, onClose }: ChatAssistantProps) {
         role: 'assistant',
         content: data.response,
         isMock: data.isMock,
-        sources: data.sources?.map((s: any) => ({
+        sources: data.sources?.map((s: { id: string, filename: string, content: string, similarity: number }) => ({
           id: s.id,
           filename: s.filename || 'Unknown Source',
           content: s.content,

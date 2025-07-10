@@ -219,11 +219,9 @@ ${context}`;
       isMock: false,
     });
 
-  } catch (error: any) {
+  } catch (error) {
     console.error('Fatal Chat API error:', error);
-    // In case of a fatal error, we can't get the query from req.json(),
-    // so we provide a generic helpful response.
-    const mock = getSmarterMockResponse('help'); 
+    const mock = getSmarterMockResponse('help');
     return NextResponse.json({
       response: mock.response,
       sources: mock.sources,
