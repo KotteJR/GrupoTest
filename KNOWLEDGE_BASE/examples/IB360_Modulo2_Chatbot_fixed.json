@@ -1,0 +1,9 @@
+[
+  {
+    "category": "Cabeceras TV / IPTV / Hotel TV",
+    "intent": "iptv_solutions",
+    "user_input": "¿Qué soluciones IPTV y Hotel TV ofrece IB360?",
+    "bot_response": "IB360 ofrece soluciones completas para distribución de contenidos en red: desde cabeceras IPTV multicanal (DVB-S/T/C a IP) hasta sistemas interactivos de entretenimiento en pantalla (basados en STB Android certificados). Integramos TV en habitaciones, zonas comunes y señalética informativa con una única infraestructura, con posibilidad de añadir control remoto de contenido, integración con PMS, mensajería directa al huésped y plataformas como Netflix o Prime Video mediante enlace QR. Además, ofrecemos todo esto sin cuotas mensuales, con soporte técnico local.",
+    "priority": "alta"
+  }
+]

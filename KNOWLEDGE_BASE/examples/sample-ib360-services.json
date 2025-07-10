@@ -1,0 +1,47 @@
+{
+  "company": "IB360",
+  "services": [
+    {
+      "category": "wifi",
+      "name": "WiFi Profesional",
+      "description": "Redes WiFi de alta densidad para hoteles con cobertura completa y gestión centralizada",
+      "features": [
+        "Puntos de acceso gestionables",
+        "Cobertura en todas las zonas",
+        "Sistemas mesh anti-zonas muertas",
+        "Gestión desde recepción"
+      ],
+      "target": "hoteles, empresas, hospitales"
+    },
+    {
+      "category": "iptv", 
+      "name": "Sistemas IPTV",
+      "description": "Televisión digital para hoteles con canales internacionales y gestión remota",
+      "features": [
+        "Cabeceras digitales híbridas",
+        "Canales internacionales",
+        "Integración con PMS",
+        "Canal informativo personalizable"
+      ],
+      "target": "hoteles, hospitales"
+    },
+    {
+      "category": "telephony",
+      "name": "Telefonía IP",
+      "description": "Centralitas VoIP con integración hotelera y tarifas reducidas",
+      "features": [
+        "Sistemas VoIP avanzados",
+        "Centralitas virtuales", 
+        "Integración con software hotelero",
+        "Llamadas internas gratuitas"
+      ],
+      "target": "hoteles, empresas"
+    }
+  ],
+  "contact": {
+    "location": "Mallorca, Islas Baleares",
+    "email": "info@ib360.es",
+    "website": "www.ib360.es",
+    "experience": "15+ años"
+  }
+} 

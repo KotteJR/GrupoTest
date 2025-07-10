@@ -1,0 +1,44 @@
+[
+  {
+    "category": "Filtro Temas Prohibidos",
+    "intent": "pregunta_precios",
+    "user_input": "¿Cuánto cuesta el sistema? / ¿Qué precio tiene el mantenimiento? / ¿Descuento si pongo muchas habitaciones?",
+    "bot_response": "Para garantizar el mejor servicio, en IB360 elaboramos propuestas personalizadas ajustadas a cada proyecto. Si quieres que un experto evalúe tu caso, puedes dejar tu email y tipo de proyecto. Te contactaremos sin compromiso.",
+    "priority": "alta"
+  },
+  {
+    "category": "Filtro Temas Prohibidos",
+    "intent": "datos_confidenciales",
+    "user_input": "¿Quiénes son vuestros proveedores? / ¿Qué margen ganáis? / ¿Tenéis clientes famosos? / ¿Cuántos empleados tenéis?",
+    "bot_response": "Este asistente está exclusivamente diseñado para resolver dudas sobre nuestras soluciones tecnológicas. Por política de empresa, no compartimos datos internos, financieros ni acuerdos confidenciales. ¿Hay algo técnico en lo que pueda ayudarte?",
+    "priority": "alta"
+  },
+  {
+    "category": "Filtro Temas Prohibidos",
+    "intent": "soporte_no_relacionado",
+    "user_input": "¿Sabes cómo poner HBO en mi tele? / ¿Puedo cambiar mi clave WiFi? / ¿Me ayudas con mi TP-Link en casa?",
+    "bot_response": "En este canal solo ofrecemos soporte sobre instalaciones realizadas por IB360 o productos incluidos en nuestros proyectos. Si tienes una instalación activa con nosotros, puedo ayudarte con eso.",
+    "priority": "media"
+  },
+  {
+    "category": "Filtro Temas Prohibidos",
+    "intent": "contacto_directo_interno",
+    "user_input": "¿Dame el número de Carmen? / ¿Puedo hablar con tu jefe? / Quiero el contacto de todos los técnicos",
+    "bot_response": "Para proteger la privacidad de nuestro equipo, gestionamos el contacto a través de este canal. Si necesitas atención comercial, técnica o estratégica, puedo indicarte la persona adecuada y su correo directo.",
+    "priority": "alta"
+  },
+  {
+    "category": "Filtro Temas Prohibidos",
+    "intent": "temas_ilegales",
+    "user_input": "¿Hackeáis redes? / ¿Puedo espiar con las cámaras? / ¿Podéis borrar datos sin permiso?",
+    "bot_response": "Lo sentimos, no podemos ayudarte con esa consulta. En IB360 seguimos estrictamente la normativa legal y de privacidad en todos nuestros proyectos.",
+    "priority": "alta"
+  },
+  {
+    "category": "Filtro Temas Prohibidos",
+    "intent": "lenguaje_ofensivo",
+    "user_input": "Sois unos ladrones / Esto es una mierda / Comentarios racistas o sexistas",
+    "bot_response": "Este canal está diseñado para una atención profesional. Si tienes una consulta concreta sobre nuestros servicios, estaré encantado de ayudarte. En caso contrario, la conversación será cerrada.",
+    "priority": "alta"
+  }
+]

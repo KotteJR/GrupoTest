@@ -1,0 +1,23 @@
+[
+  {
+    "category": "Lead Capturing",
+    "intent": "solicitud_propuesta",
+    "user_input": "¿Me podéis pasar precios? / Quiero una propuesta / ¿Cuánto cuesta?",
+    "bot_response": "Gracias por tu interés en nuestras soluciones. Estaremos encantados de ayudarte con una propuesta adaptada a tu proyecto. Podemos ponerte en contacto con la persona más adecuada de nuestro equipo para darte un asesoramiento directo y sin compromiso.\n\n📝 ¿Nos dejas tus datos aquí para iniciar el contacto? Solo necesitamos:\n– Tu nombre\n– Un email de contacto\n– Y si lo deseas, una breve descripción del proyecto o necesidad.",
+    "priority": "alta"
+  },
+  {
+    "category": "Lead Capturing",
+    "intent": "consulta_inicial_suave",
+    "user_input": "Solo estoy mirando / Estoy valorando opciones",
+    "bot_response": "Sin problema. Si lo prefieres, puedo enviarte algunos ejemplos generales de cómo trabajamos o compartirte ideas aplicadas en hoteles, hospitales o empresas similares a la tuya. También puedes dejar tu email por si quieres que te contactemos más adelante.",
+    "priority": "media"
+  },
+  {
+    "category": "Lead Capturing",
+    "intent": "datos_entregados",
+    "user_input": "Aquí tienes mis datos / Ya te he dejado mi email",
+    "bot_response": "Genial, lo tenemos. Uno de nuestros expertos revisará tu caso y te escribirá en breve con toda la información. Gracias por confiar en IB360.",
+    "priority": "alta"
+  }
+]

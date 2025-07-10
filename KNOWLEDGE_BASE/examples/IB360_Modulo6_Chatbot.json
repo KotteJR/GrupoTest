@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Equipos Control Paciente‑Enfermera",
+    "intent": "sistemas_llamada",
+    "user_input": "¿Qué sistemas de llamada paciente-enfermera ofrecéis?",
+    "bot_response": "Ofrecemos soluciones completas de llamada asistencial, que permiten al paciente o residente solicitar ayuda desde la cama, baño o zonas comunes. El personal recibe alertas en terminales, teléfonos IP, pantallas informativas o relojes conectados. Todo el sistema puede integrarse con alarmas técnicas, paneles de control y sistemas de localización por habitación o zona.",
+    "priority": "alta"
+  },
+  {
+    "category": "Equipos Control Paciente‑Enfermera",
+    "intent": "tipos_dispositivos",
+    "user_input": "¿Qué tipo de dispositivos incluye el sistema?",
+    "bot_response": "Los sistemas incluyen: pulsadores de cama y baño (con cordón, sin contacto, antimicrobianos); lámparas de señalización exterior; consolas de habitación; displays centralizados en pasillos o control de enfermería; opcional: relojes o receptores móviles para el personal. Todo el sistema es modular, personalizable y pensado para garantizar rapidez y seguridad.",
+    "priority": "media"
+  },
+  {
+    "category": "Equipos Control Paciente‑Enfermera",
+    "intent": "integracion_red_ip",
+    "user_input": "¿Se puede integrar con la red IP existente?",
+    "bot_response": "Sí. Nuestros sistemas están diseñados para funcionar sobre red IP existente o nueva, usando switches gestionables y PoE si es necesario. Además, pueden conectarse a sistemas de telefonía IP, servidores o plataformas de gestión sociosanitaria. Esto reduce cableado adicional y facilita la supervisión remota.",
+    "priority": "alta"
+  },
+  {
+    "category": "Equipos Control Paciente‑Enfermera",
+    "intent": "identificacion_alerta",
+    "user_input": "¿Se puede saber desde qué habitación o baño se hace la llamada?",
+    "bot_response": "Sí. Cada pulsador se configura con una identificación única, que permite mostrar la habitación exacta, el tipo de llamada y su prioridad. La alerta puede mostrarse en pantalla, consola central o enviarse por mensaje al personal. Además, el sistema registra el tiempo de respuesta para análisis de calidad asistencial.",
+    "priority": "alta"
+  },
+  {
+    "category": "Equipos Control Paciente‑Enfermera",
+    "intent": "no_respuesta",
+    "user_input": "¿Qué ocurre si hay una llamada y el personal no responde?",
+    "bot_response": "El sistema puede configurarse con reintentos automáticos, escalado de prioridad o desvío a otros dispositivos del equipo. Esto asegura que ninguna llamada quede sin atender. También permite establecer tiempos máximos de respuesta para activar una alerta adicional si es necesario.",
+    "priority": "media"
+  },
+  {
+    "category": "Equipos Control Paciente‑Enfermera",
+    "intent": "mantenimiento_sistema",
+    "user_input": "¿Qué tipo de mantenimiento requiere?",
+    "bot_response": "El mantenimiento es mínimo. Recomendamos: revisión semestral del hardware (pulsadores, displays); actualizaciones de software o firmware si el sistema es IP. Ofrecemos contratos de soporte con revisiones periódicas, sustitución preventiva de equipos y asistencia técnica prioritaria. Nuestro equipo está especializado en entornos sociosanitarios.",
+    "priority": "media"
+  },
+  {
+    "category": "Equipos Control Paciente‑Enfermera",
+    "intent": "alertas_pantalla_telefono",
+    "user_input": "¿Se pueden ver las alertas en pantalla o teléfonos IP?",
+    "bot_response": "Sí. Podemos integrar el sistema con: pantallas informativas (pasillos, control de planta); consolas IP táctiles; teléfonos IP o móviles corporativos del personal; aplicaciones móviles (opcional). Esto permite atender rápidamente sin estar presente físicamente en la sala de control.",
+    "priority": "media"
+  },
+  {
+    "category": "Equipos Control Paciente‑Enfermera",
+    "intent": "cumplimiento_normativa",
+    "user_input": "¿Cumple con normativa sociosanitaria?",
+    "bot_response": "Sí. Todos los equipos que ofrecemos están homologados para uso sanitario y cumplen con la normativa vigente de instalaciones asistenciales (UNE/ISO). Además, los materiales son resistentes, higiénicos y compatibles con protocolos de limpieza hospitalaria. También cumplimos con RGPD en sistemas conectados.",
+    "priority": "alta"
+  },
+  {
+    "category": "Equipos Control Paciente‑Enfermera",
+    "intent": "tipos_centros",
+    "user_input": "¿Para qué tipo de centros está pensado?",
+    "bot_response": "Estos sistemas se instalan en: residencias de mayores; centros de día; clínicas privadas; hospitales públicos o concertados; centros sociosanitarios o especializados. Adaptamos la solución al número de camas, distribución del edificio y personal disponible.",
+    "priority": "media"
+  },
+  {
+    "category": "Equipos Control Paciente‑Enfermera",
+    "intent": "visita_demo_enfermera",
+    "user_input": "¿Podéis hacer una visita técnica o enviarnos una propuesta?",
+    "bot_response": "Por supuesto. Podemos visitar el centro para evaluar las necesidades reales, o enviarte un dosier con esquema técnico, ejemplos y referencias. También podemos preparar una demo presencial o virtual. ¿Quieres que alguien del equipo se ponga en contacto contigo?",
+    "priority": "alta"
+  }
+]

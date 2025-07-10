@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Propuesta de Valor IB360",
+    "intent": "diferenciales_ib360",
+    "user_input": "¿Qué hace diferente a IB360 frente a otras empresas del sector?",
+    "bot_response": "En IB360 no solo instalamos tecnología: la hacemos funcionar. Contamos con equipo propio certificado, sin subcontratas. Ofrecemos soluciones integrales, desde el diseño hasta el soporte postventa. Respondemos rápido y cumplimos lo que prometemos. Estamos basados en Baleares, con soporte local real. Y además, no dependemos de una sola marca, lo que nos permite adaptar la tecnología a cada proyecto y no al revés.",
+    "priority": "alta"
+  },
+  {
+    "category": "Propuesta de Valor IB360",
+    "intent": "experiencia_sector",
+    "user_input": "¿Desde cuándo trabajáis en este sector?",
+    "bot_response": "Tenemos más de 20 años de experiencia en el sector tecnológico, trabajando con cadenas hoteleras, grupos sanitarios y empresas locales. Esa trayectoria nos permite entender mejor los entornos operativos, prever problemas y anticiparnos a las necesidades reales de cada cliente. No improvisamos: aplicamos lo aprendido en cada nuevo proyecto.",
+    "priority": "media"
+  },
+  {
+    "category": "Propuesta de Valor IB360",
+    "intent": "garantias_ib360",
+    "user_input": "¿Qué garantías ofrecéis?",
+    "bot_response": "Todos nuestros productos cuentan con garantía oficial del fabricante y soporte técnico local para asistencia rápida. Además, ofrecemos contratos de mantenimiento preventivo, ampliaciones de garantía y sustitución exprés en instalaciones críticas. No hay letra pequeña: solo soluciones.",
+    "priority": "alta"
+  },
+  {
+    "category": "Propuesta de Valor IB360",
+    "intent": "quien_esta_detras",
+    "user_input": "¿Quién está detrás de IB360?",
+    "bot_response": "Un equipo técnico y comercial con base en Baleares, con formación certificada en telecomunicaciones, redes, audiovisual, seguridad y domótica. No somos un call center ni una empresa fantasma: somos personas que responden, instalan y solucionan. Y estamos cerca.",
+    "priority": "media"
+  },
+  {
+    "category": "Propuesta de Valor IB360",
+    "intent": "sectores_objetivo",
+    "user_input": "¿Qué sectores atendéis?",
+    "bot_response": "Trabajamos principalmente con: cadenas hoteleras y resorts; hospitales y clínicas privadas; residencias sociosanitarias; oficinas y empresas; infraestructuras públicas o corporativas. Nos adaptamos a cada entorno, desde pequeños negocios hasta grandes grupos. Tecnología útil, en el sitio correcto.",
+    "priority": "media"
+  },
+  {
+    "category": "Propuesta de Valor IB360",
+    "intent": "soluciones_360",
+    "user_input": "¿Qué significa “soluciones 360”?",
+    "bot_response": "Significa que cubrimos todas las fases: estudio técnico, propuesta personalizada, instalación y puesta en marcha, formación y soporte, ampliaciones futuras. No vendemos productos sueltos. Integramos soluciones completas, funcionando desde el día 1.",
+    "priority": "alta"
+  },
+  {
+    "category": "Propuesta de Valor IB360",
+    "intent": "experiencia_grupos",
+    "user_input": "¿Tenéis experiencia con grupos grandes?",
+    "bot_response": "Sí. Hemos trabajado con cadenas hoteleras, clínicas, grupos sanitarios y empresas con múltiples sedes. Sabemos cómo escalar un sistema, coordinar con varios departamentos y asegurar una implantación sin interrupciones. Somos un proveedor de confianza, no un experimento.",
+    "priority": "media"
+  },
+  {
+    "category": "Propuesta de Valor IB360",
+    "intent": "zona_trabajo",
+    "user_input": "¿Trabajáis solo en Baleares?",
+    "bot_response": "Nuestro equipo técnico está en Baleares, pero podemos atender proyectos puntuales en Península o colaborar con partners externos si se requiere. Eso sí, nuestra gran fortaleza es la respuesta local rápida, algo que muchos clientes valoran por encima de todo.",
+    "priority": "media"
+  },
+  {
+    "category": "Propuesta de Valor IB360",
+    "intent": "propuestas_personalizadas",
+    "user_input": "¿Ofrecéis propuestas personalizadas?",
+    "bot_response": "Sí. Nunca usamos soluciones genéricas. Cada proyecto se estudia con su plano, sus limitaciones, sus necesidades reales. Podemos ofrecer una demo, visita técnica o presupuesto inicial sin compromiso. Porque cada cliente necesita algo distinto.",
+    "priority": "alta"
+  },
+  {
+    "category": "Propuesta de Valor IB360",
+    "intent": "que_puede_esperar",
+    "user_input": "¿Qué puedo esperar si contrato con IB360?",
+    "bot_response": "Claridad. Tecnología que funciona. Soporte real. Equipo cercano. Y una solución pensada para durar, no para salir del paso. Si trabajas con IB360, lo notarás desde el primer día.",
+    "priority": "alta"
+  }
+]

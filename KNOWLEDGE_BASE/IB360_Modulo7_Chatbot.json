@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Soporte Técnico y Postventa",
+    "intent": "tipos_soporte",
+    "user_input": "¿Qué tipo de soporte ofrecéis tras la instalación?",
+    "bot_response": "IB360 ofrece soporte técnico completo: asistencia remota inmediata, intervención presencial si es necesario, monitorización opcional 24/7 en instalaciones críticas, y gestión de tickets por correo o plataforma online. Todo el soporte se realiza desde Baleares, sin subcontratas, con conocimiento real del entorno.",
+    "priority": "alta"
+  },
+  {
+    "category": "Soporte Técnico y Postventa",
+    "intent": "soporte_incidencias_ampliado",
+    "user_input": "¿El soporte es solo para incidencias?",
+    "bot_response": "No. Incluye también: soporte preventivo, asistencia durante nuevas integraciones o ampliaciones, formación para el personal del cliente, y gestión de garantías o sustitución de equipos. Nuestro objetivo es acompañar todo el ciclo de vida del proyecto.",
+    "priority": "media"
+  },
+  {
+    "category": "Soporte Técnico y Postventa",
+    "intent": "soporte_24_7",
+    "user_input": "¿Tenéis soporte 24/7?",
+    "bot_response": "Sí. Para instalaciones críticas o con contrato específico, ofrecemos asistencia 24 horas al día, 365 días al año. Incluye atención telefónica, email, técnicos de guardia localizados, e intervención urgente en remoto o presencial, según el nivel de servicio contratado.",
+    "priority": "alta"
+  },
+  {
+    "category": "Soporte Técnico y Postventa",
+    "intent": "tiempos_respuesta",
+    "user_input": "¿Cuánto tardáis en responder ante una avería?",
+    "bot_response": "Depende del SLA contratado. En general: soporte remoto entre 15 y 60 minutos; presencial en Baleares entre 2 y 12 horas, según criticidad. Atención prioritaria en hospitales, hoteles en temporada o residencias operativas.",
+    "priority": "media"
+  },
+  {
+    "category": "Soporte Técnico y Postventa",
+    "intent": "gestion_incidencias",
+    "user_input": "¿Cómo se gestionan las incidencias?",
+    "bot_response": "Disponemos de un sistema de gestión de tickets por email o formulario, con seguimiento automático. Cada incidencia se documenta y se le asigna un técnico responsable. El cliente puede consultar el estado del ticket y recibir actualizaciones y valoración tras la resolución.",
+    "priority": "media"
+  },
+  {
+    "category": "Soporte Técnico y Postventa",
+    "intent": "revisiones_periodicas",
+    "user_input": "¿Ofrecéis revisiones periódicas?",
+    "bot_response": "Sí. En contratos con soporte preventivo, realizamos visitas de control programadas, verificación del estado de red, dispositivos y sistema, y entrega de informe técnico con recomendaciones. Esto ayuda a prevenir fallos y alarga la vida útil de los sistemas.",
+    "priority": "media"
+  },
+  {
+    "category": "Soporte Técnico y Postventa",
+    "intent": "soporte_terceros",
+    "user_input": "¿También dais soporte en proyectos que no habéis instalado vosotros?",
+    "bot_response": "Sí, aunque primero evaluamos la instalación existente. Podemos asumir el soporte de sistemas de terceros si cumplen con estándares mínimos. También ofrecemos servicios de actualización o migración hacia tecnologías IB360, con plan de soporte personalizado.",
+    "priority": "media"
+  },
+  {
+    "category": "Soporte Técnico y Postventa",
+    "intent": "quien_resuelve",
+    "user_input": "¿Quién se encarga de resolver los problemas?",
+    "bot_response": "Nuestro equipo técnico propio, con base en Baleares. No trabajamos con subcontratas, lo que nos permite conocer cada cliente a fondo, dar respuestas rápidas y asegurar continuidad y trazabilidad en cada intervención.",
+    "priority": "alta"
+  },
+  {
+    "category": "Soporte Técnico y Postventa",
+    "intent": "formacion_personal",
+    "user_input": "¿Ofrecéis formación al personal?",
+    "bot_response": "Sí. Incluimos formación básica en cada instalación y ofrecemos sesiones ampliadas en uso de plataformas, gestión de contenidos, resolución de incidencias, o incorporación de nuevos usuarios. La formación es clave para aprovechar al máximo nuestras soluciones.",
+    "priority": "media"
+  },
+  {
+    "category": "Soporte Técnico y Postventa",
+    "intent": "soporte_existente",
+    "user_input": "¿Puedo contratar el soporte si ya tengo otra instalación?",
+    "bot_response": "Sí. Evaluamos tu sistema actual y, si es viable, podemos ofrecer soporte técnico con un contrato adaptado. En algunos casos, recomendamos una revisión inicial o puesta a punto. ¿Quieres que uno de nuestros técnicos revise tu caso?",
+    "priority": "alta"
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "nombre_modulo": "MÓDULO 11 – FAQ: Instalaciones y Puesta en Marcha",
+  "contenido": [
+    {
+      "pregunta": "¿Realizáis vosotros las instalaciones o trabajáis con terceros?",
+      "respuesta": "En IB360 contamos con equipo técnico propio certificado, lo que nos permite garantizar calidad, tiempos y seguimiento postventa. En algunos casos muy específicos, colaboramos con instaladores homologados bajo nuestra supervisión directa."
+    },
+    {
+      "pregunta": "¿Podéis revisar una instalación previa realizada por otro proveedor?",
+      "respuesta": "Sí. Podemos auditar instalaciones ya existentes y proponer mejoras, sustituciones o integraciones. Siempre partimos de un diagnóstico técnico gratuito."
+    },
+    {
+      "pregunta": "¿En cuánto tiempo se puede instalar un sistema completo?",
+      "respuesta": "Depende del tipo de solución y del tamaño del proyecto, pero nuestro equipo técnico puede ejecutar instalaciones integrales en plazos ajustados gracias a nuestra logística y experiencia previa en grandes cadenas hoteleras, hospitales y residencias."
+    },
+    {
+      "pregunta": "¿Cómo es la puesta en marcha una vez instalado?",
+      "respuesta": "Nos encargamos de dejar todo operativo y verificado. En sistemas complejos, incluimos formación al personal del cliente, manuales técnicos y una revisión final para validar que todo está funcionando al 100%."
+    },
+    {
+      "pregunta": "¿Ofrecéis soporte después de la instalación?",
+      "respuesta": "Sí. Ofrecemos soporte postventa local 24/7, tanto preventivo como correctivo, con posibilidad de contratos de mantenimiento y revisión periódica. También disponemos de un sistema de tickets para incidencias técnicas."
+    },
+    {
+      "pregunta": "¿Vuestros técnicos están certificados?",
+      "respuesta": "Todos nuestros técnicos están certificados en instalación de redes, GPON, CCTV, telefonía IP y otros sistemas especializados. Además, están en formación continua para adaptarse a nuevas tecnologías."
+    },
+    {
+      "pregunta": "¿Ofrecéis cobertura en todas las Islas Baleares?",
+      "respuesta": "Sí, cubrimos todo el territorio español, incluyendo Mallorca, Menorca, Ibiza y Formentera, con base operativa en Palma y equipo técnico desplazable. También podemos operar en Latinoamérica bajo planificación previa cuando existe una necesidad real o un proyecto con alcance internacional."
+    },
+    {
+      "pregunta": "¿Qué tipo de instalaciones hacéis más a menudo?",
+      "respuesta": "Realizamos instalaciones integrales de redes de telecomunicaciones, WiFi profesional, cabeceras IPTV, soluciones de CCTV, telefonía IP, sistemas de domótica y señalética digital. También adaptamos infraestructuras antiguas a estándares actuales."
+    },
+    {
+      "pregunta": "¿Se puede compatibilizar vuestra instalación con sistemas antiguos?",
+      "respuesta": "En la mayoría de los casos sí. Evaluamos las infraestructuras existentes y buscamos soluciones híbridas o transiciones progresivas para reducir costes y evitar interrupciones de servicio."
+    },
+    {
+      "pregunta": "¿Trabajáis también en reformas o solo en obra nueva?",
+      "respuesta": "Ambos. Trabajamos tanto en proyectos de nueva construcción como en reformas o ampliaciones de instalaciones ya operativas."
+    }
+  ],
+  "activadores": [
+    "¿Hacéis instalaciones?",
+    "¿Instaláis vosotros?",
+    "¿Quién realiza la instalación?",
+    "¿Tenéis técnicos propios?",
+    "¿Subcontratáis la instalación?",
+    "¿Montáis vosotros el sistema?",
+    "¿Quién hace la puesta en marcha?",
+    "¿Incluye puesta en marcha?",
+    "¿Dais soporte después de instalar?",
+    "¿Dónde tenéis cobertura técnica?",
+    "¿Tenéis técnicos en Mallorca",
+    "¿Tenéis técnicos en Menorca",
+    "¿Tenéis técnicos en Ibiza",
+    "¿Tenéis técnicos en Formentera",
+    "¿Ofrecéis mantenimiento técnico?",
+    "¿Hacéis instalaciones llave en mano?",
+    "¿En cuánto tiempo se instala?",
+    "¿Cuánto se tarda en montar esto?",
+    "¿Revisáis instalaciones antiguas?",
+    "¿Auditáis instalaciones?",
+    "Necesito técnico de instalación",
+    "Necesito una revisión técnica",
+    "Necesito una auditoría de red",
+    "Instalar sistema GPON",
+    "Instalar sistema IPTV",
+    "Instalar sistema CCTV",
+    "¿Compatibles con sistemas existentes?",
+    "¿Incluye formación?",
+    "¿Ofrecéis soporte local?",
+    "¿Tenéis servicio postventa?",
+    "¿Trabajáis en reformas?",
+    "¿Solo obra nueva?",
+    "¿Instaláis fuera de Baleares?",
+    "¿Cubrís toda España?",
+    "¿Tenéis presencia en LATAM?",
+    "Técnicos certificados",
+    "¿Cómo se instala?",
+    "¿Quién hace la integración?",
+    "¿Lo ponéis vosotros?",
+    "¿Venís a ponerlo?",
+    "¿Lo montáis?",
+    "¿Mandáis alguien a instalar?",
+    "¿Cuánto tardáis en venir?",
+    "¿Traéis a los técnicos?",
+    "¿Eso lo hacéis vosotros?",
+    "¿Me lo dejáis listo?",
+    "¿Lo dejáis funcionando?"
+  ]
+}

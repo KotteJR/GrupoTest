@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local environment variables
+# Exclude variables pushed to Vercel, keep local secrets
+.env.local
+
+# Build artifacts
+.next/
+out/
+
+# Custom build artifacts
+public/knowledge-base.json
+scripts/build-knowledge-base.mjs.bak

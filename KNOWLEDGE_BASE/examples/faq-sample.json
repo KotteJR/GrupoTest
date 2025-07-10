@@ -1,0 +1,22 @@
+{
+  "faq_category": "Servicios IB360",
+  "activadores": ["pregunta", "duda", "consulta", "ayuda", "información"],
+  "contenido": [
+    {
+      "pregunta": "¿Qué servicios ofrece IB360?",
+      "respuesta": "IB360 ofrece soluciones tecnológicas integrales: WiFi profesional, sistemas IPTV, telefonía IP, videovigilancia, señalética digital y domótica para hoteles, hospitales y empresas."
+    },
+    {
+      "pregunta": "¿Dónde están ubicados?",
+      "respuesta": "IB360 está ubicada en Mallorca, Islas Baleares, y ofrecemos servicios en toda la región con más de 15 años de experiencia en el sector."
+    },
+    {
+      "pregunta": "¿Cómo puedo solicitar un presupuesto?",
+      "respuesta": "Puedes contactarnos a través de nuestro email info@ib360.es o visitando nuestra web www.ib360.es. Nuestro equipo técnico evaluará tu proyecto y te proporcionará un presupuesto personalizado."
+    },
+    {
+      "pregunta": "¿Qué diferencia a IB360 de otras empresas?",
+      "respuesta": "Nos especializamos en el sector hotelero y sanitario, ofrecemos proyectos integrales desde diseño hasta implementación, con soporte técnico especializado y mantenimiento continuo."
+    }
+  ]
+} 

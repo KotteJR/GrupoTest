@@ -3,6 +3,7 @@ import { Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "./Footer/header";
 import { GlobalCapturePopup } from "./components/GlobalCapturePopup";
+import AssistantButton from "./components/AssistantButton";
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -31,6 +32,7 @@ export default function RootLayout({
         <Header />
         {children}
         <GlobalCapturePopup />
+        <AssistantButton />
       </body>
     </html>
   );

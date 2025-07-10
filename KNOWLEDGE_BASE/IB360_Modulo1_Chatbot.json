@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Conectividad y Redes",
+    "intent": "gpon_architecture",
+    "user_input": "¿Qué tipo de arquitectura de red ofrece IB360 con tecnología GPON?",
+    "bot_response": "IB360 implementa soluciones GPON con arquitectura punto a multipunto, que permite distribuir datos, voz, IPTV, CCTV y otros servicios sobre una única fibra hasta la habitación o punto final. Utilizamos equipos certificados y una planificación de ingeniería personalizada para cada proyecto, asegurando máxima compatibilidad con sistemas como IPTV, centralitas IP o PMS. Gracias a nuestro enfoque como integradores, ofrecemos soluciones escalables y robustas, con una excelente relación calidad-precio.",
+    "priority": "alta"
+  },
+  {
+    "category": "Conectividad y Redes",
+    "intent": "gpon_vs_ethernet",
+    "user_input": "¿Qué ventajas ofrece GPON frente a redes Ethernet o coaxial?",
+    "bot_response": "GPON permite simplificar la red interna del edificio usando un solo hilo de fibra para múltiples servicios, reduciendo drásticamente cableado, puntos de fallo y consumo energético. Entre sus ventajas: mejora de velocidad y estabilidad, menor mantenimiento, red multiservicio integrada y alta escalabilidad. Nuestras soluciones están orientadas a optimizar recursos y facilitar futuras ampliaciones sin obras ni sobrecostes.",
+    "priority": "alta"
+  },
+  {
+    "category": "Conectividad y Redes",
+    "intent": "gpon_equipment",
+    "user_input": "¿Qué marcas y modelos trabajáis para GPON?",
+    "bot_response": "Trabajamos exclusivamente con equipos certificados y de alto rendimiento provenientes de fabricantes reconocidos internacionalmente, siempre a través de nuestros mayoristas tecnológicos de confianza. No estamos ligados a un único fabricante, lo que nos permite adaptar cada instalación a los requisitos técnicos y económicos del cliente. Como integradores locales, ofrecemos tecnología puntera a precios altamente competitivos, con soporte técnico propio y garantía directa.",
+    "priority": "alta"
+  },
+  {
+    "category": "Conectividad y Redes",
+    "intent": "wifi_solutions",
+    "user_input": "¿Qué soluciones WiFi implementa IB360 y qué estándares soportan?",
+    "bot_response": "Diseñamos redes WiFi profesionales basadas en WiFi 6 como estándar actual y WiFi 7 para proyectos avanzados. Utilizamos access points certificados con gestión centralizada, roaming automático, portal cautivo opcional y control de tráfico por VLANs. Todas las soluciones se entregan optimizadas para entornos de alta densidad. Además, al trabajar con mayoristas líderes, ofrecemos equipamiento de última generación con condiciones preferenciales y soporte integral.",
+    "priority": "alta"
+  },
+  {
+    "category": "Conectividad y Redes",
+    "intent": "wifi_coverage",
+    "user_input": "¿Cómo garantizáis buena cobertura WiFi en instalaciones grandes?",
+    "bot_response": "Realizamos estudios previos con mapas de calor predictivos, análisis espectral y planificación por zonas, teniendo en cuenta estructuras físicas, materiales y densidad de dispositivos por área. El resultado es una red WiFi segmentada y optimizada con seguridad WPA3, VLANs por perfiles de usuario y gestión centralizada. Esta metodología nos permite ofrecer cobertura total, mínimo solapamiento y alto rendimiento garantizado.",
+    "priority": "media"
+  },
+  {
+    "category": "Conectividad y Redes",
+    "intent": "switches_and_trunk",
+    "user_input": "¿Ofrecéis switches y red troncal para todo el edificio?",
+    "bot_response": "Sí. Implementamos switching profesional L2/L3 con soporte para PoE, VLANs, QoS y enlaces redundantes según la arquitectura definida. Usamos únicamente equipos de categoría profesional certificados, y realizamos configuraciones que permiten crecimiento futuro, control de tráfico y segmentación por servicios o departamentos. Al ser integradores, optimizamos costes sin comprometer rendimiento.",
+    "priority": "media"
+  },
+  {
+    "category": "Conectividad y Redes",
+    "intent": "network_security",
+    "user_input": "¿Qué nivel de seguridad en red ofrecéis?",
+    "bot_response": "Diseñamos redes segmentadas por VLAN con control de acceso, cifrado WPA3 en WiFi, ACLs, firewalls y detección de amenazas. Opcionalmente, podemos integrar sistemas de monitorización activa, control de navegación por DNS filtering y cumplimiento de trazabilidad GDPR. Todas nuestras soluciones están orientadas a entornos sensibles como hoteles, clínicas o empresas, con foco en prevención y estabilidad operativa.",
+    "priority": "media"
+  },
+  {
+    "category": "Conectividad y Redes",
+    "intent": "provider_integration",
+    "user_input": "¿Podéis integraros con mi proveedor de Internet actual?",
+    "bot_response": "Por supuesto. IB360 actúa como integrador interno de red, no como proveedor de conectividad. Nos adaptamos a cualquier operador (Movistar, Vodafone, etc.) y distribuimos los servicios dentro del edificio con infraestructura propia. Esto permite mantener tu proveedor actual sin perder control ni calidad en la red interna.",
+    "priority": "media"
+  },
+  {
+    "category": "Conectividad y Redes",
+    "intent": "network_monitoring",
+    "user_input": "¿Qué opciones tengo para monitorizar o controlar la red?",
+    "bot_response": "Ofrecemos plataformas de gestión en la nube o en local que permiten supervisar el estado de la red, switches, APs y ONTs; recibir alertas automáticas; acceder a estadísticas de tráfico; y gestionar configuraciones de forma remota. Estas herramientas permiten a tu equipo o al nuestro detectar, actuar y prevenir problemas en tiempo real.",
+    "priority": "media"
+  },
+  {
+    "category": "Conectividad y Redes",
+    "intent": "technical_support",
+    "user_input": "¿Tenéis soporte técnico en caso de incidencias?",
+    "bot_response": "Sí. Contamos con servicio técnico local y remoto, disponible 24/7 para clientes con contrato de soporte. Nuestros planes de mantenimiento incluyen asistencia inmediata remota, intervención presencial si es necesario y monitorización activa. Garantizamos un soporte profesional, ágil y resolutivo, sin subcontratas.",
+    "priority": "alta"
+  }
+]

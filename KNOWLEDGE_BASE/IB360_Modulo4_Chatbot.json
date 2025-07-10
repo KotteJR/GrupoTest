@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Seguridad y Videovigilancia - CCTV",
+    "intent": "soluciones_seguridad",
+    "user_input": "¿Qué soluciones de seguridad ofrece IB360?",
+    "bot_response": "IB360 instala sistemas profesionales de videovigilancia CCTV HD/4K, control de accesos y grabación 24/7. Nuestros sistemas permiten visualizar en tiempo real, grabar por eventos o de forma continua y consultar las cámaras desde cualquier dispositivo autorizado. Diseñamos la solución a medida, con cámaras fijas, domo, visión nocturna, reconocimiento de movimiento y almacenamiento local o en red. Es una solución integral, segura y sin costes ocultos.",
+    "priority": "alta"
+  },
+  {
+    "category": "Seguridad y Videovigilancia - CCTV",
+    "intent": "tipos_camaras",
+    "user_input": "¿Qué tipo de cámaras instaláis?",
+    "bot_response": "Instalamos cámaras de vigilancia de alta definición (HD, Full HD, 4K) con opción de visión nocturna, detección de movimiento, domo PTZ y grabación inteligente. Seleccionamos cada modelo en función de la ubicación (interior, exterior, pasillos, parking, etc.) y lo adquirimos a través de nuestros mayoristas especializados. Gracias a nuestra red de distribución, ofrecemos hardware profesional con garantía, al mejor precio y sin depender de plataformas cloud de terceros.",
+    "priority": "alta"
+  },
+  {
+    "category": "Seguridad y Videovigilancia - CCTV",
+    "intent": "necesidad_red",
+    "user_input": "¿Es necesario tener red propia para instalar videovigilancia?",
+    "bot_response": "No. Podemos montar una red paralela dedicada al sistema de CCTV si la red del cliente no está preparada. En edificios con infraestructura de red o GPON ya existente, integramos las cámaras en VLANs separadas con acceso restringido. Garantizamos rendimiento y seguridad en ambos casos.",
+    "priority": "media"
+  },
+  {
+    "category": "Seguridad y Videovigilancia - CCTV",
+    "intent": "grabacion_opciones",
+    "user_input": "¿Qué opciones de grabación ofrecéis?",
+    "bot_response": "Ofrecemos grabación local (en NVR), almacenamiento en red (NAS) o backups híbridos, según normativa y necesidades operativas. La grabación puede configurarse por: movimiento, horario o evento externo (alarma, acceso no autorizado, etc.). Todo se puede visualizar en tiempo real desde dispositivos móviles, tablets o PC, con acceso restringido.",
+    "priority": "media"
+  },
+  {
+    "category": "Seguridad y Videovigilancia - CCTV",
+    "intent": "acceso_remoto",
+    "user_input": "¿Puedo acceder a las cámaras desde fuera del edificio?",
+    "bot_response": "Sí. Configuramos acceso remoto cifrado (VPN o plataforma segura) que permite visualizar cámaras desde dispositivos autorizados, sin comprometer la red interna. Este acceso puede ser gestionado por usuarios con permisos personalizados. Cumplimos con normativa RGPD en todos nuestros despliegues.",
+    "priority": "media"
+  },
+  {
+    "category": "Seguridad y Videovigilancia - CCTV",
+    "intent": "integracion_cctv",
+    "user_input": "¿Se pueden integrar las cámaras con otros sistemas?",
+    "bot_response": "Sí. Podemos integrar CCTV con: control de accesos, alarmas técnicas o sanitarias, servidores locales o nube privada, notificaciones automáticas (movimiento en zona restringida, intento de intrusión, etc.). También podemos enlazar cámaras con pantallas informativas o software de gestión del cliente.",
+    "priority": "media"
+  },
+  {
+    "category": "Seguridad y Videovigilancia - CCTV",
+    "intent": "corte_corriente",
+    "user_input": "¿Qué ocurre si se corta la corriente?",
+    "bot_response": "Recomendamos incluir sistemas de alimentación ininterrumpida (SAI) para garantizar el funcionamiento durante cortes de luz. Además, las cámaras IP de bajo consumo pueden seguir grabando en red o en almacenamiento local si se mantiene la conectividad. Siempre diseñamos un plan de contingencia técnico adaptado.",
+    "priority": "media"
+  },
+  {
+    "category": "Seguridad y Videovigilancia - CCTV",
+    "intent": "compatibilidad_existente",
+    "user_input": "¿Podemos utilizar nuestras cámaras actuales?",
+    "bot_response": "Sí, siempre que sean compatibles con los protocolos ONVIF o RTSP. Evaluamos la infraestructura existente y, si es viable, reutilizamos los equipos actuales, integrándolos con los nuevos NVR o software de gestión. Esto reduce la inversión inicial sin comprometer calidad ni funcionalidad.",
+    "priority": "media"
+  },
+  {
+    "category": "Seguridad y Videovigilancia - CCTV",
+    "intent": "soporte_tecnico_cctv",
+    "user_input": "¿Ofrecéis mantenimiento y soporte técnico?",
+    "bot_response": "Sí. Nuestro soporte técnico incluye: monitorización remota (opcional), asistencia ante alertas o fallos, visitas periódicas de revisión (según contrato). Trabajamos con personal local, sin subcontratas, y garantizamos tiempos de respuesta definidos por SLA. La seguridad no puede esperar, y nosotros tampoco.",
+    "priority": "alta"
+  },
+  {
+    "category": "Seguridad y Videovigilancia - CCTV",
+    "intent": "visita_demo_cctv",
+    "user_input": "¿Podéis enviarnos una propuesta o hacer una visita técnica?",
+    "bot_response": "Por supuesto. Podemos agendar una visita técnica sin compromiso para valorar el entorno y proponer la mejor solución. También podemos enviarte un dosier con ejemplos, marcas, esquemas y referencias instaladas. ¿Quieres que uno de nuestros técnicos te contacte directamente?",
+    "priority": "alta"
+  }
+]

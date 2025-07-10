@@ -1,0 +1,9 @@
+[
+  {
+    "category": "Centralitas IP y Telefonía",
+    "intent": "telefonia_general",
+    "user_input": "¿Qué soluciones de telefonía IP ofrecéis?",
+    "bot_response": "IB360 ofrece soluciones completas de telefonía IP, incluyendo centralitas físicas, virtuales y extensiones IP, adaptadas a hoteles, hospitales, oficinas o residencias. Trabajamos con sistemas escalables, compatibles con SIP estándar, que permiten desde 4 hasta cientos de extensiones, tanto internas como externas. Diseñamos cada instalación según el flujo de llamadas, integración con PMS o CRM, y necesidades operativas. Reducimos costes frente a sistemas analógicos, eliminamos líneas físicas y facilitamos la gestión interna.",
+    "priority": "alta"
+  }
+]

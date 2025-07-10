@@ -1,0 +1,72 @@
+[
+  {
+    "category": "FAQ Instalaciones",
+    "intent": "duracion_instalacion",
+    "user_input": "¿Cuánto suele durar una instalación?",
+    "bot_response": "Depende del tipo de solución. Las instalaciones menores (como redes internas o IPTV en habitaciones) suelen completarse en 1-2 días por unidad operativa. Las integraciones completas (GPON, CCTV, señalética, etc.) pueden requerir fases, pero siempre planificamos para minimizar impacto operativo. Coordinamos cada paso con el cliente.",
+    "priority": "media"
+  },
+  {
+    "category": "FAQ Instalaciones",
+    "intent": "visita_tecnica",
+    "user_input": "¿Hacéis visitas técnicas previas?",
+    "bot_response": "Sí. En todos los proyectos realizamos una visita técnica sin compromiso, donde evaluamos el estado actual de la infraestructura y determinamos la solución más eficiente, compatible y escalable.",
+    "priority": "alta"
+  },
+  {
+    "category": "FAQ Instalaciones",
+    "intent": "equipo_propio",
+    "user_input": "¿Vuestro equipo es propio?",
+    "bot_response": "Sí. IB360 solo trabaja con personal propio certificado, sin subcontratas externas. Esto garantiza un estándar de calidad constante y una comunicación directa durante todo el proceso.",
+    "priority": "alta"
+  },
+  {
+    "category": "FAQ Instalaciones",
+    "intent": "trabajo_con_planos",
+    "user_input": "¿Trabajáis con planos?",
+    "bot_response": "Sí. Podemos trabajar tanto con planos facilitados por el cliente como generarlos nosotros en caso necesario. Todo proyecto se estudia con ingeniería previa, evitando improvisaciones en el montaje.",
+    "priority": "media"
+  },
+  {
+    "category": "FAQ Instalaciones",
+    "intent": "obra_civil",
+    "user_input": "¿Qué ocurre si hay que hacer obra civil?",
+    "bot_response": "En caso de requerir pequeñas canalizaciones o pasos de cableado, podemos coordinarlo con la propiedad o incluirlo como parte del proyecto. Nos adaptamos a las condiciones del edificio para ofrecer una solución técnica y estética.",
+    "priority": "media"
+  },
+  {
+    "category": "FAQ Instalaciones",
+    "intent": "cierre_zonas",
+    "user_input": "¿Hay que cerrar habitaciones o zonas durante la instalación?",
+    "bot_response": "No necesariamente. Nuestro equipo trabaja de forma escalonada y organizada para intervenir por zonas, sin necesidad de cerrar completamente espacios, salvo indicación expresa del cliente.",
+    "priority": "media"
+  },
+  {
+    "category": "FAQ Instalaciones",
+    "intent": "seguro_responsabilidad",
+    "user_input": "¿Tenéis seguro de responsabilidad civil?",
+    "bot_response": "Sí. Disponemos de cobertura profesional completa y actualizada. Puedes solicitar el certificado en cualquier momento si lo necesitas para licencias o auditorías internas.",
+    "priority": "media"
+  },
+  {
+    "category": "FAQ Instalaciones",
+    "intent": "garantias_instalacion",
+    "user_input": "¿Ofrecéis garantías tras la instalación?",
+    "bot_response": "Por supuesto. Todos nuestros equipos cuentan con garantía oficial y nuestro servicio incluye revisión técnica post-instalación. También puedes contratar mantenimientos preventivos o asistencia prioritaria.",
+    "priority": "alta"
+  },
+  {
+    "category": "FAQ Instalaciones",
+    "intent": "instalacion_sin_material",
+    "user_input": "¿Puedo contratar la instalación sin la compra del material?",
+    "bot_response": "Normalmente solo instalamos soluciones de nuestro propio portfolio, ya que así aseguramos calidad, compatibilidad y soporte. Sin embargo, si ya dispones del material, podemos valorarlo técnicamente.",
+    "priority": "media"
+  },
+  {
+    "category": "FAQ Instalaciones",
+    "intent": "entrega_proyecto",
+    "user_input": "¿Cómo se entrega el proyecto al finalizar?",
+    "bot_response": "Tras cada instalación, entregamos al cliente: informe técnico con lo instalado, esquema de red (si aplica), certificado de pruebas y operatividad, y contacto directo para soporte.",
+    "priority": "media"
+  }
+]
