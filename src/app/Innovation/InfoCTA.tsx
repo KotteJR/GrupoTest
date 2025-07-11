@@ -2,7 +2,7 @@
 
 export function InfoCTA() {
   return (
-    <div className="w-full bg-white text-[#0f4761] font-sans py-12">
+    <div className="w-full bg-white text-[#0f4761] font-sans py-1 mb-23">
       <div className="max-w-[1230px] mx-auto px-4">
         {/* Intro Paragraph */}
         <div className="rounded-[15px] bg-[#f7f8f9] p-8 flex gap-5">

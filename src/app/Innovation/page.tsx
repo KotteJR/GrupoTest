@@ -9,8 +9,8 @@ export default function Innovation() {
     <div>
       <Hero />
       <InnovationIASection />
-      <InfoCTA />
       <ContactFormSection />
+      <InfoCTA />
       <Footer />
     </div>
   );
