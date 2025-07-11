@@ -102,15 +102,17 @@ export function ProjectsSection() {
             
             {/* KPIs section */}
             <div className="mt-4">
-              <p className="text-[1.125rem] mb-2">KPIs</p>
-              <div className="w-1/4 h-[1px] bg-[#0f4761]/20 mb-4"></div>
-              <div className="flex flex-row flex-wrap gap-x-6 gap-y-3">
+              <p className=" text-[1.125rem] mb-4">KPIs</p>
+              <div className="relative flex flex-col gap-3">
+                {/* Connecting line */}
+                <div className="absolute left-[11px] top-3 bottom-3 w-0.5 bg-[#0f4761]/30"></div>
+                
                 {project.kpis.map((kpi, i) => (
-                  <div key={i} className="flex items-center gap-2">
-                    <div className="flex-shrink-0">
+                  <div key={i} className="relative flex items-start gap-3 min-h-[32px]">
+                    <div className="flex-shrink-0 mt-1">
                       <CheckIcon />
                     </div>
-                    <span className="text-[0.938rem] text-[#0f4761]">{kpi}</span>
+                    <span className="text-[0.938rem] text-[#0f4761] leading-relaxed">{kpi}</span>
                   </div>
                 ))}
               </div>
