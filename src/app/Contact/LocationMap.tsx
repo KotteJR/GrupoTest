@@ -43,7 +43,7 @@ export function LocationMap() {
                   <h4 className="text-[#0f4761]  mb-1">Dirección</h4>
                   <p className="text-[#646464] text-sm">
                     Carrer de la Innovació 12<br />
-                    07010 Palma, Illes Balears<br />
+                    0701 Palma, Illes Balears<br />
                     España
                   </p>
                 </div>
