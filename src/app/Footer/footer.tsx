@@ -49,7 +49,7 @@ export function Footer() {
               <div className="text-sm text-white/80 space-y-1">
                 <p>IB360 S.L. · CIF: B12345678</p>
                 <p>Carrer de la Innovació 12, 07010 Palma, Illes Balears, España</p>
-                <p>Teléfono: +34 971 123 456 · Email: <a href="mailto:info@ib360.tech" className="underline">info@ib360.tech</a></p>
+                <p>Teléfono: +34 971 20 15 20 · Email: <a href="mailto:info@ib360.tech" className="underline">info@ib360.tech</a></p>
               </div>
             </div>
 

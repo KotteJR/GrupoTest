@@ -20,10 +20,10 @@ export function LocationMap() {
           {/* Google Maps Embed */}
           <div className="flex-1 bg-[#f3f3f3] border-[6px] border-[#f8f8f8] rounded-[20px] overflow-hidden max-[768px]:aspect-square max-[768px]:h-auto">
             <iframe
-              src="https://maps.google.com/maps?q=Carrer+de+la+Innovació+12,+07010+Palma,+Illes+Balears,+España&t=&z=16&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
+              src="https://www.openstreetmap.org/export/embed.html?bbox=2.62024,39.62903,2.63024,39.63903&layer=cyclosm&marker=39.63403,2.62524"
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

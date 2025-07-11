@@ -14,73 +14,62 @@ export function ProjectsSection() {
     {
       number: "01",
       title: "Marriott Son Antem",
-      desc: "Red GPON, cabeceras IPTV, renovación TV hospitality.",
       image: "/images/mariott.png",
       kpis: [
-        "300+ habitaciones conectadas vía GPON",
-        "99.9% de uptime en red IPTV",
-        "20% reducción en llamadas de soporte técnico",
-        "Actualización de 100% de televisores a estándar hospitality",
+        "Red GPON",
+        "Cabeceras IPTV",
+        "Renovación TV hospitality",
       ],
     },
     {
       number: "02",
       title: "Grupo Juaneda",
-      desc: "Red WiFi 6, seguridad, control paciente-enfermera.",
       image: "/images/juneada.png",
       kpis: [
-        "120 puntos de acceso WiFi 6 instalados",
-        "Cobertura WiFi al 100% en áreas médicas clave",
-        "+85 terminales paciente-enfermera activos",
-        "25 cámaras de seguridad con visualización remota",
+        "Red WiFi 6",
+        "Seguridad",
+        "Control paciente-enfermera",
       ],
     },
     {
       number: "03",
       title: "THB Hotels",
-      desc: "GPON, IPTV, CCTV, WiFi 6, telefonía IP.",
       image: "/images/thbb.png",
       kpis: [
-        "450 habitaciones con conectividad unificada",
-        "150 cámaras IP instaladas",
-        "Reducción del 30% en incidencias de conectividad",
-        "10 centralitas IP con extensiones móviles integradas",
+        "GPON",
+        "IPTV",
+        "CCTV",
+        "WiFi 6",
+        "Telefonía IP",
       ],
     },
     {
       number: "04",
       title: "Roc Hotels",
-      desc: "Renovación de infraestructuras WiFi y CCTV.",
       image: "/images/rocc.png",
       kpis: [
-        "100% cobertura WiFi en zonas comunes y habitaciones",
-        "75 cámaras instaladas con visión nocturna",
-        "25% mejora en la velocidad media de conexión",
-        "Tiempo de instalación: 7 días sin cerrar el hotel",
+        "Renovación de infraestructuras:",
+        "WiFi",
+        "CCTV",
       ],
     },
     {
       number: "05",
       title: "IB Salut Son Espases",
-      desc: "Seguridad IP, control de accesos, soporte técnico.",
       image: "/images/salut.png",
       kpis: [
-        "Instalación de 60 cámaras IP HD",
-        "Sistema biométrico en 30 puertas de acceso",
-        "Monitorización 24/7 con alertas automáticas",
-        "Tiempo de respuesta ante incidencias: < 2h",
+        "Seguridad IP",
+        "Control de accesos",
+        "Soporte técnico",
       ],
     },
     {
       number: "06",
       title: "Rafa Nadal Academy",
-      desc: "Infraestructura WiFi y red de comunicaciones.",
       image: "/images/nadal.png",
       kpis: [
-        "Cobertura WiFi en 100% del campus académico y deportivo",
-        "Red de datos multiservicio para +600 estudiantes",
-        "0 interrupciones reportadas durante el torneo anual",
-        "Optimización de red con balanceo de carga inteligente",
+        "Cabecera digital",
+        "IPTV",
       ],
     },
   ];
@@ -108,27 +97,20 @@ export function ProjectsSection() {
             
             {/* Fixed height title section */}
             <div className="h-[40px] flex items-start mt-6">
-              <h3 className="text-xl font-medium leading-tight">{project.title}</h3>
+              <h3 className="text-2xl font-medium leading-tight">{project.title}</h3>
             </div>
             
-            {/* Fixed height description section */}
-            <div className="h-[40px] flex items-start">
-              <p className="text-[#646464] text-[1rem] leading-relaxed">{project.desc}</p>
-            </div>
-            
-            {/* KPIs section - now always at same distance from top */}
+            {/* KPIs section */}
             <div className="mt-4">
-              <p className=" text-[1.125rem] mb-4">KPIs</p>
-              <div className="relative flex flex-col gap-3">
-                {/* Connecting line */}
-                <div className="absolute left-[11px] top-3 bottom-3 w-0.5 bg-[#0f4761]/30"></div>
-                
+              <p className="text-[1.125rem] mb-2">KPIs</p>
+              <div className="w-1/4 h-[1px] bg-[#0f4761]/20 mb-4"></div>
+              <div className="flex flex-row flex-wrap gap-x-6 gap-y-3">
                 {project.kpis.map((kpi, i) => (
-                  <div key={i} className="relative flex items-start gap-3 min-h-[32px]">
-                    <div className="flex-shrink-0 mt-1">
+                  <div key={i} className="flex items-center gap-2">
+                    <div className="flex-shrink-0">
                       <CheckIcon />
                     </div>
-                    <span className="text-[0.938rem] text-[#0f4761] leading-relaxed">{kpi}</span>
+                    <span className="text-[0.938rem] text-[#0f4761]">{kpi}</span>
                   </div>
                 ))}
               </div>
