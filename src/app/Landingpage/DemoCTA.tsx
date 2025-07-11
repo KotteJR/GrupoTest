@@ -9,12 +9,12 @@ export function DemoCTA() {
       <div className="max-w-[1230px] mx-auto px-4">
         <div className="bg-[#0f4761] rounded-[20px] px-12 py-20 relative overflow-hidden">
           {/* SVG Background */}
-          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[240px] flex items-end justify-center pointer-events-none select-none">
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[440px] flex items-end justify-center pointer-events-none select-none">
             <Image
               src="/heros/Footer.svg"
               alt=""
-              width={600}
-              height={240}
+              width={800}
+              height={440}
               className="object-contain opacity-60"
             />
           </div>

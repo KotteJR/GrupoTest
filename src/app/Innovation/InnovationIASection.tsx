@@ -14,7 +14,7 @@ export function InnovationIASection() {
 
         {/* Benefits Section */}
         <div className="flex flex-col gap-5">
-          <p className="text-[#646464] text-[1.125rem] leading-[130%]">Benefits</p>
+          <p className="text-[#646464] text-[1.125rem] leading-[130%]">Beneficios</p>
           <h2 className="md:text-[2.5rem] text-[2rem] max-md:text-[2.125rem] leading-[120%] text-[#0f4761] max-w-[650px] mb-10">
             Transformamos la conectividad con inteligencia artificial avanzada.
           </h2>

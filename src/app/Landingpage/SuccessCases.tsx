@@ -8,12 +8,12 @@ export function SuccessCases() {
 
   const cases = [
     {
-      title: "Marriott – GPON 10 Gb",
+      title: "Marriott Son Antem – Proyecto Multisistema",
       description: "Marriott confía en IB360 para modernizar su red de telecomunicaciones, renovar su IPTV y televisores, e integrar monitorización de servicios clave como agua, luz y piscinas.",
       image: "/images/mariott1.png"
     },
     {
-      title: "Grupo Juaneda – Patient/Nurse Control",
+      title: "Grupo Juaneda – Equipos de Control Paciente & Enfermera",
       description: "Cobertura crítica 24/7 con redes de alta disponibilidad para entornos médicos. Instalación completa del sistema cableado de gestión de colas de espera.",
       image: "/images/juneada1.png"
     },
@@ -23,7 +23,7 @@ export function SuccessCases() {
       image: "/images/15000.png"
     },
     {
-      title: "THB Hotels – Full Project",
+      title: "THB Hotels – Proyecto Integral",
       description: "THB apuesta por IB360 para modernizar su red GPON, WiFi 6, CCTV y cabeceras IPTV.",
       image: "/images/thb1.png"
     }
@@ -45,11 +45,11 @@ export function SuccessCases() {
       {/* Desktop Layout */}
       <div className="max-w-[1230px] mx-auto px-4 w-full justify-between items-center gap-10 mt-12 hidden md:flex">
         {/* Left Side – Text */}
-        <div className="flex flex-col gap-8 text-[#0f4761] text-[1.5rem] max-w-[615px] md:pr-10">
+        <div className="flex flex-col gap-6 text-[#0f4761] text-[1.5rem] max-w-[615px] md:pr-10">
           {cases.map((case_, index) => (
             <div 
               key={index}
-              className={`flex flex-col gap-4 cursor-pointer transition-opacity duration-300 ${
+              className={`flex flex-col gap-2 cursor-pointer transition-opacity duration-300 ${
                 activeCase === index ? 'opacity-100' : 'opacity-40'
               }`}
               onClick={() => setActiveCase(index)}

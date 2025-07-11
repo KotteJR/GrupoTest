@@ -11,6 +11,25 @@ export function Services() {
 
   const services = [
     {
+      title: "Redes de Telecomunicaciones",
+      description: "Diseño, instalación y mantenimiento de infraestructuras de red para servicios críticos. Cableado estructurado, racks, switches y conectividad integral para empresas, hospitales y hoteles.",
+      image: "/images/3.png",
+      benefits: [
+        "Diseño, instalación y mantenimiento de infraestructuras de red para servicios críticos.",
+        "Redes de datos estructuradas (cableado, racks, switches).",
+        "Interconexión de sistemas asistenciales, administrativos y de personal.",
+        "Sistemas de interfonía y megafonía para avisos y emergencias.",
+        "Acceso seguro a Internet para personal, residentes, huéspedes y visitantes.",
+        "Redes protegidas para videovigilancia, paciente-enfermera y equipos médicos."
+      ],
+      stats: [
+        { value: "+500", label: "Proyectos de cableado estructurado" },
+        { value: "99.9%", label: "Uptime de red en instalaciones críticas" },
+        { value: "10Gbps", label: "Velocidad de backbone implementada" },
+      ],
+      reversed: false,
+    },
+    {
       title: "GPON & Fibra Óptica",
       description: "Infraestructura de fibra óptica multiservicio de alto rendimiento para datos, IPTV, WiFi, telefonía, domótica y servicios futuros.",
       image: "/images/7.png",
@@ -26,7 +45,7 @@ export function Services() {
         { value: "35%", label: "Camas hospitalarias conectadas" },
         { value: "IP Seguro", label: "Sistema protegido para datos y contenidos IPTV" },
       ],
-      reversed: false,
+      reversed: true,
     },
     {
       title: "WiFi Profesional",
@@ -44,7 +63,7 @@ export function Services() {
         { value: "99.9%", label: "Disponibilidad de red garantizada" },
         { value: "70%", label: "Mejora en velocidad y eficiencia de red respecto a WiFi 5" },
       ],
-      reversed: true,
+      reversed: false,
     },
     {
       title: "Telefonía IP & Comunicaciones",
@@ -62,15 +81,15 @@ export function Services() {
         { value: "45%", label: "Reducción en costes" },
         { value: "100%", label: "Integración total con PMS, CRM" },
       ],
-      reversed: false,
+      reversed: true,
     },
     {
-      title: "TV Interactiva / IPTV Profesional",
+      title: "Cabeceras TV/SAT - TV Interactiva / IPTV Profesional",
       description: "Soluciones de televisión profesional, hospitality TV e IPTV interactivo.",
       image: "/images/9.png",
       benefits: [
         "Integración con PMS y servicios de habitación.",
-        "Compatibilidad con streaming.",
+        "Compatibilidad con plataformas de streaming.",
         "Cabeceras IP, TDT, SAT, coaxial o fibra.",
         "Audiovisuales para salas y auditorios.",
       ],
@@ -78,6 +97,24 @@ export function Services() {
         { value: "10,000+", label: "Habitaciones con IPTV" },
         { value: "4K UHD", label: "Calidad premium" },
         { value: "100%", label: "Personalización total" },
+      ],
+      reversed: false,
+    },
+    {
+      title: "CCTV & Seguridad IP",
+      description: "Sistemas de videovigilancia profesional adaptados a cada entorno.",
+      image: "/images/5.png",
+      benefits: [
+        "Grabación remota 24/7.",
+        "Control centralizado.",
+        "Integración completa en redes de datos.",
+        "Visualización remota vía dispositivos móviles.",
+        "Escalabilidad total.",
+      ],
+      stats: [
+        { value: "99%", label: "Cobertura perimetral" },
+        { value: "24/7", label: "Grabación activa" },
+        { value: "360°", label: "Control de espacios" },
       ],
       reversed: true,
     },
@@ -100,43 +137,8 @@ export function Services() {
       reversed: false,
     },
     {
-      title: "CCTV Profesional & Videovigilancia",
-      description: "Monitoreo de seguridad IP, grabación inteligente y control en tiempo real.",
-      image: "/images/5.png",
-      benefits: [
-        "Grabación continua o por detección.",
-        "Cámaras HD y 4K.",
-        "Almacenamiento en red (NVR).",
-        "Integración con sistemas de seguridad.",
-      ],
-      stats: [
-        { value: "99%", label: "Cobertura perimetral" },
-        { value: "24/7", label: "Grabación activa" },
-        { value: "360°", label: "Control de espacios" },
-      ],
-      reversed: true,
-    },
-    {
-      title: "Señalética Digital & Cartelería Dinámica",
-      description: "Comunicación visual profesional para hospitality, healthcare y empresas.",
-      image: "/images/3.png",
-      benefits: [
-        "Pantallas informativas interactivas.",
-        "Gestión remota de contenidos (CMS).",
-        "Señalización personalizada.",
-        "Actualización instantánea.",
-        "Integración multimedia.",
-      ],
-      stats: [
-        { value: "2,000+", label: "Pantallas instaladas en entornos corporativos y públicos" },
-        { value: "100%", label: "Actualización remota y en tiempo real del contenido" },
-        { value: "80%", label: "Incremento en la visibilidad de comunicaciones internas" },
-      ],
-      reversed: false,
-    },
-    {
       title: "Instalaciones Eléctricas & Energía",
-      description: "Diseño, instalación y mantenimiento de sistemas eléctricos integrados.",
+      description: "Diseño, instalación y mantenimiento de sistemas eléctricos integrados de baja tensión.",
       image: "/images/2.png",
       benefits: [
         "Proyectos certificados de baja tensión.",
@@ -153,14 +155,32 @@ export function Services() {
       reversed: true,
     },
     {
-      title: "Soporte Técnico 360°",
-      description: "Cobertura técnica integral durante toda la vida útil del proyecto.",
+      title: "Equipos control paciente - Hospitales, Residencias, Centros de día",
+      description: "Sistemas paciente-enfermera con tecnología avanzada que agilizan la asistencia, garantizan máxima seguridad y mejoran la experiencia tanto para residentes como para profesionales.",
+      image: "/images/hospitals.jpeg",
+      benefits: [
+        "Mejora la eficiencia en la atención al paciente.",
+        "Garantiza la seguridad tanto para residentes como para profesionales.",
+        "Optimiza la comunicación y la gestión de las tareas de enfermería.",
+        "Facilita la integración con otros sistemas hospitalarios.",
+        "Aumenta la satisfacción del paciente y del personal."
+      ],
+      stats: [
+        { value: "30%", label: "Reducción en tiempos de respuesta de enfermería" },
+        { value: "100%", label: "Trazabilidad de avisos y alarmas" },
+        { value: "+50", label: "Centros equipados con nuestra tecnología" },
+      ],
+      reversed: false,
+    },
+    {
+      title: "Soporte Técnico 360º",
+      description: "Cobertura técnica integral durante toda la vida del proyecto.",
       image: "/images/4.png",
       benefits: [
         "Instalación profesional.",
         "Mantenimiento preventivo y correctivo.",
         "Monitorización remota.",
-        "SLA garantizado.",
+        "SLA garantizados.",
         "Intervención rápida.",
       ],
       stats: [
@@ -168,7 +188,7 @@ export function Services() {
         { value: "15 min", label: "Tiempo medio de respuesta en incidencias críticas" },
         { value: "+100", label: "Instalaciones con soporte técnico activo" },
       ],
-      reversed: false,
+      reversed: true,
     }
   ];
 

@@ -108,7 +108,7 @@ export function Footer() {
               </div>
 
               {/* Legal Links */}
-              <div className="text-left">
+              <div className="text-left mb-10">
                 <h3 className="text-white mb-3">Legal Links</h3>
                 <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/70">
                   <Link href="/aviso-legal" className="hover:text-white transition-colors">Aviso Legal</Link>
@@ -116,15 +116,6 @@ export function Footer() {
                 </div>
               </div>
 
-              {/* Socials */}
-              <div className="text-left mb-10">
-                <h3 className="text-white mb-3">Socials</h3>
-                <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/70">
-                  <a href="https://linkedin.com/company/ib360" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
-                  <a href="https://facebook.com/ib360tech" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Facebook</a>
-                  <a href="https://twitter.com/ib360tech" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">X (Formally Twitter)</a>
-                </div>
-              </div>
             </div>
           </div>
         </div>

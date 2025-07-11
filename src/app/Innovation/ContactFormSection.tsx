@@ -6,10 +6,10 @@ export function ContactFormSection() {
       <div className="max-w-[1230px] mx-auto px-4">
         <div className="flex flex-col gap-5 mb-16">
           <h2 className="text-[2.375rem] max-md:text-[2rem] leading-[120%] text-[#0f4761] text-center">
-            Ponte en contacto con nosotros!
+          Regístrate para recibir información personalizada
         </h2>
           <p className="text-[#646464] text-[1.125rem] leading-[130%] text-center">
-          IB360 mantiene un roadmap abierto y en continua evolución en el desarrollo de soluciones avanzadas. <br /> Forme parte del futuro de la digitalización inteligente.
+          ¿Quieres conocer cómo IB360 puede transformar tu operación con nuestras soluciones de innovación y IA?
         </p>
       </div>
 
@@ -95,54 +95,98 @@ export function ContactFormSection() {
           <div className="ml-auto w-[55%] pl-8 flex items-center max-[850px]:w-full max-[850px]:ml-0 max-[850px]:pl-0 relative">
             
             <form className="space-y-4 w-full relative z-10">
-                              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-[850px]:grid-cols-1">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-[850px]:grid-cols-1">
                 <div>
-                  <label className="block text-sm  text-[#0f4761] mb-1">Tu nombre</label>
-        <input
-          type="text"
-                    placeholder="Tu nombre"
-                    className="w-full h-[45px] rounded-[10px] bg-white px-4 text-[#646464] placeholder:text-[#9ca3af] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent"
-        />
-                </div>
-                <div>
-                  <label className="block text-sm  text-[#0f4761] mb-1">Tu email <span className="text-red-500">*</span></label>
-        <input
-          type="email"
-                    placeholder="Tu email *"
+                  <label className="block text-sm text-[#0f4761] mb-1">Nombre completo <span className="text-red-500">*</span></label>
+                  <input
+                    type="text"
+                    placeholder="Nombre completo"
                     required
                     className="w-full h-[45px] rounded-[10px] bg-white px-4 text-[#646464] placeholder:text-[#9ca3af] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent"
-        />
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm text-[#0f4761] mb-1">Empresa <span className="text-red-500">*</span></label>
+                  <input
+                    type="text"
+                    placeholder="Empresa"
+                    required
+                    className="w-full h-[45px] rounded-[10px] bg-white px-4 text-[#646464] placeholder:text-[#9ca3af] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent"
+                  />
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-[850px]:grid-cols-1">
+                <div>
+                  <label className="block text-sm text-[#0f4761] mb-1">Cargo (opcional)</label>
+                  <input
+                    type="text"
+                    placeholder="Cargo"
+                    className="w-full h-[45px] rounded-[10px] bg-white px-4 text-[#646464] placeholder:text-[#9ca3af] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent"
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm text-[#0f4761] mb-1">Email <span className="text-red-500">*</span></label>
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    required
+                    className="w-full h-[45px] rounded-[10px] bg-white px-4 text-[#646464] placeholder:text-[#9ca3af] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent"
+                  />
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-[850px]:grid-cols-1">
+                <div>
+                  <label className="block text-sm text-[#0f4761] mb-1">Teléfono <span className="text-red-500">*</span></label>
+                  <input
+                    type="tel"
+                    placeholder="Teléfono"
+                    required
+                    className="w-full h-[45px] rounded-[10px] bg-white px-4 text-[#646464] placeholder:text-[#9ca3af] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent"
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm text-[#0f4761] mb-1">Sector <span className="text-red-500">*</span></label>
+                  <div className="relative">
+                    <select
+                      required
+                      defaultValue=""
+                      className="w-full h-[45px] rounded-[10px] bg-white px-4 pr-10 text-[#646464] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent appearance-none"
+                    >
+                      <option value="" disabled>Selecciona un sector</option>
+                      <option value="hoteles">Hoteles</option>
+                      <option value="hospitales">Hospitales</option>
+                      <option value="corporativo">Corporativo</option>
+                      <option value="otros">Otros</option>
+                    </select>
+                    <div className="absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none">
+                      <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                        <path d="M6 9L1.5 4.5h9z" fill="#646464"/>
+                      </svg>
+                    </div>
+                  </div>
                 </div>
               </div>
 
               <div>
-                <label className="block text-sm  text-[#0f4761] mb-1">Asunto <span className="text-red-500">*</span></label>
-        <input
-          type="text"
-                  placeholder="Asunto *"
-                  required
-                  className="w-full h-[45px] rounded-[10px] bg-white px-4 text-[#646464] placeholder:text-[#9ca3af] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent"
-        />
-              </div>
-
-              <div>
-                <label className="block text-sm  text-[#0f4761] mb-1">Tu mensaje</label>
-        <textarea
+                <label className="block text-sm text-[#0f4761] mb-1">Comentario (opcional)</label>
+                <textarea
                   rows={2}
-                  placeholder="Tu mensaje - Por favor incluye toda la información relevante"
+                  placeholder="Comentario"
                   className="w-full rounded-[10px] bg-white p-4 text-[#646464] placeholder:text-[#9ca3af] focus:outline-none focus:ring-2 focus:ring-[#0f4761] focus:border-transparent resize-none"
-        />
+                />
               </div>
 
               <div className="flex justify-start pt-2">
-        <button
-          type="submit"
+                <button
+                  type="submit"
                   className="bg-[#0f4761] text-white rounded-[10px] px-8 py-3  hover:bg-[#0d3c52] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#0f4761]/30 focus:ring-offset-2"
-        >
+                >
                   Enviar mensaje
-        </button>
+                </button>
               </div>
-      </form>
+            </form>
           </div>
         </div>
       </div>

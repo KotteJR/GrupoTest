@@ -35,7 +35,7 @@ export function SectorSection() {
     {
       title: 'Viviendas de alto nivel y propiedades gestionadas',
       icon: '/icons/vivienda.svg',
-      image: '/images/corporate.png',
+      image: '/images/viviendas.png',
       description:
         'Soluciones escalables y seguras para oficinas inteligentes, colaboración remota y productividad máxima.',
     },

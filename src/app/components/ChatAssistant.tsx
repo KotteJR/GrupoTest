@@ -99,8 +99,8 @@ export function ChatAssistant({ onClose }: ChatAssistantProps) {
   const showFilteredSuggestions = input.length > 2 && filteredSuggestions.length > 0;
 
   return (
-    <div className="fixed bottom-5 right-5 z-50 w-full max-w-md bg-white rounded-lg shadow-xl border border-gray-200 flex flex-col h-[70vh] font-sans">
-      <div className="bg-[#0F4761] text-white p-4 flex justify-between items-center rounded-t-lg">
+    <div className="fixed inset-0 z-50 h-full w-full flex flex-col font-sans md:inset-auto md:bottom-5 md:right-5 md:w-full md:max-w-md md:h-[70vh] md:rounded-lg md:shadow-xl md:border-1 md:border-gray-200/60">
+      <div className="bg-[#0F4761] text-white p-4 flex justify-between items-center md:rounded-t-lg">
         <div className="flex items-center gap-2">
             <Image src="/logo/grupoib360white.png" alt="Grupo IB360" width={100} height={24} className="h-6 w-auto" />
             <span className="font-semibold text-lg">Assistant</span>
@@ -153,7 +153,7 @@ export function ChatAssistant({ onClose }: ChatAssistantProps) {
         </div>
       )}
 
-      <div className="p-4 bg-white border-t border-gray-200 rounded-b-lg">
+      <div className="p-4 bg-white border-t border-gray-200 md:rounded-b-lg">
         <div className="flex items-center">
           <input type="text" value={input} onChange={(e) => setInput(e.target.value)} onKeyDown={(e) => e.key === "Enter" && !isLoading && handleSend()} placeholder="Escribe tu pregunta..." className="flex-1 w-full px-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#0F4761]" disabled={isLoading} />
           <button onClick={() => handleSend()} disabled={isLoading || !input.trim()} className="ml-3 bg-[#0F4761] text-white p-3 rounded-full hover:opacity-90 disabled:bg-[#0F4761]/50 disabled:cursor-not-allowed transition"><SendHorizonal size={20} /></button>

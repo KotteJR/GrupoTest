@@ -124,27 +124,29 @@ RULES:
 - Keep all responses in Spanish.
 - IMPORTANT: After generating your response based on the rules above, ALWAYS add the following sentence on a new line at the very end: "Para más información, [contacta con nuestro equipo](/Contact)."
 
-PREVIOUS CONVERSATION:
-${history.map((m: HistoryItem) => `${m.role}: ${m.content}`).join('\n')}
-
 CONTEXT:
 ${context || "No context provided."}
 `;
 
-    // 4. Call OpenAI to get the final response
+    // 4. Construct the full message history for the AI
+    const messages: OpenAI.Chat.Completions.ChatCompletionMessageParam[] = [
+        { role: "system", content: systemPrompt },
+        ...history,
+        { role: "user", content: query },
+    ];
+
+
+    // 5. Call OpenAI to get the final response
     const response = await openai.chat.completions.create({
       model: "gpt-4o-mini",
-      messages: [
-        { role: "system", content: systemPrompt },
-        { role: "user", content: query }
-      ],
+      messages: messages,
       temperature: 0.1, // A bit more creative for general questions
       stream: false,
     });
 
     const aiResponse = response.choices[0].message?.content?.trim() ?? 'No response from AI.';
 
-    // 5. Return the response (no sources)
+    // 6. Return the response (no sources)
     return NextResponse.json({
       response: aiResponse,
     });
