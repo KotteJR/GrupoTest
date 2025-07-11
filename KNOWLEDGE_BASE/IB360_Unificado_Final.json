@@ -1,0 +1,1600 @@
+{
+  "IB360_Activación_por_palabras_clave": {
+    "Redes de Telecomunicaciones": [
+      "infraestructura de red",
+      "redes internas",
+      "instalación de switches",
+      "instalación de routers",
+      "VLAN",
+      "red troncal",
+      "cableado estructurado",
+      "armario rack",
+      "puntos de red",
+      "ampliar red",
+      "mantenimiento red",
+      "configuración puertos",
+      "switches gestionables",
+      "topología de red",
+      "conectividad interna",
+      "red LAN",
+      "puertos ethernet",
+      "RJ45",
+      "latiguillos",
+      "cables categoría 6 o 7",
+      "uplinks",
+      "parcheo profesional",
+      "conexión entre edificios",
+      "enlaces entre plantas",
+      "caídas de red",
+      "crear red de datos"
+    ],
+    "GPON & WiFi": [
+      "gpon",
+      "sistema GPON",
+      "red óptica",
+      "olt",
+      "onu",
+      "splitter óptico",
+      "fibra dedicada",
+      "backbone óptico",
+      "latencia",
+      "caudal",
+      "simetría",
+      "cobertura wifi",
+      "puntos de acceso",
+      "wifi profesional",
+      "wifi6",
+      "wifi 6",
+      "wifi 7",
+      "APs gestionables",
+      "repetidores wifi",
+      "malla wifi",
+      "sistema mesh",
+      "pérdida de señal",
+      "despliegue fibra",
+      "instalación de fibra en hotel",
+      "distribución de red óptica",
+      "wifi de alta densidad",
+      "zonas comunes con wifi",
+      "problemas de cobertura",
+      "wifi en habitaciones",
+      "conexión estable",
+      "router profesional",
+      "control de usuarios"
+    ],
+    "TV/IPTV / Hotel TV": [
+      "iptv",
+      "cabecera digital",
+      "cabecera híbrida",
+      "hotel tv",
+      "stb android",
+      "stb certificado",
+      "canales internacionales",
+      "canales de pago",
+      "canal informativo propio",
+      "DVB-T",
+      "DVB-C",
+      "DVB-S",
+      "televisión por coaxial",
+      "televisión por IP",
+      "guía de canales",
+      "EPG",
+      "plataforma de contenidos",
+      "integración con PMS",
+      "TV interactiva",
+      "Netflix en hotel",
+      "bloqueo de mando",
+      "modo hospitalidad",
+      "gestión de TVs desde recepción",
+      "televisor profesional",
+      "Samsung Hospitality",
+      "Philips CMND",
+      "LG Pro:Centric",
+      "Smart TV",
+      "HDMI CEC",
+      "contenido corporativo en TV",
+      "canal interno",
+      "integración con servicios del hotel",
+      "control remoto centralizado"
+    ],
+    "Telefonía / Centralitas IP": [
+      "centralita IP",
+      "centralita virtual",
+      "central telefónica",
+      "extensiones internas",
+      "IVR",
+      "operadora automática",
+      "colas de llamada",
+      "call center",
+      "voz sobre IP",
+      "troncales SIP",
+      "teléfonos IP",
+      "operadora externa",
+      "número virtual",
+      "migración de centralita",
+      "telefonía IP homologada",
+      "desvío de llamadas",
+      "configuración de extensiones",
+      "integración con PMS",
+      "llamadas internas gratuitas",
+      "telefonía cloud",
+      "operador IP certificado",
+      "portabilidad",
+      "líneas IP",
+      "integración recepción-habitaciones",
+      "solución de comunicaciones unificadas",
+      "buzón de voz corporativo"
+    ],
+    "Videovigilancia / CCTV": [
+      "cámaras de seguridad",
+      "sistema de videovigilancia",
+      "circuito cerrado",
+      "grabación continua",
+      "grabación por movimiento",
+      "control de accesos",
+      "dvr",
+      "nvr",
+      "cámaras IP",
+      "cámaras 4K",
+      "cámaras térmicas",
+      "cámaras domo",
+      "vigilancia zonas comunes",
+      "cámaras en parking",
+      "seguridad en accesos",
+      "sistema de alarma visual",
+      "almacenamiento de imágenes",
+      "aviso por intrusión",
+      "visión nocturna",
+      "seguridad perimetral",
+      "revisión grabaciones",
+      "instalación profesional CCTV",
+      "sistema conectado a red",
+      "visualización desde móvil",
+      "cámaras integradas en red"
+    ],
+    "Señalética digital": [
+      "pantallas informativas",
+      "digital signage",
+      "contenido digital",
+      "señalética dinámica",
+      "pantallas en recepción",
+      "pantallas táctiles",
+      "menú digital",
+      "programación de contenidos",
+      "pantallas en ascensores",
+      "pantallas promocionales",
+      "vídeos institucionales",
+      "pantallas por zonas",
+      "lobby interactivo",
+      "promociones visuales",
+      "pantallas LED",
+      "gestión remota de pantallas",
+      "integración con TV",
+      "cartelería dinámica",
+      "información para clientes",
+      "cartel luminoso digital",
+      "pantalla vertical",
+      "pantalla horizontal",
+      "cartelería para spa",
+      "menú de restaurante digitalizado",
+      "promociones visuales en pantallas"
+    ],
+    "Paciente – Enfermera": [
+      "sistema llamada enfermera",
+      "intercomunicador hospitalario",
+      "pulsador de asistencia",
+      "solución geriátrica",
+      "hospitales conectados",
+      "alertas sanitarias",
+      "llamada desde cama",
+      "llamada de baño",
+      "monitorización en residencia",
+      "asistencia inmediata",
+      "integración sanitaria",
+      "sistema sociosanitario",
+      "control paciente‑enfermera",
+      "habitaciones conectadas",
+      "aviso de emergencia",
+      "solución para clínicas",
+      "comunicación paciente personal sanitario",
+      "historial de asistencia",
+      "reducción de tiempos de respuesta",
+      "sistema de seguridad clínica"
+    ],
+    "Domótica / Energía": [
+      "gestión energética",
+      "eficiencia energética",
+      "domótica hotelera",
+      "control luces",
+      "sensores de movimiento",
+      "ahorro energético",
+      "sistema inteligente de climatización",
+      "control desde recepción",
+      "sistema BMS",
+      "control centralizado de instalaciones",
+      "monitorización de consumos",
+      "apagado automático",
+      "control remoto de dispositivos",
+      "sensores de ocupación",
+      "integración domótica",
+      "control de temperatura",
+      "ahorro en climatización",
+      "sostenibilidad energética",
+      "optimización de recursos",
+      "detección de presencia",
+      "gestión térmica"
+    ],
+    "Innovación + IA": [
+      "inteligencia artificial aplicada",
+      "IA para hoteles",
+      "IA predictiva",
+      "automatización operativa",
+      "personalización del huésped",
+      "sistemas autónomos",
+      "asistentes virtuales",
+      "analítica de datos en tiempo real",
+      "predicción de incidencias",
+      "recomendación de servicios",
+      "upselling automatizado",
+      "motor inteligente",
+      "smart hospitality",
+      "digitalización completa",
+      "gestión por IA",
+      "innovación tecnológica",
+      "machine learning",
+      "big data hotelero",
+      "algoritmos de predicción",
+      "automatización de procesos internos",
+      "IA en recepción",
+      "check-in automático con IA"
+    ],
+    "Contacto comercial": [
+      "quiero presupuesto",
+      "me interesa",
+      "contactar comercial",
+      "precio aproximado",
+      "cuánto cuesta",
+      "hablar con ventas",
+      "formulario de contacto",
+      "agendar visita",
+      "reunión comercial",
+      "tengo un proyecto",
+      "enviar propuesta",
+      "necesito oferta",
+      "demo comercial",
+      "ayuda con decisión",
+      "comparativa de precios",
+      "tarifa especial",
+      "propuesta personalizada",
+      "colaboración comercial",
+      "presentación de soluciones",
+      "contacto directo",
+      "visita técnica"
+    ],
+    "Soporte / Postventa": [
+      "soporte técnico",
+      "avería",
+      "mantenimiento",
+      "revisión técnica",
+      "sistema no responde",
+      "ayuda con instalación",
+      "asistencia remota",
+      "abrir ticket",
+      "contactar soporte",
+      "revisión de red",
+      "problema con tv",
+      "no se ve canal",
+      "asistencia urgente",
+      "solución técnica",
+      "no tengo señal",
+      "llamada al técnico",
+      "seguimiento de instalación",
+      "reparación urgente",
+      "mal funcionamiento",
+      "ticket de soporte"
+    ],
+    "General / IB360": [
+      "quiénes sois",
+      "qué hace IB360",
+      "experiencia en hoteles",
+      "clientes principales",
+      "qué empresas trabajan con vosotros",
+      "casos de éxito",
+      "trayectoria profesional",
+      "empresa mallorquina",
+      "especialistas en tecnología",
+      "soluciones integrales",
+      "tecnología fiable",
+      "soporte local",
+      "empresa de confianza",
+      "quién está detrás",
+      "desde cuándo trabajáis",
+      "tecnologías instaladas",
+      "servicios ofrecidos",
+      "presencia en Baleares",
+      "cómo trabajáis",
+      "referencias locales"
+    ]
+  },
+  "IB360_EstructuraMadre_EscenarioBase": {
+    "welcome_message": "¡Hola! Soy el Asistente IB360. Estoy aquí para ayudarte a encontrar la solución tecnológica perfecta para tu hotel, clínica o empresa. En IB360 no solo instalamos tecnología: creamos proyectos a medida que funcionan desde el primer día, te ahorran tiempo y generan resultados reales. Escríbeme tu consulta directamente o elige una de las opciones para empezar:",
+    "quick_buttons": [
+      "🛠 Soluciones tecnológicas",
+      "🧠 Innovación e IA",
+      "📞 Hablar con el equipo comercial",
+      "📍 Soporte o seguimiento postventa",
+      "🔍 Por qué IB360"
+    ],
+    "respuestas_botones": {
+      "🛠 Soluciones tecnológicas": {
+        "mensaje": "Estas son nuestras líneas principales. Puedes hacer clic o indicarnos directamente el área que necesitas:",
+        "opciones": [
+          "Redes de Telecomunicaciones",
+          "GPON & WiFi",
+          "Cabeceras TV digitales/Híbridas/IP",
+          "Televisores profesionales modo hotel, IP",
+          "Centralitas de telefonía digitales/IP - Operadores homologados de Telefonía IP, Líneas de FTTH y móviles",
+          "Seguridad y Videovigilancia – CCTV",
+          "Instalaciones y mantenimiento de redes eléctricas de baja tensión",
+          "Equipos control paciente–enfermera: Hospitales, residencias, centros de día",
+          "Domótica y Gestión de instalaciones",
+          "Eficiencia energética"
+        ]
+      },
+      "🧠 Innovación e IA": {
+        "mensaje": "En IB360 creemos que la tecnología tiene que anticiparse a los problemas y trabajar por ti. Estamos desarrollando soluciones con inteligencia artificial para automatizar procesos, personalizar la experiencia del huésped y optimizar la gestión operativa. ¿Te interesa ver cómo aplicamos IA real en entornos reales?"
+      },
+      "📞 Hablar con el equipo comercial": {
+        "mensaje": "Puedo ponerte en contacto con nuestro equipo. Estas son las personas clave:\n- Carmen – Coordinación comercial y seguimiento de oportunidades\n📧 carmen@grupoib360.com\n- Miguel – Especialista en soluciones postventa\n📧 miguel@grupoib360.com\n- Vladimir – Desarrollo de negocio y soluciones tecnológicas para hoteles y empresas\n📧 vladimir@grupoib360.com\n\n¿Te gustaría que te contactemos? Déjanos tu nombre, email y tipo de proyecto. Nos encargamos del resto."
+      },
+      "📍 Soporte o seguimiento postventa": {
+        "mensaje": "¿Ya eres cliente de IB360 y necesitas asistencia técnica? Cuéntame qué tipo de instalación tienes o qué problema detectas. También puedes escribir directamente a: 📧 averias@grupoib360.com"
+      },
+      "🔍 Por qué IB360": {
+        "mensaje": "Elegir IB360 es optar por soluciones que cumplen y un equipo que responde. ¿Por qué confían en nosotros hoteles, hospitales y empresas de toda España?\n- Porque diseñamos proyectos a medida, sin promesas vacías\n- Porque respondemos rápido, con soporte 24/7 real\n- Porque contamos con equipo técnico propio, certificado y local\n- Porque nuestras soluciones están en uso hoy en grandes cadenas\n- Porque nos implicamos desde la ingeniería hasta el último cable\n- Porque mejoramos la experiencia del huésped, paciente o usuario final\n- Porque implementamos innovación real con impacto medible\n- Porque cumplimos. Sin excusas.\n\n¿Quieres conocer algún caso real o ver cómo podemos ayudarte en tu sector?"
+      }
+    }
+  },
+  "IB360_Modulo_11_FAQ_completo": {
+    "nombre_modulo": "MÓDULO 11 – FAQ: Instalaciones y Puesta en Marcha",
+    "contenido": [
+      {
+        "pregunta": "¿Realizáis vosotros las instalaciones o trabajáis con terceros?",
+        "respuesta": "En IB360 contamos con equipo técnico propio certificado, lo que nos permite garantizar calidad, tiempos y seguimiento postventa. En algunos casos muy específicos, colaboramos con instaladores homologados bajo nuestra supervisión directa."
+      },
+      {
+        "pregunta": "¿Podéis revisar una instalación previa realizada por otro proveedor?",
+        "respuesta": "Sí. Podemos auditar instalaciones ya existentes y proponer mejoras, sustituciones o integraciones. Siempre partimos de un diagnóstico técnico gratuito."
+      },
+      {
+        "pregunta": "¿En cuánto tiempo se puede instalar un sistema completo?",
+        "respuesta": "Depende del tipo de solución y del tamaño del proyecto, pero nuestro equipo técnico puede ejecutar instalaciones integrales en plazos ajustados gracias a nuestra logística y experiencia previa en grandes cadenas hoteleras, hospitales y residencias."
+      },
+      {
+        "pregunta": "¿Cómo es la puesta en marcha una vez instalado?",
+        "respuesta": "Nos encargamos de dejar todo operativo y verificado. En sistemas complejos, incluimos formación al personal del cliente, manuales técnicos y una revisión final para validar que todo está funcionando al 100%."
+      },
+      {
+        "pregunta": "¿Ofrecéis soporte después de la instalación?",
+        "respuesta": "Sí. Ofrecemos soporte postventa local 24/7, tanto preventivo como correctivo, con posibilidad de contratos de mantenimiento y revisión periódica. También disponemos de un sistema de tickets para incidencias técnicas."
+      },
+      {
+        "pregunta": "¿Vuestros técnicos están certificados?",
+        "respuesta": "Todos nuestros técnicos están certificados en instalación de redes, GPON, CCTV, telefonía IP y otros sistemas especializados. Además, están en formación continua para adaptarse a nuevas tecnologías."
+      },
+      {
+        "pregunta": "¿Ofrecéis cobertura en todas las Islas Baleares?",
+        "respuesta": "Sí, cubrimos todo el territorio español, incluyendo Mallorca, Menorca, Ibiza y Formentera, con base operativa en Palma y equipo técnico desplazable. También podemos operar en Latinoamérica bajo planificación previa cuando existe una necesidad real o un proyecto con alcance internacional."
+      },
+      {
+        "pregunta": "¿Qué tipo de instalaciones hacéis más a menudo?",
+        "respuesta": "Realizamos instalaciones integrales de redes de telecomunicaciones, WiFi profesional, cabeceras IPTV, soluciones de CCTV, telefonía IP, sistemas de domótica y señalética digital. También adaptamos infraestructuras antiguas a estándares actuales."
+      },
+      {
+        "pregunta": "¿Se puede compatibilizar vuestra instalación con sistemas antiguos?",
+        "respuesta": "En la mayoría de los casos sí. Evaluamos las infraestructuras existentes y buscamos soluciones híbridas o transiciones progresivas para reducir costes y evitar interrupciones de servicio."
+      },
+      {
+        "pregunta": "¿Trabajáis también en reformas o solo en obra nueva?",
+        "respuesta": "Ambos. Trabajamos tanto en proyectos de nueva construcción como en reformas o ampliaciones de instalaciones ya operativas."
+      }
+    ],
+    "activadores": [
+      "¿Hacéis instalaciones?",
+      "¿Instaláis vosotros?",
+      "¿Quién realiza la instalación?",
+      "¿Tenéis técnicos propios?",
+      "¿Subcontratáis la instalación?",
+      "¿Montáis vosotros el sistema?",
+      "¿Quién hace la puesta en marcha?",
+      "¿Incluye puesta en marcha?",
+      "¿Dais soporte después de instalar?",
+      "¿Dónde tenéis cobertura técnica?",
+      "¿Tenéis técnicos en Mallorca",
+      "¿Tenéis técnicos en Menorca",
+      "¿Tenéis técnicos en Ibiza",
+      "¿Tenéis técnicos en Formentera",
+      "¿Ofrecéis mantenimiento técnico?",
+      "¿Hacéis instalaciones llave en mano?",
+      "¿En cuánto tiempo se instala?",
+      "¿Cuánto se tarda en montar esto?",
+      "¿Revisáis instalaciones antiguas?",
+      "¿Auditáis instalaciones?",
+      "Necesito técnico de instalación",
+      "Necesito una revisión técnica",
+      "Necesito una auditoría de red",
+      "Instalar sistema GPON",
+      "Instalar sistema IPTV",
+      "Instalar sistema CCTV",
+      "¿Compatibles con sistemas existentes?",
+      "¿Incluye formación?",
+      "¿Ofrecéis soporte local?",
+      "¿Tenéis servicio postventa?",
+      "¿Trabajáis en reformas?",
+      "¿Solo obra nueva?",
+      "¿Instaláis fuera de Baleares?",
+      "¿Cubrís toda España?",
+      "¿Tenéis presencia en LATAM?",
+      "Técnicos certificados",
+      "¿Cómo se instala?",
+      "¿Quién hace la integración?",
+      "¿Lo ponéis vosotros?",
+      "¿Venís a ponerlo?",
+      "¿Lo montáis?",
+      "¿Mandáis alguien a instalar?",
+      "¿Cuánto tardáis en venir?",
+      "¿Traéis a los técnicos?",
+      "¿Eso lo hacéis vosotros?",
+      "¿Me lo dejáis listo?",
+      "¿Lo dejáis funcionando?"
+    ]
+  },
+  "IB360_Modulo_12_Temas_Prohibidos": {
+    "nombre_modulo": "MÓDULO 12 – Temas Prohibidos o Fuera de Alcance",
+    "categorias": [
+      {
+        "tema": "Precios o presupuestos",
+        "activadores": [
+          "¿Cuánto cuesta?",
+          "¿Me das precio?",
+          "¿Cuánto vale esto?",
+          "¿Me puedes pasar una tarifa?",
+          "¿Cuál es el coste?",
+          "¿Cuánto cobráis por…?"
+        ],
+        "respuesta": "Gracias por tu interés. Cada proyecto se estudia de forma personalizada, por eso no ofrecemos precios estándar a través del asistente. ¿Te gustaría que nuestro equipo comercial te prepare una propuesta adaptada? Puedes dejar aquí tu nombre, email y tipo de proyecto."
+      },
+      {
+        "tema": "Información sensible o confidencial",
+        "activadores": [
+          "¿Qué clientes tenéis?",
+          "¿Cuánto factura IB360?",
+          "¿Quiénes son vuestros proveedores?",
+          "¿Qué márgenes trabajáis?",
+          "¿Cuánto ganáis por instalación?",
+          "¿Cuántos empleados tenéis?"
+        ],
+        "respuesta": "Por motivos de confidencialidad, el asistente no puede facilitar este tipo de información. Pero estaré encantado de ayudarte con cualquier duda sobre nuestras soluciones tecnológicas o servicios."
+      },
+      {
+        "tema": "Cuestiones internas, legales o administrativas",
+        "activadores": [
+          "¿Puedo enviar mi CV?",
+          "¿Estáis contratando?",
+          "¿Tenéis bolsa de empleo?",
+          "¿Tenéis convenio con tal entidad?",
+          "¿Quién es el dueño?",
+          "¿Puedo hablar con Víctor directamente?"
+        ],
+        "respuesta": "Este canal está orientado exclusivamente a resolver dudas sobre nuestras soluciones tecnológicas. Si tu consulta está relacionada con recursos humanos o asuntos internos, puedes escribir directamente a info@grupoib360.com."
+      },
+      {
+        "tema": "Temas fuera del ámbito IB360",
+        "activadores": [
+          "¿Qué opináis de otra empresa?",
+          "¿Vendéis móviles?",
+          "¿Podéis darme soporte para un router doméstico?",
+          "¿Vendéis electrodomésticos?",
+          "¿Instaláis fibra en casas particulares?",
+          "¿Tenéis tienda?"
+        ],
+        "respuesta": "Este asistente está diseñado para ayudarte con soluciones profesionales en telecomunicaciones, seguridad, IPTV y sistemas integrales para hoteles, hospitales y empresas. ¿Te gustaría que te contemos más sobre alguna de estas áreas?"
+      }
+    ]
+  },
+  "IB360_Modulo1_Chatbot": [
+    {
+      "category": "Conectividad y Redes",
+      "intent": "gpon_architecture",
+      "user_input": "¿Qué tipo de arquitectura de red ofrece IB360 con tecnología GPON?",
+      "bot_response": "IB360 implementa soluciones GPON con arquitectura punto a multipunto, que permite distribuir datos, voz, IPTV, CCTV y otros servicios sobre una única fibra hasta la habitación o punto final. Utilizamos equipos certificados y una planificación de ingeniería personalizada para cada proyecto, asegurando máxima compatibilidad con sistemas como IPTV, centralitas IP o PMS. Gracias a nuestro enfoque como integradores, ofrecemos soluciones escalables y robustas, con una excelente relación calidad-precio.",
+      "priority": "alta"
+    },
+    {
+      "category": "Conectividad y Redes",
+      "intent": "gpon_vs_ethernet",
+      "user_input": "¿Qué ventajas ofrece GPON frente a redes Ethernet o coaxial?",
+      "bot_response": "GPON permite simplificar la red interna del edificio usando un solo hilo de fibra para múltiples servicios, reduciendo drásticamente cableado, puntos de fallo y consumo energético. Entre sus ventajas: mejora de velocidad y estabilidad, menor mantenimiento, red multiservicio integrada y alta escalabilidad. Nuestras soluciones están orientadas a optimizar recursos y facilitar futuras ampliaciones sin obras ni sobrecostes.",
+      "priority": "alta"
+    },
+    {
+      "category": "Conectividad y Redes",
+      "intent": "gpon_equipment",
+      "user_input": "¿Qué marcas y modelos trabajáis para GPON?",
+      "bot_response": "Trabajamos exclusivamente con equipos certificados y de alto rendimiento provenientes de fabricantes reconocidos internacionalmente, siempre a través de nuestros mayoristas tecnológicos de confianza. No estamos ligados a un único fabricante, lo que nos permite adaptar cada instalación a los requisitos técnicos y económicos del cliente. Como integradores locales, ofrecemos tecnología puntera a precios altamente competitivos, con soporte técnico propio y garantía directa.",
+      "priority": "alta"
+    },
+    {
+      "category": "Conectividad y Redes",
+      "intent": "wifi_solutions",
+      "user_input": "¿Qué soluciones WiFi implementa IB360 y qué estándares soportan?",
+      "bot_response": "Diseñamos redes WiFi profesionales basadas en WiFi 6 como estándar actual y WiFi 7 para proyectos avanzados. Utilizamos access points certificados con gestión centralizada, roaming automático, portal cautivo opcional y control de tráfico por VLANs. Todas las soluciones se entregan optimizadas para entornos de alta densidad. Además, al trabajar con mayoristas líderes, ofrecemos equipamiento de última generación con condiciones preferenciales y soporte integral.",
+      "priority": "alta"
+    },
+    {
+      "category": "Conectividad y Redes",
+      "intent": "wifi_coverage",
+      "user_input": "¿Cómo garantizáis buena cobertura WiFi en instalaciones grandes?",
+      "bot_response": "Realizamos estudios previos con mapas de calor predictivos, análisis espectral y planificación por zonas, teniendo en cuenta estructuras físicas, materiales y densidad de dispositivos por área. El resultado es una red WiFi segmentada y optimizada con seguridad WPA3, VLANs por perfiles de usuario y gestión centralizada. Esta metodología nos permite ofrecer cobertura total, mínimo solapamiento y alto rendimiento garantizado.",
+      "priority": "media"
+    },
+    {
+      "category": "Conectividad y Redes",
+      "intent": "switches_and_trunk",
+      "user_input": "¿Ofrecéis switches y red troncal para todo el edificio?",
+      "bot_response": "Sí. Implementamos switching profesional L2/L3 con soporte para PoE, VLANs, QoS y enlaces redundantes según la arquitectura definida. Usamos únicamente equipos de categoría profesional certificados, y realizamos configuraciones que permiten crecimiento futuro, control de tráfico y segmentación por servicios o departamentos. Al ser integradores, optimizamos costes sin comprometer rendimiento.",
+      "priority": "media"
+    },
+    {
+      "category": "Conectividad y Redes",
+      "intent": "network_security",
+      "user_input": "¿Qué nivel de seguridad en red ofrecéis?",
+      "bot_response": "Diseñamos redes segmentadas por VLAN con control de acceso, cifrado WPA3 en WiFi, ACLs, firewalls y detección de amenazas. Opcionalmente, podemos integrar sistemas de monitorización activa, control de navegación por DNS filtering y cumplimiento de trazabilidad GDPR. Todas nuestras soluciones están orientadas a entornos sensibles como hoteles, clínicas o empresas, con foco en prevención y estabilidad operativa.",
+      "priority": "media"
+    },
+    {
+      "category": "Conectividad y Redes",
+      "intent": "provider_integration",
+      "user_input": "¿Podéis integraros con mi proveedor de Internet actual?",
+      "bot_response": "Por supuesto. IB360 actúa como integrador interno de red, no como proveedor de conectividad. Nos adaptamos a cualquier operador (Movistar, Vodafone, etc.) y distribuimos los servicios dentro del edificio con infraestructura propia. Esto permite mantener tu proveedor actual sin perder control ni calidad en la red interna.",
+      "priority": "media"
+    },
+    {
+      "category": "Conectividad y Redes",
+      "intent": "network_monitoring",
+      "user_input": "¿Qué opciones tengo para monitorizar o controlar la red?",
+      "bot_response": "Ofrecemos plataformas de gestión en la nube o en local que permiten supervisar el estado de la red, switches, APs y ONTs; recibir alertas automáticas; acceder a estadísticas de tráfico; y gestionar configuraciones de forma remota. Estas herramientas permiten a tu equipo o al nuestro detectar, actuar y prevenir problemas en tiempo real.",
+      "priority": "media"
+    },
+    {
+      "category": "Conectividad y Redes",
+      "intent": "technical_support",
+      "user_input": "¿Tenéis soporte técnico en caso de incidencias?",
+      "bot_response": "Sí. Contamos con servicio técnico local y remoto, disponible 24/7 para clientes con contrato de soporte. Nuestros planes de mantenimiento incluyen asistencia inmediata remota, intervención presencial si es necesario y monitorización activa. Garantizamos un soporte profesional, ágil y resolutivo, sin subcontratas.",
+      "priority": "alta"
+    }
+  ],
+  "IB360_Modulo2_Chatbot_fixed": [
+    {
+      "category": "Cabeceras TV / IPTV / Hotel TV",
+      "intent": "iptv_solutions",
+      "user_input": "¿Qué soluciones IPTV y Hotel TV ofrece IB360?",
+      "bot_response": "IB360 ofrece soluciones completas para distribución de contenidos en red: desde cabeceras IPTV multicanal (DVB-S/T/C a IP) hasta sistemas interactivos de entretenimiento en pantalla (basados en STB Android certificados). Integramos TV en habitaciones, zonas comunes y señalética informativa con una única infraestructura, con posibilidad de añadir control remoto de contenido, integración con PMS, mensajería directa al huésped y plataformas como Netflix o Prime Video mediante enlace QR. Además, ofrecemos todo esto sin cuotas mensuales, con soporte técnico local.",
+      "priority": "alta"
+    }
+  ],
+  "IB360_Modulo3_Chatbot_fixed": [
+    {
+      "category": "Centralitas IP y Telefonía",
+      "intent": "telefonia_general",
+      "user_input": "¿Qué soluciones de telefonía IP ofrecéis?",
+      "bot_response": "IB360 ofrece soluciones completas de telefonía IP, incluyendo centralitas físicas, virtuales y extensiones IP, adaptadas a hoteles, hospitales, oficinas o residencias. Trabajamos con sistemas escalables, compatibles con SIP estándar, que permiten desde 4 hasta cientos de extensiones, tanto internas como externas. Diseñamos cada instalación según el flujo de llamadas, integración con PMS o CRM, y necesidades operativas. Reducimos costes frente a sistemas analógicos, eliminamos líneas físicas y facilitamos la gestión interna.",
+      "priority": "alta"
+    }
+  ],
+  "IB360_Modulo4_Chatbot": [
+    {
+      "category": "Seguridad y Videovigilancia - CCTV",
+      "intent": "soluciones_seguridad",
+      "user_input": "¿Qué soluciones de seguridad ofrece IB360?",
+      "bot_response": "IB360 instala sistemas profesionales de videovigilancia CCTV HD/4K, control de accesos y grabación 24/7. Nuestros sistemas permiten visualizar en tiempo real, grabar por eventos o de forma continua y consultar las cámaras desde cualquier dispositivo autorizado. Diseñamos la solución a medida, con cámaras fijas, domo, visión nocturna, reconocimiento de movimiento y almacenamiento local o en red. Es una solución integral, segura y sin costes ocultos.",
+      "priority": "alta"
+    },
+    {
+      "category": "Seguridad y Videovigilancia - CCTV",
+      "intent": "tipos_camaras",
+      "user_input": "¿Qué tipo de cámaras instaláis?",
+      "bot_response": "Instalamos cámaras de vigilancia de alta definición (HD, Full HD, 4K) con opción de visión nocturna, detección de movimiento, domo PTZ y grabación inteligente. Seleccionamos cada modelo en función de la ubicación (interior, exterior, pasillos, parking, etc.) y lo adquirimos a través de nuestros mayoristas especializados. Gracias a nuestra red de distribución, ofrecemos hardware profesional con garantía, al mejor precio y sin depender de plataformas cloud de terceros.",
+      "priority": "alta"
+    },
+    {
+      "category": "Seguridad y Videovigilancia - CCTV",
+      "intent": "necesidad_red",
+      "user_input": "¿Es necesario tener red propia para instalar videovigilancia?",
+      "bot_response": "No. Podemos montar una red paralela dedicada al sistema de CCTV si la red del cliente no está preparada. En edificios con infraestructura de red o GPON ya existente, integramos las cámaras en VLANs separadas con acceso restringido. Garantizamos rendimiento y seguridad en ambos casos.",
+      "priority": "media"
+    },
+    {
+      "category": "Seguridad y Videovigilancia - CCTV",
+      "intent": "grabacion_opciones",
+      "user_input": "¿Qué opciones de grabación ofrecéis?",
+      "bot_response": "Ofrecemos grabación local (en NVR), almacenamiento en red (NAS) o backups híbridos, según normativa y necesidades operativas. La grabación puede configurarse por: movimiento, horario o evento externo (alarma, acceso no autorizado, etc.). Todo se puede visualizar en tiempo real desde dispositivos móviles, tablets o PC, con acceso restringido.",
+      "priority": "media"
+    },
+    {
+      "category": "Seguridad y Videovigilancia - CCTV",
+      "intent": "acceso_remoto",
+      "user_input": "¿Puedo acceder a las cámaras desde fuera del edificio?",
+      "bot_response": "Sí. Configuramos acceso remoto cifrado (VPN o plataforma segura) que permite visualizar cámaras desde dispositivos autorizados, sin comprometer la red interna. Este acceso puede ser gestionado por usuarios con permisos personalizados. Cumplimos con normativa RGPD en todos nuestros despliegues.",
+      "priority": "media"
+    },
+    {
+      "category": "Seguridad y Videovigilancia - CCTV",
+      "intent": "integracion_cctv",
+      "user_input": "¿Se pueden integrar las cámaras con otros sistemas?",
+      "bot_response": "Sí. Podemos integrar CCTV con: control de accesos, alarmas técnicas o sanitarias, servidores locales o nube privada, notificaciones automáticas (movimiento en zona restringida, intento de intrusión, etc.). También podemos enlazar cámaras con pantallas informativas o software de gestión del cliente.",
+      "priority": "media"
+    },
+    {
+      "category": "Seguridad y Videovigilancia - CCTV",
+      "intent": "corte_corriente",
+      "user_input": "¿Qué ocurre si se corta la corriente?",
+      "bot_response": "Recomendamos incluir sistemas de alimentación ininterrumpida (SAI) para garantizar el funcionamiento durante cortes de luz. Además, las cámaras IP de bajo consumo pueden seguir grabando en red o en almacenamiento local si se mantiene la conectividad. Siempre diseñamos un plan de contingencia técnico adaptado.",
+      "priority": "media"
+    },
+    {
+      "category": "Seguridad y Videovigilancia - CCTV",
+      "intent": "compatibilidad_existente",
+      "user_input": "¿Podemos utilizar nuestras cámaras actuales?",
+      "bot_response": "Sí, siempre que sean compatibles con los protocolos ONVIF o RTSP. Evaluamos la infraestructura existente y, si es viable, reutilizamos los equipos actuales, integrándolos con los nuevos NVR o software de gestión. Esto reduce la inversión inicial sin comprometer calidad ni funcionalidad.",
+      "priority": "media"
+    },
+    {
+      "category": "Seguridad y Videovigilancia - CCTV",
+      "intent": "soporte_tecnico_cctv",
+      "user_input": "¿Ofrecéis mantenimiento y soporte técnico?",
+      "bot_response": "Sí. Nuestro soporte técnico incluye: monitorización remota (opcional), asistencia ante alertas o fallos, visitas periódicas de revisión (según contrato). Trabajamos con personal local, sin subcontratas, y garantizamos tiempos de respuesta definidos por SLA. La seguridad no puede esperar, y nosotros tampoco.",
+      "priority": "alta"
+    },
+    {
+      "category": "Seguridad y Videovigilancia - CCTV",
+      "intent": "visita_demo_cctv",
+      "user_input": "¿Podéis enviarnos una propuesta o hacer una visita técnica?",
+      "bot_response": "Por supuesto. Podemos agendar una visita técnica sin compromiso para valorar el entorno y proponer la mejor solución. También podemos enviarte un dosier con ejemplos, marcas, esquemas y referencias instaladas. ¿Quieres que uno de nuestros técnicos te contacte directamente?",
+      "priority": "alta"
+    }
+  ],
+  "IB360_Modulo5_Chatbot": [
+    {
+      "category": "Señalética Digital y Pantallas",
+      "intent": "pantallas_tipo",
+      "user_input": "¿Qué tipo de pantallas y señalética digital ofrecéis?",
+      "bot_response": "Ofrecemos soluciones de pantallas informativas profesionales para mostrar contenido dinámico: menús, horarios, eventos, alertas, promociones, etc. Instalamos monitores profesionales diseñados para uso 24/7 y gestión remota de contenidos desde cualquier lugar. Estas soluciones son ideales para recepciones, lobbies, restaurantes, salas de espera o ascensores, con posibilidad de automatizar el contenido por horarios o zonas.",
+      "priority": "alta"
+    },
+    {
+      "category": "Señalética Digital y Pantallas",
+      "intent": "pantallas_tamanos",
+      "user_input": "¿Qué tamaños de pantallas instaláis?",
+      "bot_response": "Instalamos pantallas profesionales desde 22 hasta más de 75 pulgadas, según ubicación, distancia de lectura y resolución necesaria. Todos los equipos que ofrecemos cuentan con: panel antirreflejo, entrada HDMI/USB/Red, soporte de reproducción 4K, compatibilidad con sistemas de gestión de contenidos (CMS). Solo trabajamos con pantallas certificadas para uso intensivo, garantizando estabilidad y larga vida útil.",
+      "priority": "media"
+    },
+    {
+      "category": "Señalética Digital y Pantallas",
+      "intent": "gestion_contenido",
+      "user_input": "¿Cómo se gestiona el contenido en estas pantallas?",
+      "bot_response": "Ofrecemos un sistema CMS (Content Management System) que permite: subir, programar y modificar contenido en tiempo real; gestionar múltiples pantallas desde una única plataforma; crear horarios, plantillas o zonas de contenido; control remoto desde PC o móvil. Esto permite a recepción, marketing o dirección actualizar contenido sin necesidad de soporte técnico. Todo de forma centralizada y segura.",
+      "priority": "alta"
+    },
+    {
+      "category": "Señalética Digital y Pantallas",
+      "intent": "contenido_mostrado",
+      "user_input": "¿Qué tipo de contenido se puede mostrar?",
+      "bot_response": "Puedes mostrar: imágenes, vídeos, presentaciones, PDF; información en tiempo real (hora, temperatura, alertas); menús digitales de restaurante; eventos y horarios de salas (integración con calendario); publicidad propia o de terceros. Todo con posibilidad de personalización por zona, idioma o grupo de pantallas.",
+      "priority": "media"
+    },
+    {
+      "category": "Señalética Digital y Pantallas",
+      "intent": "automatizacion_horaria",
+      "user_input": "¿Se pueden programar horarios o automatizar el contenido?",
+      "bot_response": "Sí. Nuestro sistema permite crear horarios automáticos para cambiar el contenido según la hora, el día o eventos específicos. Por ejemplo: menú desayuno hasta las 11:00, promoción spa de 11:00 a 18:00, horario de animación a partir de las 18:00. Esto ahorra tiempo y asegura que siempre se muestre el mensaje adecuado.",
+      "priority": "media"
+    },
+    {
+      "category": "Señalética Digital y Pantallas",
+      "intent": "uso_pantallas_actuales",
+      "user_input": "¿Es posible usar nuestras pantallas actuales?",
+      "bot_response": "En muchos casos sí. Si tus pantallas tienen entrada HDMI y están en buen estado, podemos añadir un media player compatible para habilitar la señalética digital sin necesidad de cambiar el hardware. Analizamos cada caso y proponemos la solución más eficiente en coste y funcionalidad.",
+      "priority": "media"
+    },
+    {
+      "category": "Señalética Digital y Pantallas",
+      "intent": "conexion_internet",
+      "user_input": "¿Se necesita conexión a Internet?",
+      "bot_response": "No obligatoriamente. Nuestro sistema puede funcionar en red local sin acceso externo o con conexión a Internet para control remoto. Si el entorno requiere alta seguridad o funcionamiento offline, configuramos la señalética en entorno cerrado y seguro, sin comprometer la autonomía.",
+      "priority": "media"
+    },
+    {
+      "category": "Señalética Digital y Pantallas",
+      "intent": "pantallas_como_tv",
+      "user_input": "¿Se pueden usar las pantallas como TV?",
+      "bot_response": "Sí. En ciertos proyectos instalamos pantallas que cumplen doble función: informativa + entretenimiento. Podemos dividir la pantalla (por zonas) para mostrar TV en una parte y contenido corporativo en otra, o bien alternar automáticamente según horario. Esto es útil en bares, salas de espera o zonas mixtas.",
+      "priority": "media"
+    },
+    {
+      "category": "Señalética Digital y Pantallas",
+      "intent": "sectores_uso",
+      "user_input": "¿Qué sectores utilizan esta solución?",
+      "bot_response": "Instalamos señalética digital en: hoteles (recepción, restaurantes, eventos); hospitales y clínicas (zonas de espera, pasillos, consultas); retail (escaparates, zonas de caja, promociones); empresas (hall, salas de reuniones, plantas de producción); aeropuertos y centros deportivos. Cada instalación se adapta al flujo de usuarios y mensaje a comunicar.",
+      "priority": "media"
+    },
+    {
+      "category": "Señalética Digital y Pantallas",
+      "intent": "demo_senaletica",
+      "user_input": "¿Podéis mostrarme ejemplos o hacerme una demo?",
+      "bot_response": "Sí. Podemos enviarte un dosier con ejemplos reales de señalética digital en hoteles, hospitales y empresas. También podemos agendar una demo online personalizada o visita técnica si lo necesitas. ¿Quieres que alguien del equipo se ponga en contacto contigo?",
+      "priority": "alta"
+    }
+  ],
+  "IB360_Modulo6_Chatbot": [
+    {
+      "category": "Equipos Control Paciente‑Enfermera",
+      "intent": "sistemas_llamada",
+      "user_input": "¿Qué sistemas de llamada paciente-enfermera ofrecéis?",
+      "bot_response": "Ofrecemos soluciones completas de llamada asistencial, que permiten al paciente o residente solicitar ayuda desde la cama, baño o zonas comunes. El personal recibe alertas en terminales, teléfonos IP, pantallas informativas o relojes conectados. Todo el sistema puede integrarse con alarmas técnicas, paneles de control y sistemas de localización por habitación o zona.",
+      "priority": "alta"
+    },
+    {
+      "category": "Equipos Control Paciente‑Enfermera",
+      "intent": "tipos_dispositivos",
+      "user_input": "¿Qué tipo de dispositivos incluye el sistema?",
+      "bot_response": "Los sistemas incluyen: pulsadores de cama y baño (con cordón, sin contacto, antimicrobianos); lámparas de señalización exterior; consolas de habitación; displays centralizados en pasillos o control de enfermería; opcional: relojes o receptores móviles para el personal. Todo el sistema es modular, personalizable y pensado para garantizar rapidez y seguridad.",
+      "priority": "media"
+    },
+    {
+      "category": "Equipos Control Paciente‑Enfermera",
+      "intent": "integracion_red_ip",
+      "user_input": "¿Se puede integrar con la red IP existente?",
+      "bot_response": "Sí. Nuestros sistemas están diseñados para funcionar sobre red IP existente o nueva, usando switches gestionables y PoE si es necesario. Además, pueden conectarse a sistemas de telefonía IP, servidores o plataformas de gestión sociosanitaria. Esto reduce cableado adicional y facilita la supervisión remota.",
+      "priority": "alta"
+    },
+    {
+      "category": "Equipos Control Paciente‑Enfermera",
+      "intent": "identificacion_alerta",
+      "user_input": "¿Se puede saber desde qué habitación o baño se hace la llamada?",
+      "bot_response": "Sí. Cada pulsador se configura con una identificación única, que permite mostrar la habitación exacta, el tipo de llamada y su prioridad. La alerta puede mostrarse en pantalla, consola central o enviarse por mensaje al personal. Además, el sistema registra el tiempo de respuesta para análisis de calidad asistencial.",
+      "priority": "alta"
+    },
+    {
+      "category": "Equipos Control Paciente‑Enfermera",
+      "intent": "no_respuesta",
+      "user_input": "¿Qué ocurre si hay una llamada y el personal no responde?",
+      "bot_response": "El sistema puede configurarse con reintentos automáticos, escalado de prioridad o desvío a otros dispositivos del equipo. Esto asegura que ninguna llamada quede sin atender. También permite establecer tiempos máximos de respuesta para activar una alerta adicional si es necesario.",
+      "priority": "media"
+    },
+    {
+      "category": "Equipos Control Paciente‑Enfermera",
+      "intent": "mantenimiento_sistema",
+      "user_input": "¿Qué tipo de mantenimiento requiere?",
+      "bot_response": "El mantenimiento es mínimo. Recomendamos: revisión semestral del hardware (pulsadores, displays); actualizaciones de software o firmware si el sistema es IP. Ofrecemos contratos de soporte con revisiones periódicas, sustitución preventiva de equipos y asistencia técnica prioritaria. Nuestro equipo está especializado en entornos sociosanitarios.",
+      "priority": "media"
+    },
+    {
+      "category": "Equipos Control Paciente‑Enfermera",
+      "intent": "alertas_pantalla_telefono",
+      "user_input": "¿Se pueden ver las alertas en pantalla o teléfonos IP?",
+      "bot_response": "Sí. Podemos integrar el sistema con: pantallas informativas (pasillos, control de planta); consolas IP táctiles; teléfonos IP o móviles corporativos del personal; aplicaciones móviles (opcional). Esto permite atender rápidamente sin estar presente físicamente en la sala de control.",
+      "priority": "media"
+    },
+    {
+      "category": "Equipos Control Paciente‑Enfermera",
+      "intent": "cumplimiento_normativa",
+      "user_input": "¿Cumple con normativa sociosanitaria?",
+      "bot_response": "Sí. Todos los equipos que ofrecemos están homologados para uso sanitario y cumplen con la normativa vigente de instalaciones asistenciales (UNE/ISO). Además, los materiales son resistentes, higiénicos y compatibles con protocolos de limpieza hospitalaria. También cumplimos con RGPD en sistemas conectados.",
+      "priority": "alta"
+    },
+    {
+      "category": "Equipos Control Paciente‑Enfermera",
+      "intent": "tipos_centros",
+      "user_input": "¿Para qué tipo de centros está pensado?",
+      "bot_response": "Estos sistemas se instalan en: residencias de mayores; centros de día; clínicas privadas; hospitales públicos o concertados; centros sociosanitarios o especializados. Adaptamos la solución al número de camas, distribución del edificio y personal disponible.",
+      "priority": "media"
+    },
+    {
+      "category": "Equipos Control Paciente‑Enfermera",
+      "intent": "visita_demo_enfermera",
+      "user_input": "¿Podéis hacer una visita técnica o enviarnos una propuesta?",
+      "bot_response": "Por supuesto. Podemos visitar el centro para evaluar las necesidades reales, o enviarte un dosier con esquema técnico, ejemplos y referencias. También podemos preparar una demo presencial o virtual. ¿Quieres que alguien del equipo se ponga en contacto contigo?",
+      "priority": "alta"
+    }
+  ],
+  "IB360_Modulo7_Chatbot": [
+    {
+      "category": "Soporte Técnico y Postventa",
+      "intent": "tipos_soporte",
+      "user_input": "¿Qué tipo de soporte ofrecéis tras la instalación?",
+      "bot_response": "IB360 ofrece soporte técnico completo: asistencia remota inmediata, intervención presencial si es necesario, monitorización opcional 24/7 en instalaciones críticas, y gestión de tickets por correo o plataforma online. Todo el soporte se realiza desde Baleares, sin subcontratas, con conocimiento real del entorno.",
+      "priority": "alta"
+    },
+    {
+      "category": "Soporte Técnico y Postventa",
+      "intent": "soporte_incidencias_ampliado",
+      "user_input": "¿El soporte es solo para incidencias?",
+      "bot_response": "No. Incluye también: soporte preventivo, asistencia durante nuevas integraciones o ampliaciones, formación para el personal del cliente, y gestión de garantías o sustitución de equipos. Nuestro objetivo es acompañar todo el ciclo de vida del proyecto.",
+      "priority": "media"
+    },
+    {
+      "category": "Soporte Técnico y Postventa",
+      "intent": "soporte_24_7",
+      "user_input": "¿Tenéis soporte 24/7?",
+      "bot_response": "Sí. Para instalaciones críticas o con contrato específico, ofrecemos asistencia 24 horas al día, 365 días al año. Incluye atención telefónica, email, técnicos de guardia localizados, e intervención urgente en remoto o presencial, según el nivel de servicio contratado.",
+      "priority": "alta"
+    },
+    {
+      "category": "Soporte Técnico y Postventa",
+      "intent": "tiempos_respuesta",
+      "user_input": "¿Cuánto tardáis en responder ante una avería?",
+      "bot_response": "Depende del SLA contratado. En general: soporte remoto entre 15 y 60 minutos; presencial en Baleares entre 2 y 12 horas, según criticidad. Atención prioritaria en hospitales, hoteles en temporada o residencias operativas.",
+      "priority": "media"
+    },
+    {
+      "category": "Soporte Técnico y Postventa",
+      "intent": "gestion_incidencias",
+      "user_input": "¿Cómo se gestionan las incidencias?",
+      "bot_response": "Disponemos de un sistema de gestión de tickets por email o formulario, con seguimiento automático. Cada incidencia se documenta y se le asigna un técnico responsable. El cliente puede consultar el estado del ticket y recibir actualizaciones y valoración tras la resolución.",
+      "priority": "media"
+    },
+    {
+      "category": "Soporte Técnico y Postventa",
+      "intent": "revisiones_periodicas",
+      "user_input": "¿Ofrecéis revisiones periódicas?",
+      "bot_response": "Sí. En contratos con soporte preventivo, realizamos visitas de control programadas, verificación del estado de red, dispositivos y sistema, y entrega de informe técnico con recomendaciones. Esto ayuda a prevenir fallos y alarga la vida útil de los sistemas.",
+      "priority": "media"
+    },
+    {
+      "category": "Soporte Técnico y Postventa",
+      "intent": "soporte_terceros",
+      "user_input": "¿También dais soporte en proyectos que no habéis instalado vosotros?",
+      "bot_response": "Sí, aunque primero evaluamos la instalación existente. Podemos asumir el soporte de sistemas de terceros si cumplen con estándares mínimos. También ofrecemos servicios de actualización o migración hacia tecnologías IB360, con plan de soporte personalizado.",
+      "priority": "media"
+    },
+    {
+      "category": "Soporte Técnico y Postventa",
+      "intent": "quien_resuelve",
+      "user_input": "¿Quién se encarga de resolver los problemas?",
+      "bot_response": "Nuestro equipo técnico propio, con base en Baleares. No trabajamos con subcontratas, lo que nos permite conocer cada cliente a fondo, dar respuestas rápidas y asegurar continuidad y trazabilidad en cada intervención.",
+      "priority": "alta"
+    },
+    {
+      "category": "Soporte Técnico y Postventa",
+      "intent": "formacion_personal",
+      "user_input": "¿Ofrecéis formación al personal?",
+      "bot_response": "Sí. Incluimos formación básica en cada instalación y ofrecemos sesiones ampliadas en uso de plataformas, gestión de contenidos, resolución de incidencias, o incorporación de nuevos usuarios. La formación es clave para aprovechar al máximo nuestras soluciones.",
+      "priority": "media"
+    },
+    {
+      "category": "Soporte Técnico y Postventa",
+      "intent": "soporte_existente",
+      "user_input": "¿Puedo contratar el soporte si ya tengo otra instalación?",
+      "bot_response": "Sí. Evaluamos tu sistema actual y, si es viable, podemos ofrecer soporte técnico con un contrato adaptado. En algunos casos, recomendamos una revisión inicial o puesta a punto. ¿Quieres que uno de nuestros técnicos revise tu caso?",
+      "priority": "alta"
+    }
+  ],
+  "IB360_Modulo8_Chatbot": [
+    {
+      "category": "Propuesta de Valor IB360",
+      "intent": "diferenciales_ib360",
+      "user_input": "¿Qué hace diferente a IB360 frente a otras empresas del sector?",
+      "bot_response": "En IB360 no solo instalamos tecnología: la hacemos funcionar. Contamos con equipo propio certificado, sin subcontratas. Ofrecemos soluciones integrales, desde el diseño hasta el soporte postventa. Respondemos rápido y cumplimos lo que prometemos. Estamos basados en Baleares, con soporte local real. Y además, no dependemos de una sola marca, lo que nos permite adaptar la tecnología a cada proyecto y no al revés.",
+      "priority": "alta"
+    },
+    {
+      "category": "Propuesta de Valor IB360",
+      "intent": "experiencia_sector",
+      "user_input": "¿Desde cuándo trabajáis en este sector?",
+      "bot_response": "Tenemos más de 20 años de experiencia en el sector tecnológico, trabajando con cadenas hoteleras, grupos sanitarios y empresas locales. Esa trayectoria nos permite entender mejor los entornos operativos, prever problemas y anticiparnos a las necesidades reales de cada cliente. No improvisamos: aplicamos lo aprendido en cada nuevo proyecto.",
+      "priority": "media"
+    },
+    {
+      "category": "Propuesta de Valor IB360",
+      "intent": "garantias_ib360",
+      "user_input": "¿Qué garantías ofrecéis?",
+      "bot_response": "Todos nuestros productos cuentan con garantía oficial del fabricante y soporte técnico local para asistencia rápida. Además, ofrecemos contratos de mantenimiento preventivo, ampliaciones de garantía y sustitución exprés en instalaciones críticas. No hay letra pequeña: solo soluciones.",
+      "priority": "alta"
+    },
+    {
+      "category": "Propuesta de Valor IB360",
+      "intent": "quien_esta_detras",
+      "user_input": "¿Quién está detrás de IB360?",
+      "bot_response": "Un equipo técnico y comercial con base en Baleares, con formación certificada en telecomunicaciones, redes, audiovisual, seguridad y domótica. No somos un call center ni una empresa fantasma: somos personas que responden, instalan y solucionan. Y estamos cerca.",
+      "priority": "media"
+    },
+    {
+      "category": "Propuesta de Valor IB360",
+      "intent": "sectores_objetivo",
+      "user_input": "¿Qué sectores atendéis?",
+      "bot_response": "Trabajamos principalmente con: cadenas hoteleras y resorts; hospitales y clínicas privadas; residencias sociosanitarias; oficinas y empresas; infraestructuras públicas o corporativas. Nos adaptamos a cada entorno, desde pequeños negocios hasta grandes grupos. Tecnología útil, en el sitio correcto.",
+      "priority": "media"
+    },
+    {
+      "category": "Propuesta de Valor IB360",
+      "intent": "soluciones_360",
+      "user_input": "¿Qué significa “soluciones 360”?",
+      "bot_response": "Significa que cubrimos todas las fases: estudio técnico, propuesta personalizada, instalación y puesta en marcha, formación y soporte, ampliaciones futuras. No vendemos productos sueltos. Integramos soluciones completas, funcionando desde el día 1.",
+      "priority": "alta"
+    },
+    {
+      "category": "Propuesta de Valor IB360",
+      "intent": "experiencia_grupos",
+      "user_input": "¿Tenéis experiencia con grupos grandes?",
+      "bot_response": "Sí. Hemos trabajado con cadenas hoteleras, clínicas, grupos sanitarios y empresas con múltiples sedes. Sabemos cómo escalar un sistema, coordinar con varios departamentos y asegurar una implantación sin interrupciones. Somos un proveedor de confianza, no un experimento.",
+      "priority": "media"
+    },
+    {
+      "category": "Propuesta de Valor IB360",
+      "intent": "zona_trabajo",
+      "user_input": "¿Trabajáis solo en Baleares?",
+      "bot_response": "Nuestro equipo técnico está en Baleares, pero podemos atender proyectos puntuales en Península o colaborar con partners externos si se requiere. Eso sí, nuestra gran fortaleza es la respuesta local rápida, algo que muchos clientes valoran por encima de todo.",
+      "priority": "media"
+    },
+    {
+      "category": "Propuesta de Valor IB360",
+      "intent": "propuestas_personalizadas",
+      "user_input": "¿Ofrecéis propuestas personalizadas?",
+      "bot_response": "Sí. Nunca usamos soluciones genéricas. Cada proyecto se estudia con su plano, sus limitaciones, sus necesidades reales. Podemos ofrecer una demo, visita técnica o presupuesto inicial sin compromiso. Porque cada cliente necesita algo distinto.",
+      "priority": "alta"
+    },
+    {
+      "category": "Propuesta de Valor IB360",
+      "intent": "que_puede_esperar",
+      "user_input": "¿Qué puedo esperar si contrato con IB360?",
+      "bot_response": "Claridad. Tecnología que funciona. Soporte real. Equipo cercano. Y una solución pensada para durar, no para salir del paso. Si trabajas con IB360, lo notarás desde el primer día.",
+      "priority": "alta"
+    }
+  ],
+  "IB360_Modulo9_Chatbot": [
+    {
+      "category": "Innovación + IA",
+      "intent": "soluciones_ia_ib360",
+      "user_input": "¿Qué soluciones de IA ofrecéis actualmente?",
+      "bot_response": "En IB360 apostamos por el desarrollo de soluciones basadas en inteligencia artificial que mejoran la eficiencia operativa, la experiencia del usuario y la toma de decisiones estratégicas. Nuestro enfoque está centrado en tecnologías aplicadas a entornos reales, como el sector hotelero, sanitario y corporativo, con especial atención a la automatización de procesos, personalización del servicio y análisis de datos en tiempo real.",
+      "priority": "alta"
+    },
+    {
+      "category": "Innovación + IA",
+      "intent": "beneficios_ia_hotel",
+      "user_input": "¿Qué beneficios aporta aplicar IA en un entorno hotelero?",
+      "bot_response": "Aplicar IA en un entorno hotelero permite transformar la operación diaria y mejorar los resultados. Entre sus beneficios destacan: automatización de procesos como el check-in, ahorro energético mediante sensores inteligentes, personalización de servicios según el perfil del huésped, aumento del ticket medio a través de recomendaciones inteligentes (upselling), y mayor agilidad en la gestión de incidencias. Todo ello se traduce en más ingresos, mejor experiencia y reducción de costes.",
+      "priority": "alta"
+    },
+    {
+      "category": "Innovación + IA",
+      "intent": "diferencia_iptv_vs_ia",
+      "user_input": "¿Qué diferencia hay entre una plataforma IPTV tradicional y una solución basada en IA?",
+      "bot_response": "Una plataforma IPTV tradicional ofrece canales y contenidos de forma pasiva. Una solución con IA, en cambio, aprende del comportamiento del huésped, recomienda servicios personalizados, se conecta con otros sistemas del hotel (climatización, room service, reservas) y genera una experiencia más interactiva, rentable y ajustada a cada tipo de cliente.",
+      "priority": "media"
+    },
+    {
+      "category": "Innovación + IA",
+      "intent": "tecnologias_usadas",
+      "user_input": "¿Qué tecnologías usáis en el desarrollo?",
+      "bot_response": "Colaboramos con equipos especializados en modelos de IA adaptados al comportamiento del usuario, arquitectura web progresiva (PWA), integración mediante APIs con PMS, IPTV o redes internas, y paneles de análisis en tiempo real. Todo con cumplimiento normativo estricto (RGPD) y visión modular para facilitar la implantación.",
+      "priority": "media"
+    },
+    {
+      "category": "Innovación + IA",
+      "intent": "aplicabilidad_sanidad",
+      "user_input": "¿Se puede adaptar a hospitales o clínicas?",
+      "bot_response": "Sí. Los principios de personalización, automatización y comunicación inteligente también son aplicables en entornos sanitarios. Por ejemplo: entretenimiento personalizado para pacientes, recordatorios automatizados, integración con sistemas de llamada enfermera o seguimiento de parámetros clave. Adaptamos cada solución a las necesidades concretas del centro.",
+      "priority": "media"
+    },
+    {
+      "category": "Innovación + IA",
+      "intent": "para_que_tipo_de_hotel",
+      "user_input": "¿Qué tipo de hotel debería plantearse implementar esta solución?",
+      "bot_response": "Cualquier hotel que quiera optimizar recursos, mejorar la experiencia del huésped y aumentar ingresos debería considerar la aplicación de IA. Es especialmente relevante en hoteles con servicios diversificados (restauración, wellness, actividades) donde la personalización y el análisis de datos son claves para destacar frente a la competencia. Hoy, no innovar es quedarse atrás.",
+      "priority": "alta"
+    },
+    {
+      "category": "Innovación + IA",
+      "intent": "contacto_profesional",
+      "user_input": "¿Con quién se puede hablar para valorar esta solución?",
+      "bot_response": "La evaluación de soluciones basadas en inteligencia artificial en IB360 está liderada por Vladimir, responsable de desarrollo tecnológico. Si tu organización está explorando procesos de digitalización avanzada, IA aplicada o proyectos piloto, podemos organizar una reunión estratégica para analizar el caso y valorar enfoques posibles con total confidencialidad y visión a largo plazo.",
+      "priority": "alta"
+    }
+  ],
+  "IB360_ModuloExtraA_FAQ_Instalaciones": [
+    {
+      "category": "FAQ Instalaciones",
+      "intent": "duracion_instalacion",
+      "user_input": "¿Cuánto suele durar una instalación?",
+      "bot_response": "Depende del tipo de solución. Las instalaciones menores (como redes internas o IPTV en habitaciones) suelen completarse en 1-2 días por unidad operativa. Las integraciones completas (GPON, CCTV, señalética, etc.) pueden requerir fases, pero siempre planificamos para minimizar impacto operativo. Coordinamos cada paso con el cliente.",
+      "priority": "media"
+    },
+    {
+      "category": "FAQ Instalaciones",
+      "intent": "visita_tecnica",
+      "user_input": "¿Hacéis visitas técnicas previas?",
+      "bot_response": "Sí. En todos los proyectos realizamos una visita técnica sin compromiso, donde evaluamos el estado actual de la infraestructura y determinamos la solución más eficiente, compatible y escalable.",
+      "priority": "alta"
+    },
+    {
+      "category": "FAQ Instalaciones",
+      "intent": "equipo_propio",
+      "user_input": "¿Vuestro equipo es propio?",
+      "bot_response": "Sí. IB360 solo trabaja con personal propio certificado, sin subcontratas externas. Esto garantiza un estándar de calidad constante y una comunicación directa durante todo el proceso.",
+      "priority": "alta"
+    },
+    {
+      "category": "FAQ Instalaciones",
+      "intent": "trabajo_con_planos",
+      "user_input": "¿Trabajáis con planos?",
+      "bot_response": "Sí. Podemos trabajar tanto con planos facilitados por el cliente como generarlos nosotros en caso necesario. Todo proyecto se estudia con ingeniería previa, evitando improvisaciones en el montaje.",
+      "priority": "media"
+    },
+    {
+      "category": "FAQ Instalaciones",
+      "intent": "obra_civil",
+      "user_input": "¿Qué ocurre si hay que hacer obra civil?",
+      "bot_response": "En caso de requerir pequeñas canalizaciones o pasos de cableado, podemos coordinarlo con la propiedad o incluirlo como parte del proyecto. Nos adaptamos a las condiciones del edificio para ofrecer una solución técnica y estética.",
+      "priority": "media"
+    },
+    {
+      "category": "FAQ Instalaciones",
+      "intent": "cierre_zonas",
+      "user_input": "¿Hay que cerrar habitaciones o zonas durante la instalación?",
+      "bot_response": "No necesariamente. Nuestro equipo trabaja de forma escalonada y organizada para intervenir por zonas, sin necesidad de cerrar completamente espacios, salvo indicación expresa del cliente.",
+      "priority": "media"
+    },
+    {
+      "category": "FAQ Instalaciones",
+      "intent": "seguro_responsabilidad",
+      "user_input": "¿Tenéis seguro de responsabilidad civil?",
+      "bot_response": "Sí. Disponemos de cobertura profesional completa y actualizada. Puedes solicitar el certificado en cualquier momento si lo necesitas para licencias o auditorías internas.",
+      "priority": "media"
+    },
+    {
+      "category": "FAQ Instalaciones",
+      "intent": "garantias_instalacion",
+      "user_input": "¿Ofrecéis garantías tras la instalación?",
+      "bot_response": "Por supuesto. Todos nuestros equipos cuentan con garantía oficial y nuestro servicio incluye revisión técnica post-instalación. También puedes contratar mantenimientos preventivos o asistencia prioritaria.",
+      "priority": "alta"
+    },
+    {
+      "category": "FAQ Instalaciones",
+      "intent": "instalacion_sin_material",
+      "user_input": "¿Puedo contratar la instalación sin la compra del material?",
+      "bot_response": "Normalmente solo instalamos soluciones de nuestro propio portfolio, ya que así aseguramos calidad, compatibilidad y soporte. Sin embargo, si ya dispones del material, podemos valorarlo técnicamente.",
+      "priority": "media"
+    },
+    {
+      "category": "FAQ Instalaciones",
+      "intent": "entrega_proyecto",
+      "user_input": "¿Cómo se entrega el proyecto al finalizar?",
+      "bot_response": "Tras cada instalación, entregamos al cliente: informe técnico con lo instalado, esquema de red (si aplica), certificado de pruebas y operatividad, y contacto directo para soporte.",
+      "priority": "media"
+    }
+  ],
+  "IB360_ModuloExtraB_LeadCatcher": [
+    {
+      "category": "Lead Capturing",
+      "intent": "solicitud_propuesta",
+      "user_input": "¿Me podéis pasar precios? / Quiero una propuesta / ¿Cuánto cuesta?",
+      "bot_response": "Gracias por tu interés en nuestras soluciones. Estaremos encantados de ayudarte con una propuesta adaptada a tu proyecto. Podemos ponerte en contacto con la persona más adecuada de nuestro equipo para darte un asesoramiento directo y sin compromiso.\n\n📝 ¿Nos dejas tus datos aquí para iniciar el contacto? Solo necesitamos:\n– Tu nombre\n– Un email de contacto\n– Y si lo deseas, una breve descripción del proyecto o necesidad.",
+      "priority": "alta"
+    },
+    {
+      "category": "Lead Capturing",
+      "intent": "consulta_inicial_suave",
+      "user_input": "Solo estoy mirando / Estoy valorando opciones",
+      "bot_response": "Sin problema. Si lo prefieres, puedo enviarte algunos ejemplos generales de cómo trabajamos o compartirte ideas aplicadas en hoteles, hospitales o empresas similares a la tuya. También puedes dejar tu email por si quieres que te contactemos más adelante.",
+      "priority": "media"
+    },
+    {
+      "category": "Lead Capturing",
+      "intent": "datos_entregados",
+      "user_input": "Aquí tienes mis datos / Ya te he dejado mi email",
+      "bot_response": "Genial, lo tenemos. Uno de nuestros expertos revisará tu caso y te escribirá en breve con toda la información. Gracias por confiar en IB360.",
+      "priority": "alta"
+    }
+  ],
+  "IB360_ModuloExtraC_FiltroTemasProhibidos": [
+    {
+      "category": "Filtro Temas Prohibidos",
+      "intent": "pregunta_precios",
+      "user_input": "¿Cuánto cuesta el sistema? / ¿Qué precio tiene el mantenimiento? / ¿Descuento si pongo muchas habitaciones?",
+      "bot_response": "Para garantizar el mejor servicio, en IB360 elaboramos propuestas personalizadas ajustadas a cada proyecto. Si quieres que un experto evalúe tu caso, puedes dejar tu email y tipo de proyecto. Te contactaremos sin compromiso.",
+      "priority": "alta"
+    },
+    {
+      "category": "Filtro Temas Prohibidos",
+      "intent": "datos_confidenciales",
+      "user_input": "¿Quiénes son vuestros proveedores? / ¿Qué margen ganáis? / ¿Tenéis clientes famosos? / ¿Cuántos empleados tenéis?",
+      "bot_response": "Este asistente está exclusivamente diseñado para resolver dudas sobre nuestras soluciones tecnológicas. Por política de empresa, no compartimos datos internos, financieros ni acuerdos confidenciales. ¿Hay algo técnico en lo que pueda ayudarte?",
+      "priority": "alta"
+    },
+    {
+      "category": "Filtro Temas Prohibidos",
+      "intent": "soporte_no_relacionado",
+      "user_input": "¿Sabes cómo poner HBO en mi tele? / ¿Puedo cambiar mi clave WiFi? / ¿Me ayudas con mi TP-Link en casa?",
+      "bot_response": "En este canal solo ofrecemos soporte sobre instalaciones realizadas por IB360 o productos incluidos en nuestros proyectos. Si tienes una instalación activa con nosotros, puedo ayudarte con eso.",
+      "priority": "media"
+    },
+    {
+      "category": "Filtro Temas Prohibidos",
+      "intent": "contacto_directo_interno",
+      "user_input": "¿Dame el número de Carmen? / ¿Puedo hablar con tu jefe? / Quiero el contacto de todos los técnicos",
+      "bot_response": "Para proteger la privacidad de nuestro equipo, gestionamos el contacto a través de este canal. Si necesitas atención comercial, técnica o estratégica, puedo indicarte la persona adecuada y su correo directo.",
+      "priority": "alta"
+    },
+    {
+      "category": "Filtro Temas Prohibidos",
+      "intent": "temas_ilegales",
+      "user_input": "¿Hackeáis redes? / ¿Puedo espiar con las cámaras? / ¿Podéis borrar datos sin permiso?",
+      "bot_response": "Lo sentimos, no podemos ayudarte con esa consulta. En IB360 seguimos estrictamente la normativa legal y de privacidad en todos nuestros proyectos.",
+      "priority": "alta"
+    },
+    {
+      "category": "Filtro Temas Prohibidos",
+      "intent": "lenguaje_ofensivo",
+      "user_input": "Sois unos ladrones / Esto es una mierda / Comentarios racistas o sexistas",
+      "bot_response": "Este canal está diseñado para una atención profesional. Si tienes una consulta concreta sobre nuestros servicios, estaré encantado de ayudarte. En caso contrario, la conversación será cerrada.",
+      "priority": "alta"
+    }
+  ],
+  "MÓDULO 11 – FAQ": [
+    {
+      "question": "1. ¿Realizáis vosotros las instalaciones o trabajáis con terceros?\nEn IB360 contamos con equipo técnico propio certificado, lo que nos permite garantizar calidad, tiempos y seguimiento postventa. En algunos casos muy específicos, colaboramos con instaladores homologados bajo nuestra supervisión directa.",
+      "answer": ""
+    },
+    {
+      "question": "2. ¿Podéis revisar una instalación previa realizada por otro proveedor?\nSí. Podemos auditar instalaciones ya existentes y proponer mejoras, sustituciones o integraciones. Siempre partimos de un diagnóstico técnico gratuito.",
+      "answer": ""
+    },
+    {
+      "question": "3. ¿En cuánto tiempo se puede instalar un sistema completo?\nDepende del tipo de solución y del tamaño del proyecto, pero nuestro equipo técnico puede ejecutar instalaciones integrales en plazos ajustados gracias a nuestra logística y experiencia previa en grandes cadenas hoteleras, hospitales y residencias.",
+      "answer": ""
+    },
+    {
+      "question": "4. ¿Cómo es la puesta en marcha una vez instalado?\nNos encargamos de dejar todo operativo y verificado. En sistemas complejos, incluimos formación al personal del cliente, manuales técnicos y una revisión final para validar que todo está funcionando al 100%.",
+      "answer": ""
+    },
+    {
+      "question": "5. ¿Ofrecéis soporte después de la instalación?\nSí. Ofrecemos soporte postventa local 24/7, tanto preventivo como correctivo, con posibilidad de contratos de mantenimiento y revisión periódica. También disponemos de un sistema de tickets para incidencias técnicas.",
+      "answer": ""
+    },
+    {
+      "question": "6. ¿Vuestros técnicos están certificados?\nTodos nuestros técnicos están certificados en instalación de redes, GPON, CCTV, telefonía IP y otros sistemas especializados. Además, están en formación continua para adaptarse a nuevas tecnologías.",
+      "answer": ""
+    },
+    {
+      "question": "7. ¿Ofrecéis cobertura en todas las Islas Baleares?\nSí, cubrimos todo el territorio español, incluyendo Mallorca, Menorca, Ibiza y Formentera, con base operativa en Palma y equipo técnico desplazable. También podemos operar en Latinoamérica bajo planificación previa cuando existe una necesidad real o un proyecto con alcance internacional.",
+      "answer": ""
+    },
+    {
+      "question": "8. ¿Qué tipo de instalaciones hacéis más a menudo?\nRealizamos instalaciones integrales de redes de telecomunicaciones, WiFi profesional, cabeceras IPTV, soluciones de CCTV, telefonía IP, sistemas de domótica y señalética digital. También adaptamos infraestructuras antiguas a estándares actuales.",
+      "answer": ""
+    },
+    {
+      "question": "9. ¿Se puede compatibilizar vuestra instalación con sistemas antiguos?\nEn la mayoría de los casos sí. Evaluamos las infraestructuras existentes y buscamos soluciones híbridas o transiciones progresivas para reducir costes y evitar interrupciones de servicio.",
+      "answer": ""
+    },
+    {
+      "question": "10. ¿Trabajáis también en reformas o solo en obra nueva?\nAmbos. Trabajamos tanto en proyectos de nueva construcción como en reformas o ampliaciones de instalaciones ya operativas.",
+      "answer": "🟡 Activadores – Palabras clave y frases que deben activar este módulo\nFrases profesionales o frecuentes:\n¿Hacéis instalaciones?\n¿Instaláis vosotros?\n¿Quién realiza la instalación?\n¿Tenéis técnicos propios?\n¿Subcontratáis la instalación?\n¿Montáis vosotros el sistema?\n¿Quién hace la puesta en marcha?\n¿Incluye puesta en marcha?\n¿Dais soporte después de instalar?\n¿Dónde tenéis cobertura técnica?\n¿Tenéis técnicos en Mallorca / Menorca / Ibiza / Formentera?\n¿Ofrecéis mantenimiento técnico?\n¿Hacéis instalaciones llave en mano?\n¿En cuánto tiempo se instala?\n¿Cuánto se tarda en montar esto?\n¿Revisáis instalaciones antiguas?\n¿Auditáis instalaciones?\nNecesito técnico de instalación\nNecesito una revisión técnica\nNecesito una auditoría de red\nInstalar sistema GPON / IPTV / CCTV\n¿Compatibles con sistemas existentes?\n¿Incluye formación?\n¿Ofrecéis soporte local?\n¿Tenéis servicio postventa?\n¿Trabajáis en reformas?\n¿Solo obra nueva?\n¿Instaláis fuera de Baleares?\n¿Cubrís toda España?\n¿Tenéis presencia en LATAM?\nTécnicos certificados\n¿Cómo se instala?\n¿Quién hace la integración?\nFrases coloquiales comunes (también deben dispararlo):\n¿Lo ponéis vosotros?\n¿Venís a ponerlo?\n¿Lo montáis?\n¿Mandáis alguien a instalar?\n¿Cuánto tardáis en venir?\n¿Traéis a los técnicos?\n¿Eso lo hacéis vosotros?\n¿Me lo dejáis listo?\n¿Lo dejáis funcionando?"
+    }
+  ],
+  "MODULO EXTRA_A": [
+    {
+      "question": "1. ¿Cuánto suele durar una instalación?",
+      "answer": "Respuesta:\nDepende del tipo de solución. Las instalaciones menores (como redes internas o IPTV en habitaciones) suelen completarse en 1-2 días por unidad operativa.\nLas integraciones completas (GPON, CCTV, señalética, etc.) pueden requerir fases, pero siempre planificamos para minimizar impacto operativo. Coordinamos cada paso con el cliente."
+    },
+    {
+      "question": "2. ¿Hacéis visitas técnicas previas?",
+      "answer": "Respuesta:\nSí. En todos los proyectos realizamos una visita técnica sin compromiso, donde evaluamos el estado actual de la infraestructura y determinamos la solución más eficiente, compatible y escalable."
+    },
+    {
+      "question": "3. ¿Vuestro equipo es propio?",
+      "answer": "Respuesta:\nSí. IB360 solo trabaja con personal propio certificado, sin subcontratas externas.\nEsto garantiza un estándar de calidad constante y una comunicación directa durante todo el proceso."
+    },
+    {
+      "question": "4. ¿Trabajáis con planos?",
+      "answer": "Respuesta:\nSí. Podemos trabajar tanto con planos facilitados por el cliente como generarlos nosotros en caso necesario.\nTodo proyecto se estudia con ingeniería previa, evitando improvisaciones en el montaje."
+    },
+    {
+      "question": "5. ¿Qué ocurre si hay que hacer obra civil?",
+      "answer": "Respuesta:\nEn caso de requerir pequeñas canalizaciones o pasos de cableado, podemos coordinarlo con la propiedad o incluirlo como parte del proyecto.\nNos adaptamos a las condiciones del edificio para ofrecer una solución técnica y estética."
+    },
+    {
+      "question": "6. ¿Hay que cerrar habitaciones o zonas durante la instalación?",
+      "answer": "Respuesta:\nNo necesariamente. Nuestro equipo trabaja de forma escalonada y organizada para intervenir por zonas, sin necesidad de cerrar completamente espacios, salvo indicación expresa del cliente."
+    },
+    {
+      "question": "7. ¿Tenéis seguro de responsabilidad civil?",
+      "answer": "Respuesta:\nSí. Disponemos de cobertura profesional completa y actualizada. Puedes solicitar el certificado en cualquier momento si lo necesitas para licencias o auditorías internas."
+    },
+    {
+      "question": "8. ¿Ofrecéis garantías tras la instalación?",
+      "answer": "Respuesta:\nPor supuesto. Todos nuestros equipos cuentan con garantía oficial y nuestro servicio incluye revisión técnica post-instalación. También puedes contratar mantenimientos preventivos o asistencia prioritaria."
+    },
+    {
+      "question": "9. ¿Puedo contratar la instalación sin la compra del material?",
+      "answer": "Respuesta:\nNormalmente solo instalamos soluciones de nuestro propio portfolio, ya que así aseguramos calidad, compatibilidad y soporte. Sin embargo, si ya dispones del material, podemos valorarlo técnicamente."
+    },
+    {
+      "question": "10. ¿Cómo se entrega el proyecto al finalizar?",
+      "answer": "Respuesta:\nTras cada instalación, entregamos al cliente:\nInforme técnico con lo instalado.\nEsquema de red (si aplica).\nCertificado de pruebas y operatividad.\nContacto directo para soporte."
+    }
+  ],
+  "MODULO EXTRA_B": [],
+  "MODULO EXTRA_C": [],
+  "MODULO_1": [
+    {
+      "question": "1. ¿Qué tipo de arquitectura de red ofrece IB360 con tecnología GPON?",
+      "answer": "Respuesta:\nIB360 implementa soluciones GPON con arquitectura punto a multipunto, que permite distribuir datos, voz, IPTV, CCTV y otros servicios sobre una única fibra hasta la habitación o punto final. Utilizamos equipos certificados y una planificación de ingeniería personalizada para cada proyecto, asegurando máxima compatibilidad con sistemas como IPTV, centralitas IP o PMS.\nGracias a nuestro enfoque como integradores, ofrecemos soluciones escalables y robustas, con una excelente relación calidad-precio."
+    },
+    {
+      "question": "2. ¿Qué ventajas ofrece GPON frente a redes Ethernet o coaxial?",
+      "answer": "Respuesta:\nGPON permite simplificar la red interna del edificio usando un solo hilo de fibra para múltiples servicios, reduciendo drásticamente cableado, puntos de fallo y consumo energético.\nEntre sus ventajas:\nMejora de velocidad y estabilidad.\nMenor mantenimiento y menos racks.\nRed multiservicio integrada: datos, TV, voz, videovigilancia.\nAlta escalabilidad (hasta 128 ONTs por puerto OLT).\nNuestras soluciones están orientadas a optimizar recursos y facilitar futuras ampliaciones sin obras ni sobrecostes."
+    },
+    {
+      "question": "3. ¿Qué marcas y modelos trabajáis para GPON?",
+      "answer": "Respuesta:\nTrabajamos exclusivamente con equipos certificados y de alto rendimiento provenientes de fabricantes reconocidos internacionalmente, siempre a través de nuestros mayoristas tecnológicos de confianza.\nNo estamos ligados a un único fabricante, lo que nos permite adaptar cada instalación a los requisitos técnicos y económicos del cliente.\nComo integradores locales, ofrecemos tecnología puntera a precios altamente competitivos, con soporte técnico propio y garantía directa."
+    },
+    {
+      "question": "4. ¿Qué soluciones WiFi implementa IB360 y qué estándares soportan?",
+      "answer": "Respuesta:\nDiseñamos redes WiFi profesionales basadas en WiFi 6 como estándar actual y WiFi 7 para proyectos avanzados.\nUtilizamos access points certificados con gestión centralizada, roaming automático, portal cautivo opcional y control de tráfico por VLANs.\nTodas las soluciones se entregan optimizadas para entornos de alta densidad, como hoteles, hospitales y espacios corporativos.\nAdemás, al trabajar con mayoristas líderes, ofrecemos equipamiento de última generación con condiciones preferenciales y soporte integral."
+    },
+    {
+      "question": "5. ¿Cómo garantizáis buena cobertura WiFi en instalaciones grandes?",
+      "answer": "Respuesta:\nRealizamos estudios previos con mapas de calor predictivos, análisis espectral y planificación por zonas, teniendo en cuenta estructuras físicas, materiales y densidad de dispositivos por área.\nEl resultado es una red WiFi segmentada y optimizada con seguridad WPA3, VLANs por perfiles de usuario y gestión centralizada.\nEsta metodología nos permite ofrecer cobertura total, mínimo solapamiento y alto rendimiento garantizado."
+    },
+    {
+      "question": "6. ¿Ofrecéis switches y red troncal para todo el edificio?",
+      "answer": "Respuesta:\nSí. Implementamos switching profesional L2/L3 con soporte para PoE, VLANs, QoS y enlaces redundantes según la arquitectura definida.\nUsamos únicamente equipos de categoría profesional certificados, y realizamos configuraciones que permiten crecimiento futuro, control de tráfico y segmentación por servicios o departamentos.\nAl ser integradores, optimizamos costes sin comprometer rendimiento, con posibilidad de soporte técnico remoto o presencial si se requiere."
+    },
+    {
+      "question": "7. ¿Qué nivel de seguridad en red ofrecéis?",
+      "answer": "Respuesta:\nDiseñamos redes segmentadas por VLAN con control de acceso, cifrado WPA3 en WiFi, ACLs, firewalls y detección de amenazas.\nOpcionalmente, podemos integrar sistemas de monitorización activa, control de navegación por DNS filtering y cumplimiento de trazabilidad GDPR.\nTodas nuestras soluciones están orientadas a entornos sensibles como hoteles, clínicas o empresas, con foco en prevención y estabilidad operativa."
+    },
+    {
+      "question": "8. ¿Podéis integraros con mi proveedor de Internet actual?",
+      "answer": "Respuesta:\nPor supuesto. IB360 actúa como integrador interno de red, no como proveedor de conectividad.\nNos adaptamos a cualquier operador (Movistar, Vodafone, etc.) y distribuimos los servicios dentro del edificio con infraestructura propia (GPON, switches, WiFi).\nEsto permite mantener tu proveedor actual sin perder control ni calidad en la red interna."
+    },
+    {
+      "question": "9. ¿Qué opciones tengo para monitorizar o controlar la red?",
+      "answer": "Respuesta:\nOfrecemos plataformas de gestión en la nube o en local que permiten:\nSupervisar el estado de la red, switches, APs y ONTs.\nRecibir alertas automáticas ante incidencias.\nAcceder a estadísticas de tráfico por dispositivo o VLAN.\nGestionar reinicios o configuración remota.\nEstas herramientas permiten a tu equipo de IT o al nuestro detectar, actuar y prevenir problemas en tiempo real."
+    },
+    {
+      "question": "10. ¿Tenéis soporte técnico en caso de incidencias?",
+      "answer": "Respuesta:\nSí. Contamos con servicio técnico local y remoto, disponible 24/7 para clientes con contrato de soporte.\nNuestros planes de mantenimiento incluyen:\nAsistencia inmediata remota.\nIntervención técnica presencial cuando sea necesario.\nMonitorización activa (si la instalación lo permite).\nGarantizamos tiempos de respuesta adaptados al entorno y un soporte profesional, ágil y resolutivo, sin subcontratas.\n💬 Pregunta trampa (precio directo):\n“¿Cuál es el precio de una instalación GPON para un edificio de 100 habitaciones?”\nRespuesta del bot:\n“El presupuesto depende de factores como número de servicios integrados (TV, WiFi, telefonía...), estructura del edificio y si se trata de nueva obra o reforma.\nPodemos preparar una propuesta personalizada sin compromiso. ¿Te gustaría que uno de nuestros expertos se ponga en contacto contigo?”"
+    }
+  ],
+  "MODULO_2": [
+    {
+      "question": "1. ¿Qué soluciones IPTV y Hotel TV ofrece IB360?",
+      "answer": "Respuesta:\nIB360 ofrece soluciones completas para distribución de contenidos en red: desde cabeceras IPTV multicanal (DVB-S/T/C a IP) hasta sistemas interactivos de entretenimiento en pantalla (basados en STB Android certificados).\nIntegramos TV en habitaciones, zonas comunes y señalética informativa con una única infraestructura, con posibilidad de añadir control remoto de contenido, integración con PMS, mensajería directa al huésped y plataformas como Netflix o Prime Video mediante enlace QR.\nAdemás, ofrecemos todo esto sin cuotas mensuales, con soporte técnico local."
+    },
+    {
+      "question": "2. ¿Qué tipo de cabeceras instaláis?",
+      "answer": "Respuesta:\nInstalamos cabeceras digitales de alto rendimiento, compatibles con señales DVB-S, DVB-T o DVB-C.\nSeleccionamos los modelos en función de la fuente de señal, número de canales requeridos y red existente (Ethernet, GPON, coaxial).\nLas cabeceras se adaptan a hoteles, hospitales o empresas que desean emitir canales nacionales, internacionales o corporativos sobre red IP o coaxial.\nGracias a nuestra red de mayoristas, ofrecemos tecnología estable, con precios competitivos y sin dependencia de suscripciones."
+    },
+    {
+      "question": "3. ¿Los televisores deben ser Smart TV?",
+      "answer": "Respuesta:\nNo necesariamente. Si el cliente no dispone de Smart TVs, ofrecemos set-top-box Android certificados que transforman cualquier pantalla HDMI en un sistema interactivo con IPTV, apps, control de habitación y servicios de hotel.\nEn hoteles con Smart TVs compatibles, también ofrecemos soluciones directas por red (IPTV Multicast o Unicast)."
+    },
+    {
+      "question": "4. ¿Qué ventajas tiene una solución como WISION frente a apps nativas o Smart TV tradicional?",
+      "answer": "Respuesta:\nNo depende del sistema operativo del TV.\nFunciona en cualquier televisor con HDMI.\nMayor estabilidad, control centralizado de contenidos, actualizaciones remotas.\nIntegra servicios como room service, spa, checkout express y control por QR.\nCompatible con plataformas OTT (Netflix, Prime Video, HBO) mediante emparejamiento QR, sin vulnerar licencias.\nAdemás, al estar basado en Android certificado, es una solución escalable, de propiedad del hotel y sin licencias mensuales."
+    },
+    {
+      "question": "5. ¿Qué modelos de STB ofrecéis?",
+      "answer": "Respuesta:\nTrabajamos con STBs Android certificados de última generación, preparados para hotelería:\nSoporte para Multicast, DRM y PMS.\nInterfaz personalizable con branding del hotel.\nIntegración con domótica (opcional) y actualizaciones OTA.\nLos equipos se seleccionan según el tipo de TV, resolución, necesidades gráficas y servicios requeridos. Siempre con garantía, soporte técnico local y mejor precio gracias a nuestros acuerdos con mayoristas."
+    },
+    {
+      "question": "6. ¿Qué plataformas pueden integrarse con vuestro sistema de IPTV?",
+      "answer": "Respuesta:\nNuestro sistema es compatible con PMS, soluciones de room control (KNX, Modbus), motores de reservas, sistemas de fidelización, room service y canales corporativos.\nTambién se pueden integrar plataformas de terceros como Netflix, YouTube, Amazon Prime (vía QR sin login manual), así como contenido promocional personalizado o videos de bienvenida.\nLa solución es 100% personalizable por departamento de marketing o IT."
+    },
+    {
+      "question": "7. ¿Puedo mantener mis TVs actuales?",
+      "answer": "Respuesta:\nEn muchos casos sí. Evaluamos la compatibilidad de tus televisores y, si no son Smart TV o no soportan IPTV, podemos integrar STBs Android certificados.\nEsto permite extender la vida útil de los equipos existentes sin necesidad de cambiar todo el parque de televisores.\nEs una forma eficiente y rentable de modernizar el sistema de entretenimiento sin grandes inversiones."
+    },
+    {
+      "question": "8. ¿Qué mantenimiento requiere el sistema?",
+      "answer": "Respuesta:\nNuestro sistema está diseñado para ser autónomo y estable. El mantenimiento incluye:\nActualizaciones remotas OTA\nSupervisión de red y estado de los STBs\nSoporte técnico local en caso de fallo\nAdemás, ofrecemos contratos de mantenimiento opcionales con SLA garantizados. Y a diferencia de otros proveedores, no cobramos licencias recurrentes por uso del sistema."
+    },
+    {
+      "question": "9. ¿Qué diferencia a vuestra solución de otras del mercado?",
+      "answer": "Respuesta:\nSin cuotas mensuales ni licencias por pantalla\nCompatible con cualquier TV HDMI\nTotalmente personalizable (logo, menú, idiomas, promociones)\nSoporte técnico local\nIntegración con otros servicios IB360: WiFi, GPON, CCTV, telefonía\nAdemás, al ser una solución propia, tenemos capacidad de adaptación y mejora continua según necesidades de cada cliente."
+    },
+    {
+      "question": "10. ¿Tenéis alguna demo o dossier?",
+      "answer": "Respuesta:\nSí. Podemos enviarte un dosier completo con imágenes del sistema, casos reales y funcionalidades, o agendar una demo técnica online o presencial sin compromiso.\n¿Quieres que uno de nuestros expertos se ponga en contacto contigo?"
+    }
+  ],
+  "MODULO_3": [
+    {
+      "question": "1. ¿Qué soluciones de telefonía IP ofrecéis?",
+      "answer": "Respuesta:\nIB360 ofrece soluciones completas de telefonía IP, incluyendo centralitas físicas, virtuales y extensiones IP, adaptadas a hoteles, hospitales, oficinas o residencias.\nTrabajamos con sistemas escalables, compatibles con SIP estándar, que permiten desde 4 hasta cientos de extensiones, tanto internas como externas.\nDiseñamos cada instalación según el flujo de llamadas, integración con PMS o CRM, y necesidades operativas.\nReducimos costes frente a sistemas analógicos, eliminamos líneas físicas y facilitamos la gestión interna."
+    },
+    {
+      "question": "2. ¿Qué marcas utilizáis para telefonía?",
+      "answer": "Respuesta:\nTrabajamos con equipos certificados y soluciones de fabricantes reconocidos a nivel internacional, adquiridos a través de nuestros mayoristas tecnológicos.\nPodemos implementar tanto soluciones básicas como sistemas avanzados con funciones de IVR, grabación, transferencia entre sedes, etc.\nNuestro enfoque como integradores garantiza mejor relación calidad-precio, soporte técnico directo y máxima compatibilidad."
+    },
+    {
+      "question": "3. ¿Puedo mantener parte de mi instalación actual?",
+      "answer": "Respuesta:\nSí. En muchos casos podemos aprovechar el cableado existente o integrar teléfonos analógicos mediante gateways SIP/FXS.\nEsto permite una transición progresiva a VoIP sin necesidad de cambiar toda la infraestructura de golpe.\nAnalizamos cada caso y proponemos la migración más eficiente posible."
+    },
+    {
+      "question": "4. ¿Qué ventajas tiene frente a telefonía tradicional?",
+      "answer": "Respuesta:\nElimina líneas físicas: todo va por red IP.\nPermite llamadas internas gratuitas entre extensiones.\nGestión remota y centralizada desde cualquier dispositivo.\nEscalable: puedes añadir extensiones sin obras.\nIntegración con domótica, PMS o sistemas de emergencia.\nAdemás, se puede combinar con móviles corporativos o softphones.\nEs más económico, flexible y sostenible."
+    },
+    {
+      "question": "5. ¿Qué tipo de centralitas ofrecéis?",
+      "answer": "Respuesta:\nInstalamos centralitas IP físicas (on-premise) o virtuales en la nube. Ambas permiten:\nExtensiones internas y externas.\nRutas personalizadas de llamadas.\nPanel de control web para gestión.\nLlamadas programadas, buzones, grabación.\nLa elección depende del tamaño del proyecto, nivel de control deseado y si el cliente prefiere mantenimiento local o remoto.\nEn todos los casos, garantizamos soporte técnico 24/7 y configuración personalizada."
+    },
+    {
+      "question": "6. ¿Vuestros sistemas permiten llamadas entre departamentos sin coste?",
+      "answer": "Respuesta:\nSí. Las llamadas internas entre extensiones son siempre gratuitas dentro de la red IP del edificio, incluyendo llamadas entre recepción, mantenimiento, habitaciones o planta.\nTambién es posible conectar varios edificios o sedes a través de VPN o nube, manteniendo comunicación fluida entre equipos."
+    },
+    {
+      "question": "7. ¿Puedo recibir llamadas del exterior en habitaciones?",
+      "answer": "Respuesta:\nSí, si el cliente lo desea. Configuramos extensiones con números internos para cada habitación y posibilidad de recibir llamadas externas mediante IVR o acceso directo.\nTambién es posible limitar este servicio o activarlo solo durante el horario establecido.\nTodo es configurable desde el panel de control."
+    },
+    {
+      "question": "8. ¿Qué ocurre si se cae Internet?",
+      "answer": "Respuesta:\nDiseñamos las instalaciones con rutas de respaldo:\nPriorizamos conectividad LAN directa para minimizar riesgos.\nPodemos añadir líneas analógicas de backup (PSTN o GSM) para llamadas críticas.\nEn hoteles u hospitales, se puede configurar un desvío automático a móviles o líneas externas.\nSiempre buscamos garantizar continuidad del servicio."
+    },
+    {
+      "question": "9. ¿Qué integración tenéis con sistemas del hotel (PMS, domótica)?",
+      "answer": "Respuesta:\nNuestros sistemas pueden integrarse con:\nPMS (marcar habitación ocupada, salida, bloqueo de llamadas)\nControl domótico (activar “no molestar”, apertura de puerta, etc.)\nAlarmas técnicas o sanitarias\nServicios de despertador, grabación de mensajes, y llamadas programadas.\nAdaptamos la telefonía IP al flujo de trabajo operativo de cada cliente."
+    },
+    {
+      "question": "10. ¿Tenéis dossier o podéis hacerme una demo?",
+      "answer": "Respuesta:\nClaro. Podemos enviarte un dosier completo con ejemplos de instalaciones, ventajas frente a sistemas tradicionales y propuesta técnica adaptada.\nTambién podemos hacerte una demo online o presencial sin compromiso. ¿Quieres que te contactemos?"
+    }
+  ],
+  "MODULO_4": [
+    {
+      "question": "1. ¿Qué soluciones de seguridad ofrece IB360?",
+      "answer": "Respuesta:\nIB360 instala sistemas profesionales de videovigilancia CCTV HD/4K, control de accesos y grabación 24/7.\nNuestros sistemas permiten visualizar en tiempo real, grabar por eventos o de forma continua y consultar las cámaras desde cualquier dispositivo autorizado.\nDiseñamos la solución a medida, con cámaras fijas, domo, visión nocturna, reconocimiento de movimiento y almacenamiento local o en red.\nEs una solución integral, segura y sin costes ocultos."
+    },
+    {
+      "question": "2. ¿Qué tipo de cámaras instaláis?",
+      "answer": "Respuesta:\nInstalamos cámaras de vigilancia de alta definición (HD, Full HD, 4K) con opción de visión nocturna, detección de movimiento, domo PTZ y grabación inteligente.\nSeleccionamos cada modelo en función de la ubicación (interior, exterior, pasillos, parking, etc.) y lo adquirimos a través de nuestros mayoristas especializados.\nGracias a nuestra red de distribución, ofrecemos hardware profesional con garantía, al mejor precio y sin depender de plataformas cloud de terceros."
+    },
+    {
+      "question": "3. ¿Es necesario tener red propia para instalar videovigilancia?",
+      "answer": "Respuesta:\nNo. Podemos montar una red paralela dedicada al sistema de CCTV si la red del cliente no está preparada.\nEn edificios con infraestructura de red o GPON ya existente, integramos las cámaras en VLANs separadas con acceso restringido.\nGarantizamos rendimiento y seguridad en ambos casos."
+    },
+    {
+      "question": "4. ¿Qué opciones de grabación ofrecéis?",
+      "answer": "Respuesta:\nOfrecemos grabación local (en NVR), almacenamiento en red (NAS) o backups híbridos, según normativa y necesidades operativas.\nLa grabación puede configurarse por:\nMovimiento\nHorario\nEvento externo (alarma, acceso no autorizado, etc.)\nTodo se puede visualizar en tiempo real desde dispositivos móviles, tablets o PC, con acceso restringido."
+    },
+    {
+      "question": "5. ¿Puedo acceder a las cámaras desde fuera del edificio?",
+      "answer": "Respuesta:\nSí. Configuramos acceso remoto cifrado (VPN o plataforma segura) que permite visualizar cámaras desde dispositivos autorizados, sin comprometer la red interna.\nEste acceso puede ser gestionado por usuarios con permisos personalizados.\nCumplimos con normativa RGPD en todos nuestros despliegues."
+    },
+    {
+      "question": "6. ¿Se pueden integrar las cámaras con otros sistemas?",
+      "answer": "Respuesta:\nSí. Podemos integrar CCTV con:\nControl de accesos.\nAlarmas técnicas o sanitarias.\nServidores locales o nube privada.\nNotificaciones automáticas (movimiento en zona restringida, intento de intrusión, etc.).\nTambién podemos enlazar cámaras con pantallas informativas o software de gestión del cliente."
+    },
+    {
+      "question": "7. ¿Qué ocurre si se corta la corriente?",
+      "answer": "Respuesta:\nRecomendamos incluir sistemas de alimentación ininterrumpida (SAI) para garantizar el funcionamiento durante cortes de luz.\nAdemás, las cámaras IP de bajo consumo pueden seguir grabando en red o en almacenamiento local si se mantiene la conectividad.\nSiempre diseñamos un plan de contingencia técnico adaptado."
+    },
+    {
+      "question": "8. ¿Podemos utilizar nuestras cámaras actuales?",
+      "answer": "Respuesta:\nSí, siempre que sean compatibles con los protocolos ONVIF o RTSP.\nEvaluamos la infraestructura existente y, si es viable, reutilizamos los equipos actuales, integrándolos con los nuevos NVR o software de gestión.\nEsto reduce la inversión inicial sin comprometer calidad ni funcionalidad."
+    },
+    {
+      "question": "9. ¿Ofrecéis mantenimiento y soporte técnico?",
+      "answer": "Respuesta:\nSí. Nuestro soporte técnico incluye:\nMonitorización remota (opcional).\nAsistencia ante alertas o fallos.\nVisitas periódicas de revisión (según contrato).\nTrabajamos con personal local, sin subcontratas, y garantizamos tiempos de respuesta definidos por SLA.\nLa seguridad no puede esperar, y nosotros tampoco."
+    },
+    {
+      "question": "10. ¿Podéis enviarnos una propuesta o hacer una visita técnica?",
+      "answer": "Respuesta:\nPor supuesto. Podemos agendar una visita técnica sin compromiso para valorar el entorno y proponer la mejor solución.\nTambién podemos enviarte un dosier con ejemplos, marcas, esquemas y referencias instaladas.\n¿Quieres que uno de nuestros técnicos te contacte directamente?"
+    }
+  ],
+  "MODULO_5": [
+    {
+      "question": "1. ¿Qué tipo de pantallas y señalética digital ofrecéis?",
+      "answer": "Respuesta:\nOfrecemos soluciones de pantallas informativas profesionales para mostrar contenido dinámico: menús, horarios, eventos, alertas, promociones, etc.\nInstalamos monitores profesionales diseñados para uso 24/7 y gestión remota de contenidos desde cualquier lugar.\nEstas soluciones son ideales para recepciones, lobbies, restaurantes, salas de espera o ascensores, con posibilidad de automatizar el contenido por horarios o zonas."
+    },
+    {
+      "question": "2. ¿Qué tamaños de pantallas instaláis?",
+      "answer": "Respuesta:\nInstalamos pantallas profesionales desde 22 hasta más de 75 pulgadas, según ubicación, distancia de lectura y resolución necesaria.\nTodos los equipos que ofrecemos cuentan con:\nPanel antirreflejo\nEntrada HDMI/USB/Red\nSoporte de reproducción 4K\nCompatibilidad con sistemas de gestión de contenidos (CMS)\nSolo trabajamos con pantallas certificadas para uso intensivo, garantizando estabilidad y larga vida útil."
+    },
+    {
+      "question": "3. ¿Cómo se gestiona el contenido en estas pantallas?",
+      "answer": "Respuesta:\nOfrecemos un sistema CMS (Content Management System) que permite:\nSubir, programar y modificar contenido en tiempo real.\nGestionar múltiples pantallas desde una única plataforma.\nCrear horarios, plantillas o zonas de contenido.\nControl remoto desde PC o móvil.\nEsto permite a recepción, marketing o dirección actualizar contenido sin necesidad de soporte técnico.\nTodo de forma centralizada y segura."
+    },
+    {
+      "question": "4. ¿Qué tipo de contenido se puede mostrar?",
+      "answer": "Respuesta:\nPuedes mostrar:\nImágenes, vídeos, presentaciones, PDF.\nInformación en tiempo real (hora, temperatura, alertas).\nMenús digitales de restaurante.\nEventos y horarios de salas (integración con calendario).\nPublicidad propia o de terceros.\nTodo con posibilidad de personalización por zona, idioma o grupo de pantallas."
+    },
+    {
+      "question": "5. ¿Se pueden programar horarios o automatizar el contenido?",
+      "answer": "Respuesta:\nSí. Nuestro sistema permite crear horarios automáticos para cambiar el contenido según la hora, el día o eventos específicos.\nPor ejemplo:\nMenú desayuno hasta las 11:00\nPromoción spa de 11:00 a 18:00\nHorario de animación a partir de las 18:00\nEsto ahorra tiempo y asegura que siempre se muestre el mensaje adecuado."
+    },
+    {
+      "question": "6. ¿Es posible usar nuestras pantallas actuales?",
+      "answer": "Respuesta:\nEn muchos casos sí. Si tus pantallas tienen entrada HDMI y están en buen estado, podemos añadir un media player compatible para habilitar la señalética digital sin necesidad de cambiar el hardware.\nAnalizamos cada caso y proponemos la solución más eficiente en coste y funcionalidad."
+    },
+    {
+      "question": "7. ¿Se necesita conexión a Internet?",
+      "answer": "Respuesta:\nNo obligatoriamente. Nuestro sistema puede funcionar:\nEn red local sin acceso externo.\nCon conexión a Internet para control remoto.\nSi el entorno requiere alta seguridad o funcionamiento offline, configuramos la señalética en entorno cerrado y seguro, sin comprometer la autonomía."
+    },
+    {
+      "question": "8. ¿Se pueden usar las pantallas como TV?",
+      "answer": "Respuesta:\nSí. En ciertos proyectos instalamos pantallas que cumplen doble función: informativa + entretenimiento.\nPodemos dividir la pantalla (por zonas) para mostrar TV en una parte y contenido corporativo en otra, o bien alternar automáticamente según horario.\nEsto es útil en bares, salas de espera o zonas mixtas."
+    },
+    {
+      "question": "9. ¿Qué sectores utilizan esta solución?",
+      "answer": "Respuesta:\nInstalamos señalética digital en:\nHoteles (recepción, restaurantes, eventos)\nHospitales y clínicas (zonas de espera, pasillos, consultas)\nRetail (escaparates, zonas de caja, promociones)\nEmpresas (hall, salas de reuniones, plantas de producción)\nAeropuertos y centros deportivos\nCada instalación se adapta al flujo de usuarios y mensaje a comunicar."
+    },
+    {
+      "question": "10. ¿Podéis mostrarme ejemplos o hacerme una demo?",
+      "answer": "Respuesta:\nSí. Podemos enviarte un dosier con ejemplos reales de señalética digital en hoteles, hospitales y empresas.\nTambién podemos agendar una demo online personalizada o visita técnica si lo necesitas.\n¿Quieres que alguien del equipo se ponga en contacto contigo?"
+    }
+  ],
+  "MODULO_6": [
+    {
+      "question": "1. ¿Qué sistemas de llamada paciente-enfermera ofrecéis?",
+      "answer": "Respuesta:\nOfrecemos soluciones completas de llamada asistencial, que permiten al paciente o residente solicitar ayuda desde la cama, baño o zonas comunes.\nEl personal recibe alertas en terminales, teléfonos IP, pantallas informativas o relojes conectados.\nTodo el sistema puede integrarse con alarmas técnicas, paneles de control y sistemas de localización por habitación o zona."
+    },
+    {
+      "question": "2. ¿Qué tipo de dispositivos incluye el sistema?",
+      "answer": "Respuesta:\nLos sistemas incluyen:\nPulsadores de cama y baño (con cordón, sin contacto, antimicrobianos).\nLámparas de señalización exterior.\nConsolas de habitación.\nDisplays centralizados en pasillos o control de enfermería.\nOpcional: relojes o receptores móviles para el personal.\nTodo el sistema es modular, personalizable y pensado para garantizar rapidez y seguridad."
+    },
+    {
+      "question": "3. ¿Se puede integrar con la red IP existente?",
+      "answer": "Respuesta:\nSí. Nuestros sistemas están diseñados para funcionar sobre red IP existente o nueva, usando switches gestionables y PoE si es necesario.\nAdemás, pueden conectarse a sistemas de telefonía IP, servidores o plataformas de gestión sociosanitaria.\nEsto reduce cableado adicional y facilita la supervisión remota."
+    },
+    {
+      "question": "4. ¿Se puede saber desde qué habitación o baño se hace la llamada?",
+      "answer": "Respuesta:\nSí. Cada pulsador se configura con una identificación única, que permite mostrar la habitación exacta, el tipo de llamada y su prioridad.\nLa alerta puede mostrarse en pantalla, consola central o enviarse por mensaje al personal.\nAdemás, el sistema registra el tiempo de respuesta para análisis de calidad asistencial."
+    },
+    {
+      "question": "5. ¿Qué ocurre si hay una llamada y el personal no responde?",
+      "answer": "Respuesta:\nEl sistema puede configurarse con reintentos automáticos, escalado de prioridad o desvío a otros dispositivos del equipo.\nEsto asegura que ninguna llamada quede sin atender.\nTambién permite establecer tiempos máximos de respuesta para activar una alerta adicional si es necesario."
+    },
+    {
+      "question": "6. ¿Qué tipo de mantenimiento requiere?",
+      "answer": "Respuesta:\nEl mantenimiento es mínimo. Recomendamos:\nRevisión semestral del hardware (pulsadores, displays).\nActualizaciones de software o firmware si el sistema es IP.\nOfrecemos contratos de soporte con revisiones periódicas, sustitución preventiva de equipos y asistencia técnica prioritaria.\nNuestro equipo está especializado en entornos sociosanitarios."
+    },
+    {
+      "question": "7. ¿Se pueden ver las alertas en pantalla o teléfonos IP?",
+      "answer": "Respuesta:\nSí. Podemos integrar el sistema con:\nPantallas informativas (pasillos, control de planta).\nConsolas IP táctiles.\nTeléfonos IP o móviles corporativos del personal.\nAplicaciones móviles (opcional).\nEsto permite atender rápidamente sin estar presente físicamente en la sala de control."
+    },
+    {
+      "question": "8. ¿Cumple con normativa sociosanitaria?",
+      "answer": "Respuesta:\nSí. Todos los equipos que ofrecemos están homologados para uso sanitario y cumplen con la normativa vigente de instalaciones asistenciales (UNE/ISO).\nAdemás, los materiales son resistentes, higiénicos y compatibles con protocolos de limpieza hospitalaria.\nTambién cumplimos con RGPD en sistemas conectados."
+    },
+    {
+      "question": "9. ¿Para qué tipo de centros está pensado?",
+      "answer": "Respuesta:\nEstos sistemas se instalan en:\nResidencias de mayores.\nCentros de día.\nClínicas privadas.\nHospitales públicos o concertados.\nCentros sociosanitarios o especializados.\nAdaptamos la solución al número de camas, distribución del edificio y personal disponible."
+    },
+    {
+      "question": "10. ¿Podéis hacer una visita técnica o enviarnos una propuesta?",
+      "answer": "Respuesta:\nPor supuesto. Podemos visitar el centro para evaluar las necesidades reales, o enviarte un dosier con esquema técnico, ejemplos y referencias.\nTambién podemos preparar una demo presencial o virtual.\n¿Quieres que alguien del equipo se ponga en contacto contigo?"
+    }
+  ],
+  "MODULO_7": [
+    {
+      "question": "1. ¿Qué tipo de soporte ofrecéis tras la instalación?",
+      "answer": "Respuesta:\nIB360 ofrece soporte técnico completo:\nAsistencia remota inmediata para resolución de incidencias.\nIntervención presencial si es necesario, con técnicos propios.\nMonitorización opcional 24/7 en instalaciones críticas.\nGestión de tickets por correo o plataforma online.\nTodo el soporte se realiza desde Baleares, sin subcontratas, con conocimiento real del entorno."
+    },
+    {
+      "question": "2. ¿El soporte es solo para incidencias?",
+      "answer": "Respuesta:\nNo. Incluye también:\nSoporte preventivo (revisiones periódicas, actualizaciones).\nAsistencia durante nuevas integraciones o ampliaciones.\nFormación para el personal del cliente.\nGestión de garantías o sustitución de equipos.\nNuestro objetivo es acompañar todo el ciclo de vida del proyecto."
+    },
+    {
+      "question": "3. ¿Tenéis soporte 24/7?",
+      "answer": "Respuesta:\nSí. Para instalaciones críticas o con contrato específico, ofrecemos asistencia 24 horas al día, 365 días al año.\nEsto incluye:\nAtención telefónica y por email.\nTécnicos de guardia localizados.\nIntervención urgente en remoto o presencial.\nSe adapta al nivel de servicio contratado."
+    },
+    {
+      "question": "4. ¿Cuánto tardáis en responder ante una avería?",
+      "answer": "Respuesta:\nDepende del SLA (acuerdo de nivel de servicio) contratado.\nEn general:\nSoporte remoto: entre 15 y 60 minutos.\nPresencial en Baleares: entre 2 y 12 horas, según criticidad.\nSiempre ofrecemos atención prioritaria en hospitales, hoteles en temporada o residencias operativas.\nLa agilidad es parte de nuestro compromiso."
+    },
+    {
+      "question": "5. ¿Cómo se gestionan las incidencias?",
+      "answer": "Respuesta:\nDisponemos de un sistema de gestión de tickets por email o formulario, con seguimiento automático.\nCada incidencia se documenta y se le asigna un técnico responsable.\nEl cliente puede consultar el estado del ticket, recibir actualizaciones y valoración tras la resolución.\nTransparencia total, trazabilidad garantizada."
+    },
+    {
+      "question": "6. ¿Ofrecéis revisiones periódicas?",
+      "answer": "Respuesta:\nSí. En contratos con soporte preventivo, realizamos:\nVisitas de control programadas.\nVerificación del estado de red, dispositivos y sistema.\nInforme de estado técnico y recomendaciones.\nEsto ayuda a detectar problemas antes de que ocurran y alarga la vida útil de los sistemas."
+    },
+    {
+      "question": "7. ¿También dais soporte en proyectos que no habéis instalado vosotros?",
+      "answer": "Respuesta:\nSí, aunque primero evaluamos la instalación existente.\nPodemos asumir el soporte de sistemas de terceros si cumplen con estándares mínimos y están bien documentados.\nTambién ofrecemos servicios de actualización o migración hacia tecnologías IB360.\nEn cada caso, estudiamos viabilidad técnica y plan de soporte personalizado."
+    },
+    {
+      "question": "8. ¿Quién se encarga de resolver los problemas?",
+      "answer": "Respuesta:\nNuestro equipo técnico propio, con base en Baleares.\nNo trabajamos con subcontratas, lo que nos permite:\nConocer cada cliente a fondo.\nDar respuestas rápidas y eficaces.\nAsegurar continuidad y trazabilidad en cada intervención.\nUn equipo cercano y especializado."
+    },
+    {
+      "question": "9. ¿Ofrecéis formación al personal?",
+      "answer": "Respuesta:\nSí. Incluimos formación básica en cada instalación, y podemos ofrecer sesiones ampliadas en:\nUso de plataformas (CMS, IPTV, seguridad, telefonía).\nGestión de contenidos o resolución de incidencias.\nActualizaciones o nuevos usuarios.\nLa formación es clave para aprovechar al máximo nuestras soluciones."
+    },
+    {
+      "question": "10. ¿Puedo contratar el soporte si ya tengo otra instalación?",
+      "answer": "Respuesta:\nSí. Evaluamos tu sistema actual y, si es viable, podemos ofrecer soporte técnico con un contrato adaptado.\nEn algunos casos, recomendamos una revisión inicial o puesta a punto para asegurar compatibilidad y rendimiento.\n¿Quieres que uno de nuestros técnicos revise tu caso?"
+    }
+  ],
+  "MODULO_8": [
+    {
+      "question": "1. ¿Qué hace diferente a IB360 frente a otras empresas del sector?",
+      "answer": "Respuesta:\nEn IB360 no solo instalamos tecnología: la hacemos funcionar.\nContamos con equipo propio certificado, sin subcontratas.\nOfrecemos soluciones integrales, desde el diseño hasta el soporte postventa.\nRespondemos rápido y cumplimos lo que prometemos.\nEstamos basados en Baleares, con soporte local real.\nY además, no dependemos de una sola marca, lo que nos permite adaptar la tecnología a cada proyecto y no al revés."
+    },
+    {
+      "question": "2. ¿Desde cuándo trabajáis en este sector?",
+      "answer": "Respuesta:\nTenemos más de 20 años de experiencia en el sector tecnológico, trabajando con cadenas hoteleras, grupos sanitarios y empresas locales.\nEsa trayectoria nos permite entender mejor los entornos operativos, prever problemas y anticiparnos a las necesidades reales de cada cliente.\nNo improvisamos: aplicamos lo aprendido en cada nuevo proyecto."
+    },
+    {
+      "question": "3. ¿Qué garantías ofrecéis?",
+      "answer": "Respuesta:\nTodos nuestros productos cuentan con garantía oficial del fabricante y soporte técnico local para asistencia rápida.\nAdemás, ofrecemos contratos de mantenimiento preventivo, ampliaciones de garantía y sustitución exprés en instalaciones críticas.\nNo hay letra pequeña: solo soluciones."
+    },
+    {
+      "question": "4. ¿Quién está detrás de IB360?",
+      "answer": "Respuesta:\nUn equipo técnico y comercial con base en Baleares, con formación certificada en telecomunicaciones, redes, audiovisual, seguridad y domótica.\nNo somos un “call center” ni una empresa fantasma: somos personas que responden, instalan y solucionan.\nY estamos cerca."
+    },
+    {
+      "question": "5. ¿Qué sectores atendéis?",
+      "answer": "Respuesta:\nTrabajamos principalmente con:\nCadenas hoteleras y resorts.\nHospitales y clínicas privadas.\nResidencias sociosanitarias.\nOficinas y empresas.\nInfraestructuras públicas o corporativas.\nNos adaptamos a cada entorno, desde pequeños negocios hasta grandes grupos.\nTecnología útil, en el sitio correcto."
+    },
+    {
+      "question": "6. ¿Qué significa “soluciones 360”?",
+      "answer": "Respuesta:\nSignifica que cubrimos todas las fases:\nEstudio técnico\nPropuesta personalizada\nInstalación y puesta en marcha\nFormación y soporte\nAmpliaciones futuras\nNo vendemos “productos sueltos”. Integramos soluciones completas, funcionando desde el día 1."
+    },
+    {
+      "question": "7. ¿Tenéis experiencia con grupos grandes?",
+      "answer": "Respuesta:\nSí. Hemos trabajado con cadenas hoteleras, clínicas, grupos sanitarios y empresas con múltiples sedes.\nSabemos cómo escalar un sistema, coordinar con varios departamentos y asegurar una implantación sin interrupciones.\nSomos un proveedor de confianza, no un experimento."
+    },
+    {
+      "question": "8. ¿Trabajáis solo en Baleares?",
+      "answer": "Respuesta:\nNuestro equipo técnico está en Baleares, pero podemos atender proyectos puntuales en Península o colaborar con partners externos si se requiere.\nEso sí, nuestra gran fortaleza es la respuesta local rápida, algo que muchos clientes valoran por encima de todo."
+    },
+    {
+      "question": "9. ¿Ofrecéis propuestas personalizadas?",
+      "answer": "Respuesta:\nSí. Nunca usamos soluciones genéricas.\nCada proyecto se estudia con su plano, sus limitaciones, sus necesidades reales.\nPodemos ofrecer una demo, visita técnica o presupuesto inicial sin compromiso.\nPorque cada cliente necesita algo distinto."
+    },
+    {
+      "question": "10. ¿Qué puedo esperar si contrato con IB360?",
+      "answer": "Respuesta:\nClaridad.\nTecnología que funciona.\nSoporte real.\nEquipo cercano.\nY una solución pensada para durar, no para salir del paso.\nSi trabajas con IB360, lo notarás desde el primer día."
+    }
+  ],
+  "MODULO_9": [
+    {
+      "question": "1. ¿Qué soluciones de IA ofrecéis actualmente?",
+      "answer": "Respuesta:\nEn IB360 apostamos por el desarrollo de soluciones basadas en inteligencia artificial que mejoran la eficiencia operativa, la experiencia del usuario y la toma de decisiones estratégicas. Nuestro enfoque está centrado en tecnologías aplicadas a entornos reales, como el sector hotelero, sanitario y corporativo, con especial atención a la automatización de procesos, personalización del servicio y análisis de datos en tiempo real."
+    },
+    {
+      "question": "2. ¿Qué beneficios aporta aplicar IA en un entorno hotelero?",
+      "answer": "Respuesta:\nAplicar IA en un entorno hotelero permite transformar la operación diaria y mejorar los resultados. Entre sus beneficios destacan:\nAutomatización de procesos como el check-in.\nAhorro energético mediante sensores inteligentes.\nPersonalización de servicios según el perfil del huésped.\nAumento del ticket medio a través de recomendaciones inteligentes (upselling).\nMayor agilidad en la gestión de incidencias.\nTodo ello se traduce en más ingresos, mejor experiencia y reducción de costes operativos."
+    },
+    {
+      "question": "3. ¿Qué diferencia hay entre una plataforma IPTV tradicional y una solución basada en IA?",
+      "answer": "Respuesta:\nUna plataforma IPTV tradicional ofrece canales y contenidos de forma pasiva.\nUna solución con IA, en cambio:\nAprende del comportamiento del huésped.\nRecomienda servicios personalizados.\nSe conecta con otros sistemas del hotel (climatización, room service, reservas).\nGenera una experiencia más interactiva, rentable y ajustada a cada tipo de cliente."
+    },
+    {
+      "question": "4. ¿Qué tecnologías usáis en el desarrollo?",
+      "answer": "Respuesta:\nColaboramos con equipos especializados en:\nModelos de IA adaptados al comportamiento del usuario.\nArquitectura web progresiva (PWA).\nIntegración mediante APIs con PMS, IPTV o redes internas.\nPaneles de análisis en tiempo real.\nTodo con cumplimiento normativo estricto (RGPD) y visión modular para facilitar la implantación."
+    },
+    {
+      "question": "5. ¿Se puede adaptar a hospitales o clínicas?",
+      "answer": "Respuesta:\nSí. Los principios de personalización, automatización y comunicación inteligente también son aplicables en entornos sanitarios.\nPor ejemplo:\nEntretenimiento personalizado para pacientes.\nRecordatorios automatizados.\nIntegración con sistemas de llamada enfermera o seguimiento de parámetros clave.\nAdaptamos cada solución a las necesidades concretas del centro."
+    },
+    {
+      "question": "6. ¿Qué tipo de hotel debería plantearse implementar esta solución?",
+      "answer": "Respuesta:\nCualquier hotel que quiera optimizar recursos, mejorar la experiencia del huésped y aumentar ingresos debería considerar la aplicación de IA.\nEs especialmente relevante en hoteles con servicios diversificados (restauración, wellness, actividades), donde la personalización y el análisis de datos son claves para destacar frente a la competencia.\nHoy, no innovar es quedarse atrás."
+    },
+    {
+      "question": "7. ¿Con quién se puede hablar para valorar esta solución?",
+      "answer": "Respuesta:\nLa evaluación de soluciones basadas en inteligencia artificial en IB360 está liderada por Vladimir, responsable de desarrollo tecnológico.\nSi tu organización está explorando procesos de digitalización avanzada, IA aplicada o proyectos piloto, podemos organizar una reunión estratégica para analizar el caso y valorar enfoques posibles con total confidencialidad y visión a largo plazo."
+    }
+  ],
+  "MODULO_12_TEMAS PROHIBIDOS": [],
+  "MODULO_Activación por palabras clave": [],
+  "MODULO_ESTRUCTURA MADRE": []
+}

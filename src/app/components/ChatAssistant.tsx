@@ -1,231 +1,164 @@
-'use client';
+"use client";
+import { useState, useRef, useEffect } from "react";
+import Image from 'next/image';
+import { 
+    SendHorizonal, Bot, X, FileText, Phone, BrainCircuit, Building2, Hospital 
+} from "lucide-react";
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
-import React, { useState, useRef, useEffect } from 'react';
-import { Send, Bot, User, FileText, Minimize2, X } from 'lucide-react';
-
-// Simplified message interface
 interface Message {
-  id: string;
-  role: 'user' | 'assistant';
+  role: "user" | "assistant";
   content: string;
-  isMock?: boolean;
-  sources?: Array<{
-    id: string;
-    filename: string;
-    content: string;
-    // 'relevance' is clearer than 'similarity'
-    relevance: number; 
-  }>;
 }
 
 interface ChatAssistantProps {
-  isOpen: boolean;
-  onClose: () => void;
+    onClose: () => void;
 }
 
-const WelcomeMessage: Message = {
-  id: 'welcome-msg',
-  role: 'assistant',
-  content: '¡Hola! Soy el Asistente Inteligente de IB360. ¿Cómo puedo ayudarte hoy con nuestras soluciones de tecnología?',
-};
+const defaultSuggestions = [
+    { icon: <FileText size={20} />, text: "Solicitar ficha técnica" },
+    { icon: <Phone size={20} />, text: "Hablar con un agente" },
+    { icon: <BrainCircuit size={20} />, text: "Más sobre IA y conectividad" },
+    { icon: <Building2 size={20} />, text: "Soluciones para hoteles" },
+    { icon: <Hospital size={20} />, text: "Soluciones para hospitales" },
+];
 
-export default function ChatAssistant({ isOpen, onClose }: ChatAssistantProps) {
-  const [messages, setMessages] = useState<Message[]>([WelcomeMessage]);
-  const [input, setInput] = useState('');
+export function ChatAssistant({ onClose }: ChatAssistantProps) {
+  const [messages, setMessages] = useState<Message[]>([]);
+  const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const [isMinimized, setIsMinimized] = useState(false);
-  
-  // State to track which message's sources are being viewed
-  const [showSourcesFor, setShowSourcesFor] = useState<string | null>(null);
-  
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  const inputRef = useRef<HTMLTextAreaElement>(null);
+  
+  const [allSuggestions, setAllSuggestions] = useState<string[]>([]);
+  const [filteredSuggestions, setFilteredSuggestions] = useState<string[]>([]);
+
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
 
   useEffect(() => {
-    if (isOpen && !isMinimized) {
-      inputRef.current?.focus();
-    }
-  }, [isOpen, isMinimized]);
-
-  useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    scrollToBottom();
   }, [messages]);
 
-  const handleSend = async () => {
-    if (!input.trim() || isLoading) return;
+  useEffect(() => {
+    const fetchSuggestions = async () => {
+      try {
+        const response = await fetch('/api/chat');
+        if (response.ok) {
+          const data = await response.json();
+          if (data.suggestions) setAllSuggestions(data.suggestions);
+        }
+      } catch (error) {
+        console.error("Failed to fetch suggestions:", error);
+      }
+    };
+    fetchSuggestions();
+  }, []);
 
-    const userMessage: Message = { id: Date.now().toString(), role: 'user', content: input };
-    setMessages(prev => [...prev, userMessage]);
-    
-    const conversationHistory = messages.slice(-4);
-    const query = input;
-    setInput('');
+  useEffect(() => {
+    if (input.length > 2 && allSuggestions.length > 0) {
+      const lowerInput = input.toLowerCase();
+      setFilteredSuggestions(allSuggestions.filter(s => s.toLowerCase().includes(lowerInput)).slice(0, 4));
+    } else {
+      setFilteredSuggestions([]);
+    }
+  }, [input, allSuggestions]);
+
+  const handleSend = async (queryOverride?: string) => {
+    const query = queryOverride || input;
+    if (query.trim() === "") return;
+
+    const userMessage: Message = { role: "user", content: query };
+    setMessages((prev) => [...prev, userMessage]);
+    setInput("");
+    setFilteredSuggestions([]);
     setIsLoading(true);
 
     try {
-      const res = await fetch('/api/chat', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ query, history: conversationHistory }),
+      const response = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ query, history: messages }),
       });
-
-      if (!res.ok) throw new Error(await res.text());
-
-      const data = await res.json();
-      const assistantMessage: Message = {
-        id: Date.now().toString(),
-        role: 'assistant',
-        content: data.response,
-        isMock: data.isMock,
-        sources: data.sources?.map((s: { id: string, filename: string, content: string, similarity: number }) => ({
-          id: s.id,
-          filename: s.filename || 'Unknown Source',
-          content: s.content,
-          relevance: s.similarity // Renaming for clarity
-        })),
-      };
-      setMessages(prev => [...prev, assistantMessage]);
+      const data = await response.json();
+      const assistantMessage: Message = { role: "assistant", content: data.response };
+      setMessages((prev) => [...prev, assistantMessage]);
     } catch (error) {
-      console.error("Chat API Error:", error);
-      const errorMsg: Message = {
-        id: Date.now().toString(),
-        role: 'assistant',
-        content: 'Lo siento, estoy teniendo problemas para conectarme. Por favor, inténtalo de nuevo más tarde.',
-        isMock: true,
-      };
-      setMessages(prev => [...prev, errorMsg]);
+      setMessages((prev) => [...prev, { role: "assistant", content: "Sorry, an error occurred." }]);
     } finally {
       setIsLoading(false);
     }
   };
 
-  const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
-    if (e.key === 'Enter' && !e.shiftKey) {
-      e.preventDefault();
-      handleSend();
-    }
+  const handleSuggestionClick = (suggestion: string) => {
+    handleSend(suggestion);
   };
 
-  if (!isOpen) return null;
+  const showDefaultSuggestions = messages.length === 0;
+  const showFilteredSuggestions = input.length > 2 && filteredSuggestions.length > 0;
 
   return (
-    <div
-      className={`fixed bottom-24 right-5 z-50 bg-white rounded-xl shadow-2xl border border-gray-200 flex flex-col transition-all duration-300 ease-in-out font-sans ${
-        isMinimized ? 'w-80 h-16' : 'w-[400px] h-[640px]'
-      }`}
-    >
-      {/* Header */}
-      <div className="flex items-center justify-between p-3 border-b border-gray-200 bg-white rounded-t-xl">
-        <div className="flex items-center space-x-3">
-          <div className="p-2 bg-gray-100 rounded-full">
-            <Bot className="w-5 h-5 text-gray-700" />
-          </div>
-          <div>
-            <h2 className="text-base font-semibold text-gray-900">Asistente IB360</h2>
-            <p className="text-xs text-gray-500">Online</p>
-          </div>
+    <div className="fixed bottom-5 right-5 z-50 w-full max-w-md bg-white rounded-lg shadow-xl border border-gray-200 flex flex-col h-[70vh] font-sans">
+      <div className="bg-[#0F4761] text-white p-4 flex justify-between items-center rounded-t-lg">
+        <div className="flex items-center gap-2">
+            <Image src="/logo/grupoib360white.png" alt="Grupo IB360" width={100} height={24} className="h-6 w-auto" />
+            <span className="font-semibold text-lg">Assistant</span>
         </div>
-        <div className="flex items-center space-x-1">
-          <button onClick={() => setIsMinimized(!isMinimized)} className="p-2 text-gray-500 hover:text-gray-900 hover:bg-gray-100 rounded-lg" title={isMinimized ? "Expand" : "Minimize"}>
-            <Minimize2 className="w-4 h-4" />
-          </button>
-          <button onClick={onClose} className="p-2 text-gray-500 hover:text-gray-900 hover:bg-gray-100 rounded-lg" title="Close">
-            <X className="w-4 h-4" />
-          </button>
+        <button onClick={onClose} className="hover:opacity-80" aria-label="Close chat"><X size={24} /></button>
+      </div>
+
+      <div className="flex-1 p-4 overflow-y-auto bg-gray-50">
+        <div className="space-y-4">
+            {showDefaultSuggestions && (
+                <div className="p-2 space-y-2">
+                    <p className="text-center text-sm text-gray-500">O selecciona un tema para empezar:</p>
+                    {defaultSuggestions.map((s) => (
+                        <button key={s.text} onClick={() => handleSuggestionClick(s.text)} className="w-full flex items-center gap-3 text-left bg-white hover:bg-gray-100 border border-gray-200 p-3 rounded-lg transition-all">
+                            <span className="text-[#0F4761]">{s.icon}</span>
+                            <span className="text-gray-700 font-medium">{s.text}</span>
+                        </button>
+                    ))}
+                </div>
+            )}
+          {messages.map((msg, index) => (
+            <div key={index} className={`flex items-start gap-3 ${msg.role === "user" ? "justify-end" : ""}`}>
+              {msg.role === "assistant" && (
+                <div className="w-8 h-8 bg-[#0F4761] text-white rounded-full flex items-center justify-center flex-shrink-0"><Bot size={20} /></div>
+              )}
+              <div className={`max-w-xs md:max-w-md p-3 rounded-lg border ${ msg.role === "user" ? "bg-[#0F4761] text-white border-transparent" : "bg-white border-gray-200 text-gray-700" }`}>
+                <div className="text-sm whitespace-pre-wrap prose prose-sm max-w-none prose-a:text-blue-600 hover:prose-a:text-blue-500">
+                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                        {msg.content}
+                    </ReactMarkdown>
+                </div>
+              </div>
+            </div>
+          ))}
+          {isLoading && (
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 bg-[#0F4761] text-white rounded-full flex items-center justify-center flex-shrink-0"><Bot size={20} /></div>
+              <div className="max-w-xs md:max-w-md p-3 rounded-lg bg-white border border-gray-200"><div className="flex items-center gap-2 text-sm text-gray-600"><div className="animate-spin rounded-full h-4 w-4 border-b-2 border-[#0F4761]"></div><span>Pensando...</span></div></div>
+            </div>
+          )}
+          <div ref={messagesEndRef} />
         </div>
       </div>
 
-      {/* Main Content */}
-      {!isMinimized && (
-        <>
-          {/* Messages Area */}
-          <div className="flex-1 overflow-y-auto p-4 space-y-5 bg-gray-50/80">
-            {messages.map((msg) => (
-              <div key={msg.id} className={`flex items-start gap-3 ${msg.role === 'user' ? 'flex-row-reverse' : 'flex-row'}`}>
-                <div className={`w-8 h-8 flex-shrink-0 rounded-full flex items-center justify-center ${msg.role === 'user' ? 'bg-gray-800' : 'bg-gray-200'}`}>
-                  {msg.role === 'user' ? <User className="w-4 h-4 text-white" /> : <Bot className="w-4 h-4 text-gray-600" />}
-                </div>
-                <div className={`w-full ${msg.role === 'user' ? 'text-right' : 'text-left'}`}>
-                  <div className={`inline-block p-3 rounded-2xl max-w-sm ${msg.role === 'user' ? 'bg-gray-900 text-white' : 'bg-white text-gray-800 border border-gray-200'}`}>
-                    <p className="text-sm text-left whitespace-pre-wrap">{msg.content}</p>
-                  </div>
-                  
-                  {/* Debug Info: Mock status and sources */}
-                  {msg.role === 'assistant' && (
-                    <div className="mt-2 text-left flex items-center flex-wrap gap-x-3 gap-y-1">
-                      {msg.isMock && <div className="text-xs font-semibold text-orange-600 bg-orange-100 px-2 py-0.5 rounded-full">Demo Mode</div>}
-                      
-                      {msg.sources && msg.sources.length > 0 && (
-                        <button onClick={() => setShowSourcesFor(showSourcesFor === msg.id ? null : msg.id)} className="flex items-center gap-1 text-xs font-medium text-gray-500 hover:text-gray-900">
-                          <FileText className="w-3 h-3" />
-                          <span>{msg.sources.length} Sources</span>
-                        </button>
-                      )}
-                    </div>
-                  )}
-                </div>
-              </div>
-            ))}
-            {isLoading && (
-              <div className="flex items-start gap-3 flex-row">
-                <div className="w-8 h-8 flex-shrink-0 rounded-full flex items-center justify-center bg-gray-200"><Bot className="w-4 h-4 text-gray-600" /></div>
-                <div className="w-full text-left">
-                  <div className="inline-block p-3 rounded-2xl bg-white text-gray-800 border border-gray-200">
-                    <div className="flex items-center space-x-1">
-                      <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce [animation-delay:-0.3s]"></div>
-                      <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce [animation-delay:-0.15s]"></div>
-                      <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            )}
-            <div ref={messagesEndRef} />
-          </div>
-
-          {/* Sources Panel */}
-          {messages.find(m => m.id === showSourcesFor)?.sources && (
-            <div className="p-3 border-t bg-white">
-              <h4 className="text-sm font-semibold mb-2">Sources for last response:</h4>
-              <div className="space-y-2 max-h-32 overflow-y-auto">
-                {messages.find(m => m.id === showSourcesFor)!.sources!.map(source => (
-                  <div key={source.id} className="p-2 bg-gray-50 rounded-lg border text-xs">
-                    <div className="flex justify-between items-center font-semibold text-gray-700">
-                      <span>{source.filename}</span>
-                      <span className="text-blue-600">{(source.relevance * 100).toFixed(0)}% relevant</span>
-                    </div>
-                    <p className="text-gray-600 mt-1 line-clamp-2">{source.content}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {/* Input Area */}
-          <div className="p-3 border-t bg-white rounded-b-xl">
-            <div className="relative">
-              <textarea
-                ref={inputRef}
-                value={input}
-                onChange={(e) => setInput(e.target.value)}
-                onKeyDown={handleKeyDown}
-                placeholder="Escribe tu pregunta..."
-                className="w-full p-3 pr-12 text-sm border-gray-300 rounded-lg resize-none focus:ring-2 focus:ring-gray-800 focus:border-transparent"
-                rows={1}
-                disabled={isLoading}
-              />
-              <button
-                onClick={handleSend}
-                disabled={!input.trim() || isLoading}
-                className="absolute right-3 top-1/2 -translate-y-1/2 p-2 bg-gray-900 text-white rounded-md hover:bg-gray-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors"
-                title="Send"
-              >
-                <Send className="w-4 h-4" />
-              </button>
-            </div>
-          </div>
-        </>
+      {showFilteredSuggestions && (
+        <div className="border-t border-gray-200 bg-white p-2">
+          {filteredSuggestions.map((s, i) => (
+            <button key={i} onClick={() => handleSuggestionClick(s)} className="w-full text-left text-sm text-[#0F4761] hover:bg-gray-100 p-2 rounded">{s}</button>
+          ))}
+        </div>
       )}
+
+      <div className="p-4 bg-white border-t border-gray-200 rounded-b-lg">
+        <div className="flex items-center">
+          <input type="text" value={input} onChange={(e) => setInput(e.target.value)} onKeyDown={(e) => e.key === "Enter" && !isLoading && handleSend()} placeholder="Escribe tu pregunta..." className="flex-1 w-full px-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#0F4761]" disabled={isLoading} />
+          <button onClick={() => handleSend()} disabled={isLoading || !input.trim()} className="ml-3 bg-[#0F4761] text-white p-3 rounded-full hover:opacity-90 disabled:bg-[#0F4761]/50 disabled:cursor-not-allowed transition"><SendHorizonal size={20} /></button>
+        </div>
+      </div>
     </div>
   );
 } 
