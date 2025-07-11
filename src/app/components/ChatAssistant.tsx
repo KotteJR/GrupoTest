@@ -84,7 +84,7 @@ export function ChatAssistant({ onClose }: ChatAssistantProps) {
       const data = await response.json();
       const assistantMessage: Message = { role: "assistant", content: data.response };
       setMessages((prev) => [...prev, assistantMessage]);
-    } catch (error) {
+    } catch {
       setMessages((prev) => [...prev, { role: "assistant", content: "Sorry, an error occurred." }]);
     } finally {
       setIsLoading(false);
