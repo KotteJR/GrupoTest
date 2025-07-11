@@ -91,7 +91,7 @@ export function ProjectsSection() {
                 alt={project.title}
                 width={400}
                 height={300}
-                className="w-full h-full object-cover grayscale"
+                className="w-full h-full object-contain grayscale"
               />
             </div>
             
